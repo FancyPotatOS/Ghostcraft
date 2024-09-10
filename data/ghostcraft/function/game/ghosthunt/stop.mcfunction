@@ -7,6 +7,7 @@
 #
 
 
+effect clear @a resistance
 effect clear @a invisibility
 bossbar set minecraft:ghostcraft.game.time visible false
 

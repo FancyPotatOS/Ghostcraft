@@ -20,9 +20,11 @@ item replace entity @s armor.feet with minecraft:netherite_boots[unbreakable={},
 function ghostcraft:ability/feather_falling/grant
 tag @s add ghostcraft.ability.pounce
 tag @s add ghostcraft.ability.vampire
+tag @s add ghostcraft.ability.ghost_energy
 
 # Add effects
 effect give @s minecraft:invisibility infinite 0 true
+effect give @s minecraft:resistance infinite 0 true
 
 # Add immunities
 tag @s add ghostcraft.item.flashbang.immune

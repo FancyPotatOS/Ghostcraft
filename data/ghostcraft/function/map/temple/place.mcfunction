@@ -1,12 +1,12 @@
 
 
-function ghostcraft:map/temple/place_base
+execute positioned 0 100 0 run function ghostcraft:map/temple/place_base
 
-function ghostcraft:map/temple/place_common
+execute positioned 0 100 0 run function ghostcraft:map/temple/place_common
 
-function ghostcraft:map/temple/place_rare
+execute positioned 0 100 0 run function ghostcraft:map/temple/place_rare
 
-function ghostcraft:map/temple/place_air
+execute positioned 0 100 0 run function ghostcraft:map/temple/place_air
 
-function ghostcraft:map/temple/place_lobby
+execute positioned 0 100 0 run function ghostcraft:map/temple/place_lobby
 
