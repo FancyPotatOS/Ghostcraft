@@ -7,6 +7,7 @@
         "ghostcraft:item/poison_grenade/test/snowball_init",
         
         "ghostcraft:item/survivor_grenade/test/snowball_init",
+        "ghostcraft:item/flare/test/snowball_init",
 
         "ghostcraft:item/scare/test/snowball_init"
     ]

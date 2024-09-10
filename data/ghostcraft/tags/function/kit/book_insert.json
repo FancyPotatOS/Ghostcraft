@@ -4,6 +4,7 @@
         "ghostcraft:kit/soldier/book_insert",
         "ghostcraft:kit/support/book_insert",
         "ghostcraft:kit/shotbow/book_insert",
-        "ghostcraft:kit/machine_bow/book_insert"
+        "ghostcraft:kit/machine_bow/book_insert",
+        "ghostcraft:kit/hunter/book_insert"
     ]
 }

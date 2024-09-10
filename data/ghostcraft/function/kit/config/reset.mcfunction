@@ -11,6 +11,8 @@ scoreboard players set kit.soldier.grenade_count ghostcraft.config 3
 
 scoreboard players set kit.machine_bow.arrow_count ghostcraft.config 32
 
+scoreboard players set kit.hunter.flare_count ghostcraft.config 5
+
 scoreboard players set kit.ghost.blink.count ghostcraft.config 16
 scoreboard players set kit.ghost.scare.count ghostcraft.config 1
 scoreboard players set kit.ghost.crafting_table.count ghostcraft.config 3

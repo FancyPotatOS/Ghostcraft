@@ -4,6 +4,7 @@
         "ghostcraft:kit/soldier/test/tell_changed",
         "ghostcraft:kit/support/test/tell_changed",
         "ghostcraft:kit/shotbow/test/tell_changed",
-        "ghostcraft:kit/machine_bow/test/tell_changed"
+        "ghostcraft:kit/machine_bow/test/tell_changed",
+        "ghostcraft:kit/hunter/test/tell_changed"
     ]
 }

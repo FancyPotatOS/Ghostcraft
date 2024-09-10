@@ -5,6 +5,7 @@
         "ghostcraft:item/frag_grenade/test/timer_cycle_trigger",
         "ghostcraft:item/poison_grenade/test/timer_cycle_trigger",
         "ghostcraft:item/blink/test/timer_cycle_trigger",
-        "ghostcraft:item/scare/test/timer_cycle_trigger"
+        "ghostcraft:item/scare/test/timer_cycle_trigger",
+        "ghostcraft:item/flare/test/timer_cycle_trigger"
     ]
 }

@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value":"ghostcraft:item/flare/item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "kit.hunter.flare_count"
+                },
+                "score": "ghostcraft.config"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

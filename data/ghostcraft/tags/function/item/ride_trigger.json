@@ -7,6 +7,7 @@
         "ghostcraft:item/poison_grenade/test/ride_trigger",
         
         "ghostcraft:item/survivor_grenade/test/ride_trigger",
+        "ghostcraft:item/flare/test/ride_trigger",
 
         "ghostcraft:item/scare/test/ride_trigger"
     ]

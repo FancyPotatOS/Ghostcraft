@@ -4,6 +4,7 @@
         "ghostcraft:kit/soldier/test/trigger",
         "ghostcraft:kit/support/test/trigger",
         "ghostcraft:kit/shotbow/test/trigger",
-        "ghostcraft:kit/machine_bow/test/trigger"
+        "ghostcraft:kit/machine_bow/test/trigger",
+        "ghostcraft:kit/hunter/test/trigger"
     ]
 }
