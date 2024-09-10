@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/snowball"
+  },
+  "overrides" : [
+    {
+      "predicate": {
+        "custom_model_data": 1804023
+      },
+      "model": "ghostcraft:item/ghost/blink",
+      "textures": {
+        "layer0": "ghostcraft:item/ghost/ender_eye"
+      }
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1804024
+      },
+      "model": "ghostcraft:item/ghost/flashbang",
+      "textures": {
+        "layer0": "ghostcraft:item/ghost/nether_star"
+      }
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1804025
+      },
+      "model": "ghostcraft:item/ghost/frag_grenade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1804026
+      },
+      "model": "ghostcraft:item/ghost/poison_grenade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1804028
+      },
+      "model": "ghostcraft:item/ghost/scare"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1804030
+      },
+      "model": "ghostcraft:item/survivor/survivor_grenade"
+    }
+  ]
+}

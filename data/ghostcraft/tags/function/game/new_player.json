@@ -1,0 +1,9 @@
+{
+    "values": [
+        "ghostcraft:game/lobby/test/player_logged_in",
+        "ghostcraft:game/countdown/test/player_logged_in",
+        "ghostcraft:game/ghosthunt/test/player_logged_in",
+        "ghostcraft:game/game_ended/test/player_logged_in",
+        "ghostcraft:game/map_change/test/player_logged_in"
+    ]
+}

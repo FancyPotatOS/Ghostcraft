@@ -1,0 +1,36 @@
+{
+  "description": "Block Launch",
+  "supported_items": "#ghostcraft:ability/ghost_block/block_launch/enchantable",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "ghostcraft:ability/ghost_block/block_launch/hit_launchable"
+        },
+        "requirements": {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "#ghostcraft:ability/ghost_block/block_launch/launchable"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

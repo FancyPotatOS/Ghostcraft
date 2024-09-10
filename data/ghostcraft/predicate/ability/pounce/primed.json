@@ -1,0 +1,10 @@
+{
+    "entity": "this",
+    "condition": "entity_properties",
+    "predicate": {
+        "flags": {
+            "is_sneaking": true
+        },
+        "nbt": "{OnGround:1b}"
+    }
+}

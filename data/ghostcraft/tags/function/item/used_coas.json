@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "ghostcraft:item/boost/test/used",
+        "ghostcraft:item/stab/test/used"
+    ]
+}

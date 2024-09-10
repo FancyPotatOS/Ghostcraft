@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/carrot_on_a_stick"
+  },
+  "overrides" : [
+    {
+      "predicate": {
+        "custom_model_data": 1804027
+      },
+      "model": "ghostcraft:item/ghost/boost"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1804029
+      },
+      "model": "ghostcraft:item/ghost/stab"
+    }
+  ]
+}

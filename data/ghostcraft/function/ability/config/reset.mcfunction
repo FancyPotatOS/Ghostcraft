@@ -1,0 +1,12 @@
+#
+#   Ability Config Reset
+#   
+#   Purpose: To reset ability-related config items
+#
+#   Input: None
+#
+
+
+scoreboard players set ability.ghost_energy.max_energy ghostcraft.config 200
+scoreboard players set ability.pounce.energy_requirement ghostcraft.config 100
+

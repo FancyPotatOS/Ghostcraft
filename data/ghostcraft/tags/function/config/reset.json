@@ -1,0 +1,8 @@
+{
+    "values": [
+        "ghostcraft:ability/config/reset",
+        "ghostcraft:item/config/reset",
+        "ghostcraft:kit/config/reset",
+        "ghostcraft:game/ghosthunt/reset_config"
+    ]
+}

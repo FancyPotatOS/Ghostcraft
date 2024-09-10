@@ -1,0 +1,9 @@
+{
+    "values": [
+        "ghostcraft:kit/archer/test/give",
+        "ghostcraft:kit/soldier/test/give",
+        "ghostcraft:kit/support/test/give",
+        "ghostcraft:kit/shotbow/test/give",
+        "ghostcraft:kit/machine_bow/test/give"
+    ]
+}

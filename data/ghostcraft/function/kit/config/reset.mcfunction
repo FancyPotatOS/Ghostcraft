@@ -1,0 +1,23 @@
+
+scoreboard players set kit.shotbow.arrow_count ghostcraft.config 10
+
+scoreboard players set kit.archer.arrow_count ghostcraft.config 32
+
+scoreboard players set kit.support.potion.count ghostcraft.config 3
+
+scoreboard players set kit.soldier.potion.splash.count ghostcraft.config 1
+scoreboard players set kit.soldier.potion.normal.count ghostcraft.config 1
+scoreboard players set kit.soldier.grenade_count ghostcraft.config 3
+
+scoreboard players set kit.machine_bow.arrow_count ghostcraft.config 32
+
+scoreboard players set kit.ghost.blink.count ghostcraft.config 16
+scoreboard players set kit.ghost.scare.count ghostcraft.config 1
+scoreboard players set kit.ghost.crafting_table.count ghostcraft.config 3
+scoreboard players set kit.ghost.flashbang.count ghostcraft.config 1
+scoreboard players set kit.ghost.poison_grenade.count ghostcraft.config 1
+scoreboard players set kit.ghost.frag_grenade.count ghostcraft.config 1
+
+scoreboard players set effect.ambient_ghost.particles ghostcraft.config 0
+
+function #ghostcraft:kit/config/reset

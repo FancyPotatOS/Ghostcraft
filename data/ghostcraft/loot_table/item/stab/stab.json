@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "custom_name": "{\"text\":\"Pig Stick\",\"italic\":false,\"color\":\"red\"}",
+                "lore":["[{\"text\":\"Right click to use\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"Instantly kills player directly in\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"   in front of you 2 seconds after using\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"Cannot attack while using\",\"italic\":false,\"color\":\"gray\"}]"]
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{ghostcraft:{type:\"stab\"}}",
+                "minecraft:custom_model_data": 1804029
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

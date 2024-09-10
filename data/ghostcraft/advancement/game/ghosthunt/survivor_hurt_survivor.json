@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "ghostcraft.game.ghosthunt.survivor_hurt_survivor": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"ghostcraft.survivor\"]}"
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"ghostcraft.survivor\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:game/ghosthunt/test/survivor_hurt_survivor"
+  }
+}

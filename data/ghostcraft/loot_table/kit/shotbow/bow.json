@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "unbreakable": {"show_in_tooltip": false},
+                "custom_name": "{\"text\":\"Shotbow\",\"italic\": false}"
+              }
+            },
+            {
+              "function": "set_enchantments",
+              "enchantments": {
+                "minecraft:multishot": 2,
+                "minecraft:quick_charge": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

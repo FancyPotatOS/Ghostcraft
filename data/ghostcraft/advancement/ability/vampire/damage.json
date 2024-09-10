@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "ghostcraft.ability.vampire.damage": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"ghostcraft.ability.vampire\"]}"
+            }
+          }
+        ],
+        "damage": {
+          "dealt": {
+            "min": 1
+          }
+        },
+        "entity": {
+          "type": "#ghostcraft:player"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:ability/vampire/advancement/damage"
+  }
+}

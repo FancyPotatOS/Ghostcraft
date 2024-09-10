@@ -1,0 +1,8 @@
+{
+	"replace":false,
+	"values":
+	[
+		"ghostcraft:meta/tick",
+		"ghostcraft:ability/ghost_block/block_launch/update_flying_block"
+	]
+}

@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "ghostcraft:item/blink/test/snowball_init",
+        "ghostcraft:item/flashbang/test/snowball_init",
+        "ghostcraft:item/frag_grenade/test/snowball_init",
+        "ghostcraft:item/poison_grenade/test/snowball_init",
+        
+        "ghostcraft:item/survivor_grenade/test/snowball_init",
+
+        "ghostcraft:item/scare/test/snowball_init"
+    ]
+}

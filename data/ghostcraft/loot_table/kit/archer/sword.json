@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "unbreakable": {"show_in_tooltip": false}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

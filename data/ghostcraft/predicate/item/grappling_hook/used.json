@@ -1,0 +1,28 @@
+{
+  "condition": "all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "ghostcraft.item.grappling_hook.used": {
+        "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": "minecraft:fishing_rod",
+              "components": {
+                "minecraft:custom_data": "{ghostcraft:{type:\"grappling_hook\"}}"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

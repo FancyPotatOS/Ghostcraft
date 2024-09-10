@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "ghostcraft:item/blink/test/ride_trigger",
+        "ghostcraft:item/flashbang/test/ride_trigger",
+        "ghostcraft:item/frag_grenade/test/ride_trigger",
+        "ghostcraft:item/poison_grenade/test/ride_trigger",
+        
+        "ghostcraft:item/survivor_grenade/test/ride_trigger",
+
+        "ghostcraft:item/scare/test/ride_trigger"
+    ]
+}

@@ -1,0 +1,2 @@
+
+data modify entity @s HandItems[0].components."minecraft:written_book_content".pages append value {"raw":'[{"text":"     -= Support =-\\n\\nEquipment\\n\\n- Stone Sword\\n- Tracking Compass\\n- 3 Instant Health II Splash Potions\\n- Chainmail Helmet+Boots\\n- Leather Chestplate+Leggings\\n\\n         "},{"text":"[Select]","color":"dark_green","hoverEvent": {"action": "show_text","contents": "Click to set class"},"clickEvent": {"action": "run_command","value": "/trigger ghostcraft.trigger.class set 3"}}]'}

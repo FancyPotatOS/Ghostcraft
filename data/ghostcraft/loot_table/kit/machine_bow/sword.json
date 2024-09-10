@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "unbreakable": {"show_in_tooltip": false}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+	"folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../../../../resourcepacks/GhostCraft"
+        },
+        {
+            "path": "../FancyPotatOSConflicts"
+        }
+    ],
+	"settings": {
+		"logViewer.watch": [
+		]
+	}
+}

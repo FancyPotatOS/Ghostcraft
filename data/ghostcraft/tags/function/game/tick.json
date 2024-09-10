@@ -1,0 +1,9 @@
+{
+    "values": [
+        "ghostcraft:game/lobby/test/tick",
+        "ghostcraft:game/countdown/test/tick",
+        "ghostcraft:game/ghosthunt/test/tick",
+        "ghostcraft:game/game_ended/test/tick",
+        "ghostcraft:game/map_change/test/tick"
+    ]
+}
