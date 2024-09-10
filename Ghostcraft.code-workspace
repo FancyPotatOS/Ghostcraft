@@ -12,6 +12,7 @@
     ],
 	"settings": {
 		"logViewer.watch": [
+			"C:/Users/caleb/AppData/Roaming/.minecraft/logs/latest.log"
 		]
 	}
 }
