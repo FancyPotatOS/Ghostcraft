@@ -8,7 +8,7 @@ tag @s add ghostcraft.item.timer_cycle
 
 tag @s add ghostcraft.item.motion_sync
 
-summon item ~ ~ ~ {Item:{id:"minecraft:snowball",Count:1b},PickupDelay:10000,Tags:["ghostcraft.new", "ghostcraft.item.poison_grenade", "ghostcraft.item.ride_trigger", "ghostcraft.item.timer_receive", "ghostcraft.item.motion_receive", "ghostcraft.item.uuid"]}
+summon item ~ ~ ~ {Item:{id:"minecraft:snowball",count:1b},PickupDelay:10000,Tags:["ghostcraft.new", "ghostcraft.item.poison_grenade", "ghostcraft.item.ride_trigger", "ghostcraft.item.timer_receive", "ghostcraft.item.motion_receive", "ghostcraft.item.uuid"]}
 ride @e[tag=ghostcraft.new,limit=1] mount @s
 
 data modify entity @e[tag=ghostcraft.new,limit=1] Item.components."minecraft:custom_data".ghostcraft.thrower_uuid set from entity @p[tag=ghostcraft.advtrigger.snowball.thrower] UUID[0]

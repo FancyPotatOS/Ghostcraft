@@ -9,7 +9,7 @@
 tellraw @a ["",{"text":"[GhostCraft Datapack]","bold":true,"color":"dark_blue"}," - Setup"]
 
 # Apply last migration
-#execute unless score version ghostcraft.master matches 1.. run function armorsets:meta/migrate/migration_v0
+#execute unless score version ghostcraft.master matches 1.. run function ghostcraft:meta/migrate/migration_v0
 
 # Set the version
 scoreboard players set version ghostcraft.master 1
@@ -92,6 +92,13 @@ function ghostcraft:config/reset
 function ghostcraft:world/initialize
 
 schedule function ghostcraft:map/refresh 5s
+
+# Gracious messages to spam chat with
+schedule function ghostcraft:meta/grace_message 1s
+schedule function ghostcraft:meta/grace_message 5s
+schedule function ghostcraft:meta/grace_message 10s
+schedule function ghostcraft:meta/grace_message 15s
+schedule function ghostcraft:meta/grace_message 20s
 
 
 # Create storage

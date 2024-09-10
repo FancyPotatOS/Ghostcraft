@@ -9,6 +9,12 @@
 This is my attempt at remaking a GhostCraft clone using just vanilla resources. It currently has everything I initially planned on doing - including kits and maps!
 
 
+### Requirements
+- The [player_motion](https://modrinth.com/datapack/player_motion) datapack
+- The [BlockState](https://github.com/Triton365/BlockState) datapack
+
+
+### Configuration
 I put way too much effort into making it 'expandable'. There is a lot of support for custom items, maps, and kits. I'll get around to documenting how to add your own soon enough.
 
 There is a lot of config items too, to adjust how many arrows/potions you get, etc. as well as functional ones, like how many games must occur before you can vote for a new map.
@@ -62,5 +68,5 @@ Please enjoy this little piece of 2013 Minecraft love
 
 - `is_server ghostcraft.config`
   - 0 if server works with [player_motion](https://modrinth.com/datapack/player_motion) datapack
-  - 1 otherwise
+  - 1 otherwise (This won't work, don't try...)
 
