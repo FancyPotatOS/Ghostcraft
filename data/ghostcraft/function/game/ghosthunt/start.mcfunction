@@ -15,6 +15,8 @@ function ghostcraft:game/ghosthunt/role/kit
 
 function ghostcraft:game/ghosthunt/role/tp
 
+function ghostcraft:game/ghosthunt/set_time
+
 playsound ghostcraft:game_start master @a
 
 scoreboard players remove map.change_cooldown ghostcraft.temp 1
