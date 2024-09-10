@@ -7,7 +7,7 @@
 #
 
 
-scoreboard players reset @s ghostcraft.deaths
+scoreboard players reset @s ghostcraft.game.deaths
 
 function #ghostcraft:game/on_death
 
