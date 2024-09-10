@@ -70,3 +70,18 @@ Please enjoy this little piece of 2013 Minecraft love
   - 0 if server works with [player_motion](https://modrinth.com/datapack/player_motion) datapack
   - 1 otherwise (This won't work, don't try...)
 
+
+
+## Server Details
+
+If you are running a server, please ensure that it is compatible with the [player_motion](https://modrinth.com/datapack/player_motion) datapack. Some optimizations from servers like Paper break some functionality like ghost boosting.
+
+This datapack requires the included resource pack. Here is some of the <b>server.properties</b> values you can set to ensure the players have access to it and use it (Otherwise you can cheat and see the ghost easily)
+
+It includes a google drive link to my copy of the resource pack, so feel free to use it.
+
+- require-resource-pack=true
+- resource-pack=https://drive.google.com/uc?export=download&id=1maLEcFD1UlEJ5Wbpb0_RgZ1rNojbl2c6
+- resource-pack-prompt=This resource pack is required to play GhostCraft. Compatible with vanilla Minecraft.
+
+
