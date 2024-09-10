@@ -94,11 +94,10 @@ function ghostcraft:world/initialize
 schedule function ghostcraft:map/refresh 5s
 
 # Gracious messages to spam chat with
-schedule function ghostcraft:meta/grace_message 1s
-schedule function ghostcraft:meta/grace_message 5s
-schedule function ghostcraft:meta/grace_message 10s
-schedule function ghostcraft:meta/grace_message 15s
-schedule function ghostcraft:meta/grace_message 20s
+schedule function ghostcraft:meta/grace/message_1 1s
+schedule function ghostcraft:meta/grace/message_5 5s
+schedule function ghostcraft:meta/grace/message_10 10s
+schedule function ghostcraft:meta/grace/message_15 15s
 
 
 # Create storage
@@ -125,78 +124,6 @@ gamerule naturalRegeneration false
 gamerule spawnRadius 0
 gamerule sendCommandFeedback false
 gamerule showDeathMessages false
-
-
-
-#scoreboard objectives add ghostcraft.temp dummy
-#scoreboard objectives add ghostcraft.uuid dummy
-
-#scoreboard objectives add ghostcraft.trigger.spectator trigger
-#scoreboard objectives add ghostcraft.trigger.start trigger
-#scoreboard objectives add ghostcraft.trigger.new_game trigger
-#scoreboard objectives add ghostcraft.trigger.class trigger
-
-#scoreboard objectives add ghostcraft.deaths deathCount
-
-#scoreboard objectives add ghostcraft.logic.logged_in minecraft.custom:minecraft.play_time
-
-#scoreboard objectives add ghostcraft.class dummy
-#scoreboard objectives add ghostcraft.class.default dummy
-
-#scoreboard objectives add ghostcraft.item.crafting_table.invincibility dummy
-
-#scoreboard objectives add ghostcraft.anticheat.id dummy
-
-#scoreboard objectives add ghostcraft.ability.feather_falling.dy dummy
-
-#scoreboard objectives add ghostcraft.used_coas minecraft.used:minecraft.carrot_on_a_stick
-#scoreboard objectives add ghostcraft.used_snowball minecraft.used:minecraft.snowball
-
-#scoreboard players set time_since_reload ghostcraft.master 0
-
-# Create storage
-
-# Setup health indicator teams
-#team add ghostcraft.ability.health_indicator.low {"text":"Low Health"}
-#team add ghostcraft.ability.health_indicator.medium {"text":"Mid Health"}
-#team add ghostcraft.ability.health_indicator.high {"text":"High Health"}
-
-#team modify ghostcraft.ability.health_indicator.low color red
-#team modify ghostcraft.ability.health_indicator.medium color yellow
-#team modify ghostcraft.ability.health_indicator.high color green
-
-#team modify ghostcraft.ability.health_indicator.low seeFriendlyInvisibles false
-#team modify ghostcraft.ability.health_indicator.medium seeFriendlyInvisibles false
-#team modify ghostcraft.ability.health_indicator.high seeFriendlyInvisibles false
-
-
-# Setup accounting scoreboard values
-#scoreboard players set next_id ghostcraft.ability.pounce.id 0
-#scoreboard players set next_id ghostcraft.anticheat.id 0
-
-#scoreboard players set phase ghostcraft.master 0
-
-# Setup default config values
-#function ghostcraft:config/reset
-
-
-# Setup gamerules
-#gamerule doEntityDrops false
-#gamerule doImmediateRespawn true
-#gamerule doMobLoot false
-#gamerule doMobSpawning false
-#gamerule disableElytraMovementCheck true
-#gamerule disableRaids true
-#gamerule doDaylightCycle false
-#gamerule doFireTick false
-#gamerule doVinesSpread false
-#gamerule doTileDrops false
-#gamerule doWeatherCycle false
-#gamerule doWardenSpawning false
-#gamerule keepInventory true
-#gamerule mobGriefing false
-#gamerule naturalRegeneration false
-#gamerule spawnRadius 0
-
+gamerule announceAdvancements false
 
 
