@@ -10,7 +10,10 @@
 # Ensure every player has a UUID initialized
 execute as @e[type=#ghostcraft:player,tag=!ghostcraft.player.initialized] at @s run function ghostcraft:logic/refresh_player
 
-execute as @a if score @s ghostcraft.times_left matches 1.. at @s run function ghostcraft:logic/refresh_player
+execute as @a if score @s ghostcraft.times_left matches 1.. at @s run tag @s add ghostcraft.player.new
+execute as @a[tag=ghostcraft.player.new] at @s run function ghostcraft:logic/refresh_player
+execute as @a[tag=ghostcraft.player.new] at @s run tag @s remove ghostcraft.player.initialized
+tag @a remove ghostcraft.player.new
 
 # Update timer triggers
 execute as @e[tag=ghostcraft.item.timer] at @s run function ghostcraft:logic/timer
