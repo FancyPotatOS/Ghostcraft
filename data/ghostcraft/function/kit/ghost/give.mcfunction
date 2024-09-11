@@ -31,5 +31,6 @@ tag @s add ghostcraft.item.flashbang.immune
 tag @s add ghostcraft.item.frag_grenade.immune
 tag @s add ghostcraft.item.poison_grenade.immune
 tag @s add ghostcraft.item.stab.immune
+
 tag @s add ghostcraft.effect.ambient_ghost.invisible
 tag @s add effect.ghost.hurt_effect.invisible

@@ -1,7 +1,6 @@
 
 tag @s add ghostcraft.item.timer_cycle
 tag @s add ghostcraft.item.timer
-tag @s add ghostcraft.item.timer_trigger
 
 execute at @s run tp ~ ~0.1 ~
 

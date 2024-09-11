@@ -18,6 +18,7 @@ scoreboard players set version ghostcraft.master 1
 scoreboard objectives add ghostcraft.temp dummy
 scoreboard objectives add ghostcraft.config dummy
 scoreboard objectives add ghostcraft.uuid dummy
+scoreboard objectives add ghostcraft.times_left minecraft.custom:minecraft.leave_game
 
 
 # # # Abilty scoreboards

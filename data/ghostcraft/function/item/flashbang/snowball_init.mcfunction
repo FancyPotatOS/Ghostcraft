@@ -1,7 +1,6 @@
 
 tag @s add ghostcraft.item.flashbang
 tag @s add ghostcraft.item.steed
-tag @s add ghostcraft.item.timer_trigger
 tag @s add ghostcraft.item.timer
 tag @s add ghostcraft.item.timer_sync
 tag @s add ghostcraft.item.timer_cycle
