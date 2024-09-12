@@ -15,5 +15,7 @@ execute if score @s ghostcraft.trigger.game matches 3 run function ghostcraft:ga
 
 execute if score @s ghostcraft.trigger.game matches 4 run function ghostcraft:game/lobby/to_map_change
 
+execute if score @s ghostcraft.trigger.game matches 5 run function ghostcraft:game/lobby/music/toggle
+
 scoreboard players set @s ghostcraft.trigger.game 0
 
