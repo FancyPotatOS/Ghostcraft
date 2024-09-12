@@ -23,7 +23,7 @@ scoreboard players remove map.change_cooldown ghostcraft.temp 1
 
 effect give @a saturation infinite 1 true
 
-execute as @a at @s run playsound ghostcraft:game_start master @s ~ ~ ~ 100 1 1
+execute as @a at @s run playsound ghostcraft:game_start master @s ~ ~ ~ 100000000000 1 1
 
 scoreboard players operation game_timer ghostcraft.temp = game.ghosthunt.game_time ghostcraft.config
 scoreboard players set timer ghostcraft.temp 0
