@@ -1,2 +1,2 @@
 
-playsound minecraft:block.note_block.pling hostile @a ~ ~ ~ 0.5 2
+playsound minecraft:block.note_block.pling hostile @a ~ ~ ~ 1 2 0.5

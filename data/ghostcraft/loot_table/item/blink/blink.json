@@ -15,11 +15,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "custom_name": "[{\"text\":\"Blink\",\"italic\":false,\"color\":\"gold\"}]",
                 "minecraft:lore": ["[{\"text\":\"Can be thrown\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"Teleports you where it lands\",\"italic\":false,\"color\":\"gray\"}]"],
                 "minecraft:custom_data": "{ghostcraft:{type:\"blink\"}}",
                 "minecraft:custom_model_data": 1804023,
-                "minecraft:custom_name": "{\"text\":\"Blink\",\"italic\":false,\"color\":\"white\"}"
+                "minecraft:custom_name": "{\"text\":\"Blink\",\"italic\":false,\"color\":\"gold\"}"
               }
             }
           ]
