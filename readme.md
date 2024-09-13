@@ -16,6 +16,11 @@ Please enjoy this little piece of 2013 Minecraft love
 - The [BlockState](https://github.com/Triton365/BlockState) datapack
 
 
+### Credits
+- [Sanctum](https://shotbow.net/forum/threads/sanctum-a-ghostcraft-map.77827/) map created by [Subject_617](https://shotbow.net/forum/members/subject_617.1984/)
+- [Katerbrandt Library](https://shotbow.net/forum/threads/map-submission-the-katerbrandt-library.326662/#post-2647846) map created by [Moshyn](https://shotbow.net/forum/members/moshyn.1122691/)
+
+
 
 ## Server Details
 

@@ -1,6 +1,8 @@
 {
     "values": [
         "ghostcraft:map/blackout/test/setup",
-        "ghostcraft:map/temple/test/setup"
+        "ghostcraft:map/temple/test/setup",
+        "ghostcraft:map/sanctum/test/setup",
+        "ghostcraft:map/kb_library/test/setup"
     ]
 }
