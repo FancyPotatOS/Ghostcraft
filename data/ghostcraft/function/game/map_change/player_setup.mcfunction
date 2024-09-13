@@ -17,7 +17,7 @@ scoreboard players reset @s ghostcraft.game.map_change.vote
 
 summon armor_stand ~ ~ ~ {Tags:["ghostcraft.game.map_change.player_setup.temp"]}
 
-item replace entity @e[tag=ghostcraft.game.map_change.player_setup.temp] weapon.mainhand with written_book[written_book_content={author:"FancyPotatOS",title:"Map Vote",pages:['[{"text":"\\n   -= Map Vote =-\\n\\n\\nEach page has an available map. Choose one to vote!"}]']}] 1
+item replace entity @e[tag=ghostcraft.game.map_change.player_setup.temp] weapon.mainhand with written_book[written_book_content={author:"FancyPotatOS",title:"Map Vote",pages:['[{"text":"     -= Map Vote =-\\n\\n\\nEach page has an available map.\\n\\nChoose one to vote!"}]']}] 1
 
 execute as @e[tag=ghostcraft.game.map_change.player_setup.temp] run function #ghostcraft:map/book_input
 
