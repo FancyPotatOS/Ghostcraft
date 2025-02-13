@@ -10,7 +10,7 @@ clear @s
 
 function ghostcraft:ability/feather_falling/revoke
 
-attribute @s generic.attack_damage modifier remove ghostcraft.game.lobby.player
+attribute @s minecraft:attack_damage modifier remove ghostcraft.game.lobby.player
 
 effect clear @s
 

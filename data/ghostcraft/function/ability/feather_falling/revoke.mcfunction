@@ -9,4 +9,4 @@
 
 tag @s remove ghostcraft.ability.feather_falling
 
-attribute @s minecraft:generic.fall_damage_multiplier base set 1
+attribute @s minecraft:fall_damage_multiplier base set 1

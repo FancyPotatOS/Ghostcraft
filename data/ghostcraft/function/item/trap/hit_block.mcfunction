@@ -27,9 +27,9 @@ execute store result score max_damage ghostcraft.temp run data get entity @s Sel
 execute if score max_damage ghostcraft.temp <= hand_damage ghostcraft.temp run return run item replace entity @s weapon.mainhand with minecraft:air
 
 # Use an armor stand to change the damage
-summon armor_stand ~ ~ ~ {Tags:["ghostcraft.item.trap.hit_block.temp"]}
+summon armor_stand ~ ~ ~ {equipment:{},Tags:["ghostcraft.item.trap.hit_block.temp"]}
 item replace entity @e[tag=ghostcraft.item.trap.hit_block.temp] weapon.mainhand from entity @s weapon.mainhand
-execute store result entity @e[tag=ghostcraft.item.trap.hit_block.temp,limit=1] HandItems[0].components."minecraft:damage" int 1 run scoreboard players get hand_damage ghostcraft.temp
+execute store result entity @e[tag=ghostcraft.item.trap.hit_block.temp,limit=1] equipment.mainhand.components."minecraft:damage" int 1 run scoreboard players get hand_damage ghostcraft.temp
 # Reapply the item to the player
 item replace entity @s weapon.mainhand from entity @e[tag=ghostcraft.item.trap.hit_block.temp,limit=1] weapon.mainhand
 

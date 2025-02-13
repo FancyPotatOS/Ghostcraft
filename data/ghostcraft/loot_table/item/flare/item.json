@@ -15,10 +15,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:lore": ["[{\"text\":\"Can be thrown\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"Lights up the ghost\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"Lasts longer when landing near the ghost\",\"italic\":false,\"color\":\"gray\"}]"],
+                "minecraft:lore": [[{"text":"Can be thrown","italic":false,"color":"gray"}],[{"text":"Lights up the ghost","italic":false,"color":"gray"}],[{"text":"Lasts longer when landing near the ghost","italic":false,"color":"gray"}]],
                 "minecraft:custom_data": "{ghostcraft:{type:\"flare\"}}",
-                "minecraft:custom_name": "{\"text\":\"Flare\",\"italic\":false,\"color\":\"gold\"}",
-                "minecraft:custom_model_data": 1804032
+                "minecraft:custom_name": {"text":"Flare","italic":false,"color":"gold"},
+                "minecraft:custom_model_data": {
+                  "strings": ["survivor_flare"]
+                }
               }
             }
           ]

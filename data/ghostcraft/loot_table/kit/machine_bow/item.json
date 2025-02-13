@@ -11,24 +11,19 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:unbreaking": 1,
-                    "minecraft:vanishing_curse": 1,
-                    "minecraft:binding_curse": 1,
-                    "minecraft:quick_charge": 50
-                  },
-                  "show_in_tooltip": false
+                  "minecraft:unbreaking": 1,
+                  "minecraft:vanishing_curse": 1,
+                  "minecraft:binding_curse": 1,
+                  "minecraft:quick_charge": 50
                 },
-                "minecraft:unbreakable": {
-                  "show_in_tooltip": false
+                "minecraft:unbreakable": {},
+                "tooltip_display": {
+                  "hidden_components": ["unbreakable", "dyed_color", "enchantments"]
                 },
-                "minecraft:dyed_color": {
-                  "rgb": 4210752,
-                  "show_in_tooltip": false
-                },
+                "minecraft:dyed_color": 4210752,
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:custom_name": "{\"text\":\"Machine Bow\",\"italic\":false,\"color\":\"dark_blue\"}",
-                "minecraft:lore":["{\"text\":\"Semi-automatic\",\"color\":\"white\"}"]
+                "minecraft:custom_name": {"text":"Machine Bow","italic":false,"color":"dark_blue"},
+                "minecraft:lore":[{"text":"Semi-automatic","color":"white"}]
               }
             }
           ]

@@ -10,15 +10,17 @@
             {
               "function": "set_components",
               "components": {
-                "custom_name": "{\"text\":\"Poison Grenade\",\"italic\":false,\"color\":\"green\"}",
-                "lore":["[{\"text\":\"Can be thrown\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"Blinds nearby players\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"Poisons nearby players\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"Explodes in 4 seconds\",\"italic\":false,\"color\":\"gray\"}]"]
+                "custom_name": {"text":"Poison Grenade","italic":false,"color":"green"},
+                "lore":[[{"text":"Can be thrown","italic":false,"color":"gray"}],[{"text":"Blinds nearby players","italic":false,"color":"gray"}],[{"text":"Poisons nearby players","italic":false,"color":"gray"}],[{"text":"Explodes in 4 seconds","italic":false,"color":"gray"}]]
               }
             },
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": "{ghostcraft:{type:\"poison_grenade\"}}",
-                "minecraft:custom_model_data": 1804026
+                "minecraft:custom_model_data": {
+                  "strings": ["ghost_poison_grenade"]
+                }
               }
             }
           ]

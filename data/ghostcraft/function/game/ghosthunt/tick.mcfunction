@@ -20,3 +20,5 @@ scoreboard players operation timer ghostcraft.temp %= timer_cycle ghostcraft.tem
 
 function ghostcraft:game/ghosthunt/timer
 execute if score ghosthunt.timer.ended ghostcraft.temp matches 1 run return 0
+
+execute as @e[tag=ghostcraft.ghost] at @s run particle minecraft:glow ~ ~1 ~ 0.1 0.5 0.1 0 2 force @a[tag=ghostcraft.spectator]

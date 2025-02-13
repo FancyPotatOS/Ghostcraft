@@ -203,7 +203,7 @@
 		},
 		{
 			"required": false,
-			"id": "#minecraft:tall_flowers"
+			"id": "#minecraft:flowers"
 		},
 		{
 			"required": false,

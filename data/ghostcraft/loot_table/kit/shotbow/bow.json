@@ -10,8 +10,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "unbreakable": {"show_in_tooltip": false},
-                "custom_name": "{\"text\":\"Shotbow\",\"italic\": false}"
+                "unbreakable": {},
+                "tooltip_display": {
+                  "hidden_components": ["unbreakable"]
+                },
+                "custom_name": {"text":"Shotbow","italic": false}
               }
             },
             {

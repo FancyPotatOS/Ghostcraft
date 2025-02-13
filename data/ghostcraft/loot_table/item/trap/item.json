@@ -10,13 +10,18 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:lore": ["[{\"text\":\"Click a block to set a trap on top\",\"italic\":false,\"color\":\"gray\"}]"],
+                "minecraft:lore": [[{"text":"Click a block to set a trap on top","italic":false,"color":"gray"}]],
                 "minecraft:custom_data": "{ghostcraft:{type:\"trap\"}}",
-                "minecraft:custom_model_data": 1804033,
-                "minecraft:custom_name": "{\"text\":\"Trap\",\"italic\":false,\"color\":\"gold\"}",
-                "enchantments": {"levels":{"ghostcraft:item/trap":1},"show_in_tooltip": false},
+                "minecraft:custom_model_data": {
+                  "strings": ["survivor_trap"]
+                },
+                "minecraft:custom_name": {"text":"Trap","italic":false,"color":"gold"},
+                "enchantments": {"ghostcraft:item/trap":1},
                 "enchantment_glint_override": false,
-                "max_damage": 25
+                "max_damage": 25,
+                "tooltip_display": {
+                  "hidden_components": ["enchantments"]
+                }
               }
             }
           ]

@@ -10,15 +10,17 @@
             {
               "function": "set_components",
               "components": {
-                "lore":["[{\"text\":\"Can be placed\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"Punch with the sword when\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\" placed to launch at survivors\",\"italic\":false,\"color\":\"gray\"}]"],
+                "lore":[[{"text":"Can be placed","italic":false,"color":"gray"}],[{"text":"Punch with the sword when","italic":false,"color":"gray"}],[{"text":" placed to launch at survivors","italic":false,"color":"gray"}]],
                 "custom_data": {"ghostcraft":{"type":"crafting_table"}}
               }
             },
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 1804031,
-                "minecraft:custom_name": "{\"text\":\"Crafting Table\",\"italic\":false,\"color\":\"white\"}"
+                "minecraft:custom_model_data": {
+                  "strings": ["ghost_crafting_table"]
+                },
+                "minecraft:custom_name": {"text":"Crafting Table","italic":false,"color":"white"}
               }
             }
           ]

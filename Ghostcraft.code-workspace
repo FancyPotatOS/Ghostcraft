@@ -1,15 +1,12 @@
 {
 	"folders": [
-        {
-            "path": "."
-        },
-        {
-            "path": "../../../../resourcepacks/GhostCraft"
-        },
-        {
-            "path": "../FancyPotatOSConflicts"
-        }
-    ],
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../resourcepacks/GhostCraftResourcePack"
+		}
+	],
 	"settings": {
 		"logViewer.watch": [
 			"C:/Users/caleb/AppData/Roaming/.minecraft/logs/latest.log"

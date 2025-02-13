@@ -11,8 +11,10 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": "{ghostcraft:{type:\"survivor_grenade\"}}",
-                "minecraft:custom_model_data": 1804030,
-                "minecraft:custom_name": "{\"text\":\"Grenade\",\"italic\":false,\"color\":\"white\"}"
+                "minecraft:custom_model_data": {
+                  "strings": ["survivor_survivor_grenade"]
+                },
+                "minecraft:custom_name": {"text":"Grenade","italic":false,"color":"white"}
               }
             }
           ]

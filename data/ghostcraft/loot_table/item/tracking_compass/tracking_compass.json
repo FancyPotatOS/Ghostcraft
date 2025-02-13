@@ -11,13 +11,12 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": "{ghostcraft:{type:\"tracking_compass\"}}",
-                "minecraft:custom_name": "{\"text\":\"Tracking Compass\",\"italic\":false,\"color\":\"white\"}",
-                "minecraft:food": {
-                  "nutrition": 0,
-                  "saturation": 0,
-                  "can_always_eat": true,
-                  "eat_seconds": 0.01
-                } 
+                "minecraft:custom_name": {"text":"Tracking Compass","italic":false,"color":"white"},
+                "minecraft:consumable": {
+                  "consume_seconds": 1000000,
+                  "animation": "none",
+                  "has_consume_particles": false
+                }
               }
             }
           ]

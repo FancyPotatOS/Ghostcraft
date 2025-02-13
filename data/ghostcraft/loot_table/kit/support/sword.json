@@ -10,7 +10,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "unbreakable": {"show_in_tooltip": false}
+                "unbreakable": {},
+                "tooltip_display": {
+                  "hidden_components": ["unbreakable"]
+                }
               }
             }
           ]

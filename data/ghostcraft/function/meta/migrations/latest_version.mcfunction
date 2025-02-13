@@ -128,3 +128,6 @@ gamerule showDeathMessages false
 gamerule announceAdvancements false
 
 
+return 0
+scoreboard objectives add fpconflict.conflict_map dummy
+
