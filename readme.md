@@ -1,6 +1,7 @@
 
 
-# GhostCraft
+<img src="images/screenshot.png" alt="library_screenshot" style="width:50%;"/>
+
 <em>Recreated by FancyPotatOS</em>
 
 <em>Probably owned by [The ShotBow Network](https://shotbow.net/)</em>
@@ -8,7 +9,41 @@
 
 This is my attempt at remaking a GhostCraft clone using just vanilla resources. It currently has everything I initially planned on doing - including kits and maps!
 
-Please enjoy this little piece of 2013 Minecraft love
+There is an open API to add your own kits, maps, items, and abilities! Eventually there will be a system to change the game mode too. Nevertheless, the game API is still available.
+
+Please enjoy this little piece of 2013 Minecraft love.
+
+
+### About Ghostcraft
+
+Ghostcraft is a Minecraft minigame based on [The Hidden: Source](https://www.hidden-source.com/). One player is an invisible ghost, while the rest of the players are teamed together as survivors. If the survivors can kill the ghost or survive long enough, they win!
+
+The ghost has numerous abilities such as being able to leap around and stab, as well as a handful of different grenades.
+
+There is currently 6 kits the survivors can use, all with their own tools to help everybody survive the ghost.
+
+There is also 4 maps available. By default, a vote can be cast to switch maps every 3 turns.
+
+<details>
+    <summary>Temple</summary>
+    <br>
+    <img src="images/temple.png" alt="temple_screenshot" style="width:50%;"/>
+</details>
+<details>
+    <summary>Blackout</summary>
+    <br>
+    <img src="images/blackout.png" alt="temple_screenshot" style="width:50%;"/>
+</details>
+<details>
+    <summary>Sanctum</summary>
+    <br>
+    <img src="images/Sanctum.png" alt="sanctum_screenshot" style="width:50%;"/>
+</details>
+<details>
+    <summary>Keterbrandt Library</summary>
+    <br>
+    <img src="images/library.png" alt="library_screenshot" style="width:50%;"/>
+</details>
 
 
 ### Requirements
