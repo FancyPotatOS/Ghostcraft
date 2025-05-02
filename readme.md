@@ -47,8 +47,8 @@ There is also 4 maps available. By default, a vote can be cast to switch maps ev
 
 
 ### Requirements
-- The [player_motion](https://modrinth.com/datapack/player_motion) datapack
-- The [BlockState](https://github.com/Triton365/BlockState) datapack
+- The [player_motion](https://cdn.modrinth.com/data/oDhxdGVZ/versions/aW4ph2OC/player_motion.zip) datapack
+- The [BlockState](https://github.com/Triton365/BlockState/releases/download/v1.0.3/BlockState_1.21.5.zip) datapack
 
 
 ### Credits
@@ -64,9 +64,8 @@ If you are running a server, please ensure that it is compatible with the [playe
 This datapack requires the included resource pack. Here is some of the <b>server.properties</b> values you can set to ensure the players have access to it and use it (Otherwise you can cheat and see the ghost easily)
 
 It includes a google drive link to my copy of the resource pack, so feel free to use it.
-
 - require-resource-pack=true
-- resource-pack=https://drive.google.com/uc?export=download&id=1maLEcFD1UlEJ5Wbpb0_RgZ1rNojbl2c6
+- resource-pack=https://drive.google.com/uc?export=download&id=1eBihk_qf_e67KmNqcsr95aGCNRxn_yVU
 - resource-pack-prompt=This resource pack is required to play GhostCraft. Compatible with vanilla Minecraft.
 
 
