@@ -14,6 +14,6 @@ item replace entity @s hotbar.3 from entity @e[tag=ghostcraft.kit.hunter.give.te
 kill @e[tag=ghostcraft.kit.hunter.give.temp]
 
 item replace entity @s armor.head with minecraft:diamond_helmet[unbreakable={},dyed_color=1908001,tooltip_display={hidden_components:["enchantments","dyed_color","enchantment_glint_override","unbreakable"]},enchantment_glint_override=false,enchantments={"binding_curse":1,"vanishing_curse":1}]
-item replace entity @s armor.feet with minecraft:golden_boots[unbreakable={},dyed_color=1908001,tooltip_display={hidden_components:["enchantments","dyed_color","enchantment_glint_override","unbreakable"]},enchantment_glint_override=false,enchantments={"binding_curse":1,"vanishing_curse":1}]
+item replace entity @s armor.feet with minecraft:golden_boots[unbreakable={},dyed_color=1908001,tooltip_display={hidden_components:["enchantments","dyed_color","enchantment_glint_override","unbreakable"]},enchantment_glint_override=false,enchantments={"binding_curse":1,"vanishing_curse":1,"projectile_protection":6}]
 
 tag @s add ghostcraft.ability.tracking

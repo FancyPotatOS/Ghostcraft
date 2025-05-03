@@ -14,8 +14,13 @@
         ],
         "damage": {
           "dealt": {
-            "min": 5,
+            "min": 11,
             "max": 1000
+          },
+          "type": {
+            "direct_entity": {
+              "type": "#ghostcraft:player"
+            }
           }
         },
         "entity": [
@@ -31,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "ghostcraft:game/ghosthunt/survivor_hurt_survivor/advancement/2"
+    "function": "ghostcraft:game/ghosthunt/survivor_hurt_survivor/advancement/melee/5"
   }
 }

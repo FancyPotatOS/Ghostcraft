@@ -13,6 +13,9 @@
                 "unbreakable": {},
                 "tooltip_display": {
                   "hidden_components": ["unbreakable"]
+                },
+                "enchantments": {
+                  "power": 4
                 }
               }
             }

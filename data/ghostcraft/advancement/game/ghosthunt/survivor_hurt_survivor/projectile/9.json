@@ -16,6 +16,11 @@
           "dealt": {
             "min": 19,
             "max": 1000
+          },
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:arrow"
+            }
           }
         },
         "entity": [
@@ -31,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "ghostcraft:game/ghosthunt/survivor_hurt_survivor/advancement/9"
+    "function": "ghostcraft:game/ghosthunt/survivor_hurt_survivor/advancement/projectile/9"
   }
 }

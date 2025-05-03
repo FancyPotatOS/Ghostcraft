@@ -83,7 +83,7 @@ For example, to change the amount of arrows an archer to 15 starts with, run `/s
         - `effect.ambient_ghost.particles`
             - The ambient particle of the ghost
             - Defaults to the barrier particle if not set
-            - 0 is the fire particle (And the only value at the moment)
+            - 0 is the smoke particle (And the only value at the moment)
 
 - Technical
     - `is_server`
