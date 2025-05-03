@@ -37,7 +37,7 @@ There is also 4 maps available. By default, a vote can be cast to switch maps ev
 <details>
     <summary>Sanctum</summary>
     <br>
-    <img src="images/Sanctum.png" alt="sanctum_screenshot" style="width:50%;"/>
+    <img src="images/sanctum.png" alt="sanctum_screenshot" style="width:50%;"/>
 </details>
 <details>
     <summary>Keterbrandt Library</summary>
