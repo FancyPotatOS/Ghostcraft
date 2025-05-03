@@ -8,4 +8,5 @@
 
 
 tag @s add ghostcraft.survivor
+tag @s remove ghostcraft.game.ghosthunt.last_ghost
 
