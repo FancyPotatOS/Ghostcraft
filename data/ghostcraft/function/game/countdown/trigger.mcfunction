@@ -7,9 +7,13 @@
 #
 
 
+execute if score @s ghostcraft.trigger.game matches 1 run function ghostcraft:game/countdown/cancel_game
+
 execute if score @s ghostcraft.trigger.game matches 2 run function ghostcraft:game/lobby/role/spectate
 
 execute if score @s ghostcraft.trigger.game matches 3 run function ghostcraft:game/lobby/role/player
+
+execute if score @s ghostcraft.trigger.game matches 5 run function ghostcraft:game/lobby/music/toggle
 
 scoreboard players set @s ghostcraft.trigger.game 0
 

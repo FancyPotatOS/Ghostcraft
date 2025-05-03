@@ -9,6 +9,9 @@
 
 execute unless function ghostcraft:game/player_check run return run function ghostcraft:game/errors/not_enough_players
 
+clear @a
+effect clear @e[type=#ghostcraft:player]
+
 # Choose roles and kit out
 function ghostcraft:game/ghosthunt/role/assign
 function ghostcraft:game/ghosthunt/role/kit

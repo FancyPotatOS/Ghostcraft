@@ -8,6 +8,7 @@
 
 
 clear @s
+effect clear @s instant_health
 
 tag @s remove ghostcraft.survivor
 tag @s remove ghostcraft.ghost
