@@ -8,5 +8,6 @@
 
 
 tag @s add ghostcraft.spectator
+tag @s add ghostcraft.spectating
 title @s actionbar [{"text":"You are now a spectator"}]
 

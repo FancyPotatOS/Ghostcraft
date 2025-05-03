@@ -1,5 +1,6 @@
 {
     "values": [
+        "ghostcraft:game/lobby/test/on_death",
         "ghostcraft:game/ghosthunt/test/on_death"
     ]
 }

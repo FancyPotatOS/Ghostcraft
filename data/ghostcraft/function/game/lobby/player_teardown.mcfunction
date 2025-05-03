@@ -6,11 +6,9 @@
 #   Input: None
 #
 
-clear @s
 
-function ghostcraft:ability/feather_falling/revoke
+effect clear @s instant_health
+effect clear @s resistance
 
 attribute @s minecraft:attack_damage modifier remove ghostcraft.game.lobby.player
-
-effect clear @s
 

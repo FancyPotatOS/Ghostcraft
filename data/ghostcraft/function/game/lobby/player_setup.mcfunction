@@ -6,33 +6,34 @@
 #   Input: None
 #
 
-clear @s
 
-function ghostcraft:game/player_reset
 
-function ghostcraft:ability/feather_falling/grant
+execute unless score coming_from_lobby ghostcraft.temp matches 1 run function ghostcraft:game/player_reset
 
 attribute @s minecraft:attack_damage modifier add ghostcraft.game.lobby.player -10000 add_value
 
-effect give @s resistance infinite 4 true
 effect give @s saturation infinite 4 true
 effect give @s instant_health infinite 4 true
+effect give @s resistance infinite 4 true
 
 experience set @s 0 levels
 experience set @s 0 points
 
-give @s stone_button
-give @s written_book[written_book_content={author:"FancyPotatOS",title:"Game Controls",pages:[[{"text":"    = GhostCraft =                                         "},{"color":"dark_green","text": "[Start Game]","hover_event": {"action": "show_text","value": "Click to start"},"click_event": {"action": "run_command","command": "/trigger ghostcraft.trigger.game set 1"}},{"text":"                "},{"color":"dark_green","text": "[Spectate]","hover_event": {"action": "show_text","value": "Click to spectate"},"click_event": {"action": "run_command","command": "/trigger ghostcraft.trigger.game set 2"}},{"text":"            "},{"color":"dark_green","text": "[Stop Spectating]","hover_event": {"action": "show_text","value": "Click to play"},"click_event": {"action": "run_command","command": "/trigger ghostcraft.trigger.game set 3"}},{"text":"         "},{"color":"dark_green","text": "[Toggle Music]","hover_event": {"action": "show_text","value": "Click to toggle music"},"click_event": {"action": "run_command","command": "/trigger ghostcraft.trigger.game set 5"}},{"text":"            "},{"color":"blue","text": "[Change Map]","hover_event": {"action": "show_text","value": "Click to change map"},"click_event": {"action": "run_command","command": "/trigger ghostcraft.trigger.game set 4"}}]]}] 1
-
-function ghostcraft:kit/class/get_book
-
 execute store result score y ghostcraft.temp run data get entity @s Pos[1]
 execute in ghostcraft:empty if score y ghostcraft.temp matches ..0 run tp ~ 125 ~
 
+# Only continue execution if not coming from lobby
+execute if score coming_from_lobby ghostcraft.temp matches 1 run return 0
+
+give @s stone_button 1
+function ghostcraft:game/lobby/get_controls
+clear @s stone_button
+function ghostcraft:kit/class/get_book
+
 # Teleport all players to a random lobby entity
-execute unless score coming_from_lobby ghostcraft.temp matches 1 run tp @s @e[tag=ghostcraft.map.lobby,limit=1,sort=random]
+tp @s @e[tag=ghostcraft.map.lobby,limit=1,sort=random]
 
-execute unless score coming_from_lobby ghostcraft.temp matches 1 at @s run spawnpoint @s ~ ~ ~
-
-execute unless score coming_from_lobby ghostcraft.temp matches 1 run gamemode survival
+function ghostcraft:ability/feather_falling/grant
+execute if entity @e[tag=ghostcraft.map.lobby] run spawnpoint @s ~ ~ ~
+gamemode survival
 

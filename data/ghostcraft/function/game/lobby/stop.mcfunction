@@ -8,5 +8,4 @@
 
 
 stopsound @a
-execute as @e[type=#ghostcraft:player] run function ghostcraft:game/lobby/player_teardown
 

@@ -8,5 +8,6 @@
 
 
 tag @s remove ghostcraft.spectator
+tag @s remove ghostcraft.spectating
 title @s actionbar [{"text":"You are now a player"}]
 

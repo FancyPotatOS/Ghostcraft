@@ -1,5 +1,5 @@
 
-attribute @s minecraft:attack_damage base set 1.0
+attribute @s minecraft:attack_damage modifier add ghostcraft.item.stab.using -1000 add_value
 
 playsound ghostcraft:stab_finish hostile @a ~ ~ ~ 1
 execute positioned ~ ~1 ~ run particle minecraft:block{block_state:"minecraft:fire"} ^ ^ ^1 0.25 0.5 0.25 0 30

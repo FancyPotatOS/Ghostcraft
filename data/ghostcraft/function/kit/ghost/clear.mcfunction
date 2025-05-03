@@ -7,7 +7,6 @@ tag @s remove ghostcraft.ability.ghost_energy
 
 # Remove effects
 effect clear @s minecraft:invisibility
-effect clear @s minecraft:resistance
 
 # Remove immunities
 tag @s remove ghostcraft.item.flashbang.immune
