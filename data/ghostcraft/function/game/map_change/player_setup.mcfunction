@@ -9,7 +9,7 @@
 
 execute unless score coming_from_player_logged_in ghostcraft.temp matches 1 run scoreboard players set coming_from_lobby ghostcraft.temp 1
 function ghostcraft:game/lobby/player_setup
-clear @s
+function ghostcraft:logic/clear_entity
 scoreboard players reset coming_from_lobby ghostcraft.temp
 scoreboard players reset coming_from_player_logged_in ghostcraft.temp
 

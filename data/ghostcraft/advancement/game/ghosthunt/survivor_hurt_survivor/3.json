@@ -12,6 +12,12 @@
             }
           }
         ],
+        "damage": {
+          "dealt": {
+            "min": 7,
+            "max": 1000
+          }
+        },
         "entity": [
           {
             "condition": "minecraft:entity_properties",
@@ -25,6 +31,6 @@
     }
   },
   "rewards": {
-    "function": "ghostcraft:game/ghosthunt/test/survivor_hurt_survivor"
+    "function": "ghostcraft:game/ghosthunt/survivor_hurt_survivor/advancement/3"
   }
 }

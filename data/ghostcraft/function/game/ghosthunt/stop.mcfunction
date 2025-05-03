@@ -10,3 +10,6 @@
 bossbar set minecraft:ghostcraft.game.time visible false
 tag @a[tag=!ghostcraft.spectator] remove ghostcraft.spectating
 
+# Clean the map of remaining stuff
+execute in ghostcraft:empty run function #ghostcraft:game/clean_map
+

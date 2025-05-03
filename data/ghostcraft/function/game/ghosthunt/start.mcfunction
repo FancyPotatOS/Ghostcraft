@@ -9,7 +9,7 @@
 
 execute unless function ghostcraft:game/player_check run return run function ghostcraft:game/errors/not_enough_players
 
-clear @a
+execute as @e[type=#ghostcraft:player] run function ghostcraft:logic/clear_entity
 effect clear @e[type=#ghostcraft:player]
 
 # Choose roles and kit out

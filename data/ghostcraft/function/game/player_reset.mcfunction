@@ -7,7 +7,7 @@
 #
 
 
-clear @s
+function ghostcraft:logic/clear_entity
 effect clear @s instant_health
 
 tag @s remove ghostcraft.survivor

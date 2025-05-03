@@ -7,6 +7,7 @@
 #
 
 
+team join ghostcraft.lobby @s
 
 execute unless score coming_from_lobby ghostcraft.temp matches 1 run function ghostcraft:game/player_reset
 

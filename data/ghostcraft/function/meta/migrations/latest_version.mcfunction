@@ -105,6 +105,14 @@ schedule function ghostcraft:meta/grace/message_15 15s
 data merge storage ghostcraft:data {stab_queue:[],vampire_queue:[],dimension:"ghostcraft:empty"}
 
 
+# Teams
+team add ghostcraft.lobby
+team modify ghostcraft.lobby collisionRule pushOtherTeams
+team modify ghostcraft.lobby deathMessageVisibility never
+team modify ghostcraft.lobby friendlyFire false
+team modify ghostcraft.lobby seeFriendlyInvisibles true
+
+
 
 # Setup gamerules
 gamerule doEntityDrops false
