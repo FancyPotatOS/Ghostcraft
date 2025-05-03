@@ -20,8 +20,8 @@
             {
               "function": "set_enchantments",
               "enchantments": {
-                "minecraft:multishot": 2,
-                "minecraft:quick_charge": 2
+                "ghostcraft:item/shotbow/shotgun": 2,
+                "power": 3
               }
             }
           ]
