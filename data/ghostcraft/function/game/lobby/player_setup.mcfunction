@@ -26,10 +26,7 @@ execute in ghostcraft:empty if score y ghostcraft.temp matches ..0 run tp ~ 125 
 # Only continue execution if not coming from lobby
 execute if score coming_from_lobby ghostcraft.temp matches 1 run return 0
 
-give @s stone_button 1
-function ghostcraft:game/lobby/get_controls
-clear @s stone_button
-function ghostcraft:kit/class/get_book
+function #ghostcraft:game/lobby/give_books
 
 # Teleport all players to a random lobby entity
 tp @s @e[tag=ghostcraft.map.lobby,limit=1,sort=random]

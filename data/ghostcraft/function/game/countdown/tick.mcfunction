@@ -7,6 +7,8 @@
 #
 
 
+function ghostcraft:game/ghost/particle/tick
+
 execute unless function ghostcraft:game/player_check run return run function ghostcraft:game/errors/not_enough_players
 
 scoreboard players remove countdown ghostcraft.master 1

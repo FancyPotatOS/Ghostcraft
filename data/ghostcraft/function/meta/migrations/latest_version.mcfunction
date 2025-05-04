@@ -56,6 +56,8 @@ scoreboard objectives add ghostcraft.ghost.boost.cooldown dummy
 scoreboard objectives add ghostcraft.item.crafting_table.invincibility dummy
 
 scoreboard objectives add ghostcraft.item.grappling_hook.used minecraft.used:minecraft.fishing_rod
+scoreboard objectives add ghostcraft.item.grappling_hook.in_entity_timer dummy
+scoreboard players set max_time ghostcraft.item.grappling_hook.in_entity_timer 7
 
 
 # # # Class scoreboards
@@ -83,7 +85,8 @@ scoreboard objectives add ghostcraft.game.deaths deathCount
 
 scoreboard objectives add ghostcraft.game.map_change.vote trigger
 
-scoreboard objectives add ghostcraft.effect.ghost.hurt_effect trigger
+scoreboard objectives add ghostcraft.effect.ghost.hurt_effect dummy
+scoreboard objectives add ghostcraft.effect.ghost.hurt_effect.trigger trigger
 
 
 # Setup base config

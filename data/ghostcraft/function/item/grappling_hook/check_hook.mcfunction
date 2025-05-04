@@ -11,6 +11,8 @@
 tag @s add ghostcraft.item.grappling_hook.check_hook.player
 execute as @e[type=fishing_bobber,tag=ghostcraft.item.grappling_hook.bobber] if score @s ghostcraft.uuid = @p[tag=ghostcraft.item.grappling_hook.check_hook.player] ghostcraft.uuid run tag @s add ghostcraft.item.grappling_hook.check_hook.bobber
 
+execute unless items entity @s weapon.mainhand fishing_rod[custom_data~{ghostcraft:{type:"grappling_hook"}}] run kill @e[tag=ghostcraft.item.grappling_hook.check_hook.bobber]
+
 execute unless entity @e[tag=ghostcraft.item.grappling_hook.check_hook.bobber] run function ghostcraft:item/grappling_hook/reeled_in
 
 # Clear temp tags

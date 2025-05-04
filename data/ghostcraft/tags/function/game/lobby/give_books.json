@@ -1,0 +1,7 @@
+{
+    "values": [
+        "ghostcraft:kit/class/get_book",
+        "ghostcraft:game/lobby/books/get_controls",
+        "ghostcraft:game/lobby/books/get_particle_selector"
+    ]
+}

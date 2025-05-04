@@ -57,6 +57,8 @@
 <span class="plus_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/ghost.png"/></span> Stabbing now has a radius of 1.5 blocks.<br/>
 <span class="plus_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/ghost.png"/></span> Crafting table will overshoot less.<br/>
 <span class="plus_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/ghost.png"/></span> Crafting table does more damage (<img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_half.png"/>).<br/>
+<span class="plus_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/ghost.png"/></span> Flashbang particles are more dense and have more height, making them effectively smoke grenades.<br/>
+<span class="avg_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/ghost.png"/></span> Players can now change their ghost particles<br/>
 <span class="minus_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/ghost.png"/></span> Added a one second cooldown to the Scare item<br/>
 
 ### Gameplay
@@ -68,6 +70,7 @@
 ### Archer
 
 <span class="plus">+</span> Self-damage from the bow has been reduced slightly due to team-attack misalignment from projectile damage<br/>
+<span class="minus">-</span> Grappling hooks no longer stick to players<br/>
 
 ### Shotbow
 
@@ -80,10 +83,10 @@
 
 <span class="minus">-</span> Machinebow deals significantly less damage<br/>
 
-### Survivor Grenade
+### Soldier
 
-<span class="plus">+</span> Does more damage to the ghost (roughly <img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_half.png"/> to <img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/>)<br/>
-<span class="plus">+</span> Larger area of effect (6 blocks)<br/>
-<span class="plus">+</span> Does less damage to survivors<br/>
-<span class="minus">⎯</span> Damaging survivors hurts the thrower<br/>
+<span class="plus">+</span> Grenades d more damage to the ghost (roughly <img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_half.png"/> to <img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/>)<br/>
+<span class="plus">+</span> Grenades have a larger area of effect (6 blocks)<br/>
+<span class="plus">+</span> Grenades do less damage to survivors<br/>
+<span class="minus">⎯</span> Damaging survivors with Grenades hurts the thrower<br/>
 
