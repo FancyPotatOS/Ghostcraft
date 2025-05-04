@@ -28,7 +28,7 @@ tag @s remove ghostcraft.item.grappling_hook.is_in_entity
 # Add 1 to timer
 scoreboard players add @s ghostcraft.item.grappling_hook.in_entity_timer 1
 
-tellraw @a {score:{name:"@e[tag=ghostcraft.item.grappling_hook.bobber,limit=1]",objective:"ghostcraft.item.grappling_hook.in_entity_timer"}}
+#tellraw @a {score:{name:"@e[tag=ghostcraft.item.grappling_hook.bobber,limit=1]",objective:"ghostcraft.item.grappling_hook.in_entity_timer"}}
 
 execute if score max_time ghostcraft.item.grappling_hook.in_entity_timer <= @s ghostcraft.item.grappling_hook.in_entity_timer run return run scoreboard players reset @s ghostcraft.item.grappling_hook.in_entity_timer
 return fail
