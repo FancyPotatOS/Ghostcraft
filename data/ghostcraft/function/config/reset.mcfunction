@@ -8,7 +8,7 @@ scoreboard players set map.change_cooldown ghostcraft.config 2
 
 bossbar add ghostcraft.game.time [{"text":"Time Left"}]
 bossbar set minecraft:ghostcraft.game.time style notched_20
-bossbar set minecraft:ghostcraft.game.time visible true
+bossbar set minecraft:ghostcraft.game.time visible false
 
 function #ghostcraft:config/reset
 

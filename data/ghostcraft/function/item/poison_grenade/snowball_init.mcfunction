@@ -20,10 +20,10 @@ scoreboard players operation @s ghostcraft.timer_id = next_id ghostcraft.timer_i
 scoreboard players operation @e[tag=ghostcraft.new,limit=1] ghostcraft.timer_id = next_id ghostcraft.timer_id
 scoreboard players add next_id ghostcraft.timer_id 1
 
-scoreboard players set @s ghostcraft.timer 80
-scoreboard players set @s ghostcraft.timer_cycle 10
+scoreboard players operation @s ghostcraft.timer = kit.ghost.poison_grenade.timer ghostcraft.config
+scoreboard players operation @s ghostcraft.timer_cycle = kit.ghost.poison_grenade.cycle ghostcraft.config
 scoreboard players set @s ghostcraft.timer_cycle_offset 1
-scoreboard players set @e[tag=ghostcraft.new,limit=1] ghostcraft.timer_cycle 10
+scoreboard players operation @e[tag=ghostcraft.new,limit=1] ghostcraft.timer_cycle = kit.ghost.poison_grenade.cycle ghostcraft.config
 scoreboard players set @e[tag=ghostcraft.new,limit=1] ghostcraft.timer_cycle_offset 1
 
 tag @e[tag=ghostcraft.new] remove ghostcraft.new

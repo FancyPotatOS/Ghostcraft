@@ -76,10 +76,22 @@ For example, to change the amount of arrows an archer to 15 starts with, run `/s
             - The amount of Crafting Tables you start with
         - `kit.ghost.flashbang.count`
             - The amount of Flashbangs you start with
+        - `kit.ghost.flashbang.timer`
+            - The duration (in ticks) before the Flashbang explodes
+        - `kit.ghost.flashbang.cycle`
+            - How much time (in ticks) between the Flashbang's beeping when thrown
         - `kit.ghost.poison_grenade.count`
             - The amount of Poison Grenades you start with
+        - `kit.ghost.poison_grenade.timer`
+            - The duration (in ticks) before the Poison Grenade explodes
+        - `kit.ghost.poison_grenade.cycle`
+            - How much time (in ticks) between the Poison Grenade's beeping when thrown
         - `kit.ghost.frag_grenade.count`
             - The amount of Frag Grenades you start with
+        - `kit.ghost.frag_grenade.timer`
+            - The duration (in ticks) before the Frag Grenade explodes
+        - `kit.ghost.frag_grenade.cycle`
+            - How much time (in ticks) between the Frag Grenade's beeping when thrown
         - `effect.ambient_ghost.particles`
             - The ambient particle of the ghost
             - Defaults to the barrier particle if not set
