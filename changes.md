@@ -1,4 +1,8 @@
 
+### You can thank GitHub for making this gorgeous md page ugly :((
+
+<details>
+    <summary>Stylesheet</summary>
 <style>
     .plus {
         color: green
@@ -18,7 +22,6 @@
     .img-span {
         padding-top: 0em;
         padding-bottom: 0.1em;
-
     }
     img {
         width: 1.1em;
@@ -37,6 +40,7 @@
         height: 1em;
     }
 </style>
+</details>
 
 # V1.2
 
