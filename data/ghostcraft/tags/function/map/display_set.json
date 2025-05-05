@@ -3,6 +3,7 @@
         "ghostcraft:map/blackout/test/display_set",
         "ghostcraft:map/temple/test/display_set",
         "ghostcraft:map/sanctum/test/display_set",
-        "ghostcraft:map/kb_library/test/display_set"
+        "ghostcraft:map/kb_library/test/display_set",
+        "ghostcraft:map/haunted_ruins/test/display_set"
     ]
 }

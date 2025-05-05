@@ -3,6 +3,7 @@
         "ghostcraft:map/blackout/compare_id",
         "ghostcraft:map/temple/compare_id",
         "ghostcraft:map/sanctum/compare_id",
-        "ghostcraft:map/kb_library/compare_id"
+        "ghostcraft:map/kb_library/compare_id",
+        "ghostcraft:map/haunted_ruins/compare_id"
     ]
 }

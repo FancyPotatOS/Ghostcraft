@@ -3,6 +3,7 @@
         "ghostcraft:map/blackout/book_input",
         "ghostcraft:map/temple/book_input",
         "ghostcraft:map/sanctum/book_input",
-        "ghostcraft:map/kb_library/book_input"
+        "ghostcraft:map/kb_library/book_input",
+        "ghostcraft:map/haunted_ruins/book_input"
     ]
 }

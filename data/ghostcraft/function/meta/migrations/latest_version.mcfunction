@@ -137,6 +137,7 @@ gamerule spawnRadius 0
 gamerule sendCommandFeedback false
 gamerule showDeathMessages false
 gamerule announceAdvancements false
+gamerule commandModificationBlockLimit 9000000
 
 
 return 0

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "ghostcraft.item.ghost_compass.used": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "ghostcraft:item/ghost_compass/item"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:item/ghost_compass/test/update"
+  }
+}

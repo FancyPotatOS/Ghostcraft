@@ -44,6 +44,11 @@ There is also 4 maps available. By default, a vote can be cast to switch maps ev
     <br>
     <img src="images/library.png" alt="library_screenshot" style="width:50%;"/>
 </details>
+<details>
+    <summary>Haunted Ruins</summary>
+    <br>
+    <img src="images/haunted_ruins.png" alt="library_screenshot" style="width:50%;"/>
+</details>
 
 
 ### Requirements
@@ -54,6 +59,7 @@ There is also 4 maps available. By default, a vote can be cast to switch maps ev
 ### Credits
 - [Sanctum](https://shotbow.net/forum/threads/sanctum-a-ghostcraft-map.77827/) map created by [Subject_617](https://shotbow.net/forum/members/subject_617.1984/)
 - [Katerbrandt Library](https://shotbow.net/forum/threads/map-submission-the-katerbrandt-library.326662/#post-2647846) map created by [Moshyn](https://shotbow.net/forum/members/moshyn.1122691/)
+- [Haunted Ruins](https://shotbow.net/forum/threads/hunted-ruins.153763/) map created by [Shine9000](https://shotbow.net/forum/members/shine9000.506077/)
 
 
 

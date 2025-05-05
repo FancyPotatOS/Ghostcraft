@@ -27,4 +27,6 @@ execute if score game_timer ghostcraft.temp matches 20 as @a at @s run playsound
 
 execute if score game_timer ghostcraft.temp matches 0 run return run function ghostcraft:game/ghosthunt/endings/survivors_win
 
+execute if score game_timer ghostcraft.temp = kit.ghost.ghost_compass.time ghostcraft.config run function ghostcraft:game/ghosthunt/give_ghost_compass
+
 scoreboard players set ghosthunt.timer.ended ghostcraft.temp 0

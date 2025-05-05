@@ -19,6 +19,7 @@ function ghostcraft:ability/feather_falling/grant
 tag @s add ghostcraft.ability.pounce
 tag @s add ghostcraft.ability.vampire
 tag @s add ghostcraft.ability.ghost_energy
+tag @s add ghostcraft.ability.ghost_compass
 
 # Add effects
 effect give @s minecraft:invisibility infinite 0 true

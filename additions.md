@@ -3,20 +3,6 @@
 
 - Potential particles
 
-  - Normal
-    - smoke
-    - ominous_spawning
-    - small_flame
-    - glow
-    - trial_omen
-    - raid_omen
-    - small_gust
-    - spit
-    - splash
-    - sculk_charge_pop
-    - totem_of_undying
-    - sculk_charge (roll:0?)
-
   - Thin
     - nautilus
     - dolphin

@@ -38,6 +38,8 @@ scoreboard players set kit.ghost.frag_grenade.count ghostcraft.config 1
 scoreboard players set kit.ghost.frag_grenade.timer ghostcraft.config 60
 scoreboard players set kit.ghost.frag_grenade.cycle ghostcraft.config 10
 
+scoreboard players set kit.ghost.ghost_compass.time ghostcraft.config 1200
+
 scoreboard players set effect.ambient_ghost.particles ghostcraft.config 0
 
 function #ghostcraft:kit/config/reset

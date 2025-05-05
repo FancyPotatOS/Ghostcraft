@@ -3,6 +3,7 @@
         "ghostcraft:map/blackout/test/setup",
         "ghostcraft:map/temple/test/setup",
         "ghostcraft:map/sanctum/test/setup",
-        "ghostcraft:map/kb_library/test/setup"
+        "ghostcraft:map/kb_library/test/setup",
+        "ghostcraft:map/haunted_ruins/test/setup"
     ]
 }
