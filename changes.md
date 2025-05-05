@@ -85,7 +85,7 @@
 
 ### Soldier
 
-<span class="plus">+</span> Grenades d more damage to the ghost (roughly <img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_half.png"/> to <img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/>)<br/>
+<span class="plus">+</span> Grenades do more damage to the ghost (roughly <img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_half.png"/> to <img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/><img class="heart-img" alt="❤️" src="./images/icons/heart_full.png"/>)<br/>
 <span class="plus">+</span> Grenades have a larger area of effect (6 blocks)<br/>
 <span class="plus">+</span> Grenades do less damage to survivors<br/>
 <span class="minus">⎯</span> Damaging survivors with Grenades hurts the thrower<br/>
