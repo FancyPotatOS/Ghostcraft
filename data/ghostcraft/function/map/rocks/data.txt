@@ -1,0 +1,21 @@
+
+ghostcraft:map/rocks/lobby
+1 1 1
+13 17 14
+
+ghostcraft:map/rocks/base/0
+1 1 1
+25 38 25
+
+ghostcraft:map/rocks/base/1
+26 0 1
+25 38 25
+
+ghostcraft:map/rocks/base/2
+1 -1 26
+25 38 48
+
+ghostcraft:map/rocks/base/3
+26 -2 26
+25 38 48
+

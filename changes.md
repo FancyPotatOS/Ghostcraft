@@ -50,8 +50,18 @@
 
 <span class="plus_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/ghost.png"/></span> Ghosts are given a Ghost Compass to track survivors when a minute's left<br/>
 
+<span class="plus_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/ghost.png"/></span> Ghosts can now cling to walls by crouching against them. Clinging drains the ghost's energy, however.<br/>
+
 ## Maps
 
 <span class="avg_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/spectator.png"/></span> Added the **Haunted Ruins** map by **Shine9000**<br/>
 
+<span class="avg_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/spectator.png"/></span> Added the **Rocks** map by **mini_mc1**<br/>
+
+<span class="avg_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/spectator.png"/></span> Added the **The Lighthouse** map by **Moshyn**<br/>
+
+## Miscellaneous
+
+<span class="plus">+</span> Map change cooldown configuration no longer resets after a map change
+<span class="plus">+</span> Migrations are now applied when transitioning from v1.2 to higher versions
 

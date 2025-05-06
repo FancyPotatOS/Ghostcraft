@@ -15,6 +15,7 @@ execute as @a if score @s ghostcraft.game.deaths matches 1.. at @s run function 
 execute as @e[type=#ghostcraft:player] if data entity @s {HurtTime:10s} at @s run function ghostcraft:game/on_hurt
 
 execute as @a[tag=ghostcraft.ability.ghost_energy] at @s run function ghostcraft:ability/ghost_energy/tick
+execute as @a[tag=ghostcraft.ability.cling] at @s run function ghostcraft:ability/cling/tick
 
 function #ghostcraft:game/tick
 

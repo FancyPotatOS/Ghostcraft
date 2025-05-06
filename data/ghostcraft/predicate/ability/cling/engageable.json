@@ -1,0 +1,42 @@
+{
+  "condition": "all_of",
+  "terms": [
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "flags": {
+          "is_sneaking": true,
+          "is_on_ground": false
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 1,
+      "predicate": {
+        "block": {
+          "blocks": "#ghostcraft:ability/cling/nonsolid"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 0,
+      "predicate": {
+        "block": {
+          "blocks": "#ghostcraft:ability/cling/nonsolid"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -1,
+      "predicate": {
+        "block": {
+          "blocks": "#ghostcraft:ability/cling/nonsolid"
+        }
+      }
+    }
+  ]
+}

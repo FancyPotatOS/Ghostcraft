@@ -1,0 +1,38 @@
+
+ghostcraft:map/the_lighthouse/lobby
+1 1 1
+17 8 17
+
+
+ghostcraft:map/the_lighthouse/base/0
+1 1 1
+22 22 22
+
+ghostcraft:map/the_lighthouse/base/1
+1 23 1
+22 32 22
+
+ghostcraft:map/the_lighthouse/base/2
+23 1 1
+19 22 22
+
+ghostcraft:map/the_lighthouse/base/3
+23 23 1
+19 32 22
+
+ghostcraft:map/the_lighthouse/base/4
+1 1 23
+22 22 20
+
+ghostcraft:map/the_lighthouse/base/5
+1 23 23
+22 32 20
+
+ghostcraft:map/the_lighthouse/base/6
+23 1 23
+19 22 20
+
+ghostcraft:map/the_lighthouse/base/7
+23 23 23
+19 32 20
+

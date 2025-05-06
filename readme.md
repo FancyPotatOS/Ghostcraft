@@ -27,27 +27,37 @@ There is also 4 maps available. By default, a vote can be cast to switch maps ev
 <details>
     <summary>Temple</summary>
     <br>
-    <img src="images/temple.png" alt="temple_screenshot" style="width:50%;"/>
+    <img src="images/maps/temple.png" alt="temple_screenshot" style="width:50%;"/>
 </details>
 <details>
     <summary>Blackout</summary>
     <br>
-    <img src="images/blackout.png" alt="temple_screenshot" style="width:50%;"/>
+    <img src="images/maps/blackout.png" alt="temple_screenshot" style="width:50%;"/>
 </details>
 <details>
     <summary>Sanctum</summary>
     <br>
-    <img src="images/sanctum.png" alt="sanctum_screenshot" style="width:50%;"/>
+    <img src="images/maps/sanctum.png" alt="sanctum_screenshot" style="width:50%;"/>
 </details>
 <details>
     <summary>Keterbrandt Library</summary>
     <br>
-    <img src="images/library.png" alt="library_screenshot" style="width:50%;"/>
+    <img src="images/maps/library.png" alt="library_screenshot" style="width:50%;"/>
 </details>
 <details>
     <summary>Haunted Ruins</summary>
     <br>
-    <img src="images/haunted_ruins.png" alt="library_screenshot" style="width:50%;"/>
+    <img src="images/maps/haunted_ruins.png" alt="haunted_ruins_screenshot" style="width:50%;"/>
+</details>
+<details>
+    <summary>Rocks</summary>
+    <br>
+    <img src="images/maps/rocks.png" alt="rocks_screenshot" style="width:50%;"/>
+</details>
+<details>
+    <summary>The Lighthouse</summary>
+    <br>
+    <img src="images/maps/the_lighthouse.png" alt="lighthouse_screenshot" style="width:50%;"/>
 </details>
 
 
@@ -60,6 +70,8 @@ There is also 4 maps available. By default, a vote can be cast to switch maps ev
 - [Sanctum](https://shotbow.net/forum/threads/sanctum-a-ghostcraft-map.77827/) map created by [Subject_617](https://shotbow.net/forum/members/subject_617.1984/)
 - [Katerbrandt Library](https://shotbow.net/forum/threads/map-submission-the-katerbrandt-library.326662/#post-2647846) map created by [Moshyn](https://shotbow.net/forum/members/moshyn.1122691/)
 - [Haunted Ruins](https://shotbow.net/forum/threads/hunted-ruins.153763/) map created by [Shine9000](https://shotbow.net/forum/members/shine9000.506077/)
+- [Rocks](https://shotbow.net/forum/threads/ghostcraft-map-rocks.257077/) map created by [mini_mc1](https://shotbow.net/forum/members/mini_mc1.172117/)
+- [The Lighthouse](https://shotbow.net/forum/threads/map-the-lighthouse.288742/) map created by [Moshyn](https://shotbow.net/forum/members/moshyn.1122691/)
 
 
 

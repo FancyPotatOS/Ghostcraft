@@ -4,6 +4,8 @@
         "ghostcraft:map/temple/book_input",
         "ghostcraft:map/sanctum/book_input",
         "ghostcraft:map/kb_library/book_input",
-        "ghostcraft:map/haunted_ruins/book_input"
+        "ghostcraft:map/haunted_ruins/book_input",
+        "ghostcraft:map/rocks/book_input",
+        "ghostcraft:map/the_lighthouse/book_input"
     ]
 }

@@ -3,4 +3,4 @@
 scoreboard objectives add ghostcraft.master dummy
 
 # Apply migration if required
-execute unless score version ghostcraft.master matches 1.. run schedule function ghostcraft:meta/migrations/latest_version 5s
+execute unless score version ghostcraft.master matches 2.. run schedule function ghostcraft:meta/migrations/latest_version 5s

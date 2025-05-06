@@ -7,8 +7,6 @@
 #
 
 
-scoreboard players set map.change_cooldown ghostcraft.config 2
-
 scoreboard players operation map.change_cooldown ghostcraft.temp = map.change_cooldown ghostcraft.config
 scoreboard players set timer ghostcraft.temp 300
 scoreboard players set second ghostcraft.temp 20

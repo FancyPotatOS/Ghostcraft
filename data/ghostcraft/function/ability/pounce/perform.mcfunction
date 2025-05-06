@@ -8,6 +8,7 @@ execute if entity @s[tag=ghostcraft.ability.pounce.should_update] run tag @s add
 execute if score @s ghostcraft.ability.pounce.power matches ..-1 run scoreboard players add @s ghostcraft.ability.pounce.power 1
 execute if score @s ghostcraft.ability.pounce.power matches 56.. run scoreboard players set @s ghostcraft.ability.pounce.power 56
 scoreboard players operation required_energy ghostcraft.ability.ghost_energy = ability.pounce.energy_requirement ghostcraft.config
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{"flags":{is_on_ground:false}}} run tag @s remove ghostcraft.ability.pounce.should_update
 execute unless function ghostcraft:ability/ghost_energy/has_enough_energy run return run function ghostcraft:ability/pounce/not_enough_energy
 
 execute if entity @s[tag=ghostcraft.ability.pounce.should_update] run scoreboard players add @s ghostcraft.ability.pounce.power 1
