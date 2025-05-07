@@ -23,6 +23,8 @@ experience set @s 0 points
 execute store result score y ghostcraft.temp run data get entity @s Pos[1]
 execute in ghostcraft:empty if score y ghostcraft.temp matches ..0 run tp ~ 125 ~
 
+function ghostcraft:ability/feather_falling/grant
+
 # Only continue execution if not coming from lobby
 execute if score coming_from_lobby ghostcraft.temp matches 1 run return 0
 
@@ -31,7 +33,6 @@ function #ghostcraft:game/lobby/give_books
 # Teleport all players to a random lobby entity
 tp @s @e[tag=ghostcraft.map.lobby,limit=1,sort=random]
 
-function ghostcraft:ability/feather_falling/grant
 execute if entity @e[tag=ghostcraft.map.lobby] run spawnpoint @s ~ ~ ~
 gamemode survival
 

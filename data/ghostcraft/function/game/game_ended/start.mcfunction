@@ -7,6 +7,8 @@
 #
 
 
+scoreboard players set coming_from_lobby ghostcraft.temp 1
+
 execute as @e[type=#ghostcraft:player] run function ghostcraft:logic/clear_entity
 execute as @e[type=#ghostcraft:player] run function ghostcraft:game/lobby/player_setup
 
