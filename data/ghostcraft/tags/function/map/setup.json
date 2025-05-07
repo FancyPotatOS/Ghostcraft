@@ -6,6 +6,7 @@
         "ghostcraft:map/kb_library/test/setup",
         "ghostcraft:map/haunted_ruins/test/setup",
         "ghostcraft:map/rocks/test/setup",
-        "ghostcraft:map/the_lighthouse/test/setup"
+        "ghostcraft:map/the_lighthouse/test/setup",
+        "ghostcraft:map/haunted_hillside/test/setup"
     ]
 }

@@ -59,6 +59,11 @@ There is also 4 maps available. By default, a vote can be cast to switch maps ev
     <br>
     <img src="images/maps/the_lighthouse.png" alt="lighthouse_screenshot" style="width:50%;"/>
 </details>
+<details>
+    <summary>Haunted Hillside</summary>
+    <br>
+    <img src="images/maps/haunted_hillside.png" alt="haunted_hillside_screenshot" style="width:50%;"/>
+</details>
 
 
 ### Requirements
@@ -72,6 +77,7 @@ There is also 4 maps available. By default, a vote can be cast to switch maps ev
 - [Haunted Ruins](https://shotbow.net/forum/threads/hunted-ruins.153763/) map created by [Shine9000](https://shotbow.net/forum/members/shine9000.506077/)
 - [Rocks](https://shotbow.net/forum/threads/ghostcraft-map-rocks.257077/) map created by [mini_mc1](https://shotbow.net/forum/members/mini_mc1.172117/)
 - [The Lighthouse](https://shotbow.net/forum/threads/map-the-lighthouse.288742/) map created by [Moshyn](https://shotbow.net/forum/members/moshyn.1122691/)
+- [Haunted Hillside](https://shotbow.net/forum/threads/haunted-hillside-a-map-for-ghostcraft.384331/) map created by [Mohawk2](https://shotbow.net/forum/members/mohawk2.3598432/)
 
 
 

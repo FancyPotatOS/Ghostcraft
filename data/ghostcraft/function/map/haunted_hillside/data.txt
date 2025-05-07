@@ -1,0 +1,30 @@
+
+
+ghostcraft:map/haunted_hillside/0
+1 1 1
+47 25 30
+
+ghostcraft:map/haunted_hillside/1
+1 26 1
+47 48 30
+
+ghostcraft:map/haunted_hillside/2
+48 1 1
+48 25 30
+
+ghostcraft:map/haunted_hillside/3
+48 26 1
+48 25 30
+
+ghostcraft:map/haunted_hillside/4
+1 1 31
+47 25 30
+
+ghostcraft:map/haunted_hillside/5
+1 26 31
+47 48 30
+
+ghostcraft:map/haunted_hillside/6
+48 1 31
+48 35 30
+

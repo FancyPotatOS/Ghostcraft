@@ -60,6 +60,8 @@
 
 <span class="avg_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/spectator.png"/></span> Added the **The Lighthouse** map by **Moshyn**<br/>
 
+<span class="avg_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/spectator.png"/></span> Added the **Haunted Hillside** map by **Mohawk2**<br/>
+
 ## Miscellaneous
 
 <span class="plus">+</span> Map change cooldown configuration no longer resets after a map change

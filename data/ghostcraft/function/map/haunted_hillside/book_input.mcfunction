@@ -1,5 +1,5 @@
 #
-#   The Lighthouse Book Input
+#   Haunted Hillside Book Input
 #   
 #   Purpose: To add a page to the held book from an armor stand about this map
 #
@@ -10,27 +10,27 @@
 data modify entity @s equipment.mainhand.components."minecraft:written_book_content".pages append value {raw:\
 [\
     {\
-        "text":"    The Lighthouse\n\n   A map created by            "\
+        "text":"         Haunted\n          Hillside\n   A map created by           "\
     },\
     {\
-        "text":"Moshyn",\
+        "text":"Mohawk2",\
         "color":"dark_green",\
         "bold":true,\
         "hover_event": {"action": "show_text","value": "Click to view Shotbow profile"},\
-        "click_event": {"action": "open_url","url": "https://shotbow.net/forum/members/moshyn.1122691/"}\
+        "click_event": {"action": "open_url","url": "https://shotbow.net/forum/members/mohawk2.3598432/"}\
     },\
     {\
-        "text":"\n\nA towering, broken lighthouse stranded in the sky."\
+        "text":"\n\nA dark mansion amidst a small graveyard. Gnarled tree circle the area."\
     },\
     [\
         {\
-            "text":"\n\n\n\n\n          "\
+            "text":"\n\n\n\n          "\
         },\
         {\
             "text":"[Vote]",\
             "color":"green",\
             "hover_event":{"action":"show_text","value": "Click to vote!"},\
-            "click_event":{"action": "run_command","command": "/trigger ghostcraft.game.map_change.vote set 7"}\
+            "click_event":{"action": "run_command","command": "/trigger ghostcraft.game.map_change.vote set 8"}\
         }\
     ]\
 ]}

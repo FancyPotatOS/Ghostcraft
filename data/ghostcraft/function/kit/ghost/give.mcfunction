@@ -20,6 +20,7 @@ tag @s add ghostcraft.ability.pounce
 tag @s add ghostcraft.ability.vampire
 tag @s add ghostcraft.ability.ghost_energy
 tag @s add ghostcraft.ability.ghost_compass
+tag @s add ghostcraft.ability.cling
 
 # Add effects
 effect give @s minecraft:invisibility infinite 0 true

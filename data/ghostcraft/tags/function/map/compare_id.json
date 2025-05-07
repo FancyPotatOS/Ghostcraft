@@ -6,6 +6,7 @@
         "ghostcraft:map/kb_library/compare_id",
         "ghostcraft:map/haunted_ruins/compare_id",
         "ghostcraft:map/rocks/compare_id",
-        "ghostcraft:map/the_lighthouse/compare_id"
+        "ghostcraft:map/the_lighthouse/compare_id",
+        "ghostcraft:map/haunted_hillside/compare_id"
     ]
 }

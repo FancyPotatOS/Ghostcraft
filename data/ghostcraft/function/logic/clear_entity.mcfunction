@@ -11,3 +11,5 @@ clear @s
 data remove entity @s equipment
 data remove entity @s Inventory
 
+function #ghostcraft:player/reset
+
