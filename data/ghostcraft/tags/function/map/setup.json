@@ -7,6 +7,7 @@
         "ghostcraft:map/haunted_ruins/test/setup",
         "ghostcraft:map/rocks/test/setup",
         "ghostcraft:map/the_lighthouse/test/setup",
-        "ghostcraft:map/haunted_hillside/test/setup"
+        "ghostcraft:map/haunted_hillside/test/setup",
+        "ghostcraft:map/spooky_mansion/test/setup"
     ]
 }

@@ -64,6 +64,11 @@ There is also 4 maps available. By default, a vote can be cast to switch maps ev
     <br>
     <img src="images/maps/haunted_hillside.png" alt="haunted_hillside_screenshot" style="width:50%;"/>
 </details>
+<details>
+    <summary>Spooky Mansion</summary>
+    <br>
+    <img src="images/maps/spooky_mansion.png" alt="spooky_mansion_screenshot" style="width:50%;"/>
+</details>
 
 
 ### Requirements
@@ -78,6 +83,7 @@ There is also 4 maps available. By default, a vote can be cast to switch maps ev
 - [Rocks](https://shotbow.net/forum/threads/ghostcraft-map-rocks.257077/) map created by [mini_mc1](https://shotbow.net/forum/members/mini_mc1.172117/)
 - [The Lighthouse](https://shotbow.net/forum/threads/map-the-lighthouse.288742/) map created by [Moshyn](https://shotbow.net/forum/members/moshyn.1122691/)
 - [Haunted Hillside](https://shotbow.net/forum/threads/haunted-hillside-a-map-for-ghostcraft.384331/) map created by [Mohawk2](https://shotbow.net/forum/members/mohawk2.3598432/)
+- [Spooky Mansion](https://shotbow.net/forum/threads/spookey-mansion.387199/) map created by [PaySafeKaart](https://shotbow.net/forum/members/paysafekaart.3689119/)
 
 
 

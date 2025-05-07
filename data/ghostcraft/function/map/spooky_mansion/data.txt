@@ -1,0 +1,23 @@
+
+
+ghostcraft:map/spooky_mansion/lobby
+1 1 1
+20 15 20
+
+ghostcraft:map/spooky_mansion/base/0
+1 1 1
+40 40 40
+
+ghostcraft:map/spooky_mansion/base/1
+41 1 1
+40 40 40
+
+ghostcraft:map/spooky_mansion/base/2
+1 1 41
+40 40 40
+
+ghostcraft:map/spooky_mansion/base/3
+41 1 41
+40 40 40
+
+
