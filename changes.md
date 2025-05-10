@@ -48,6 +48,8 @@
 
 $\color{Green}{\textsf{+}}$ Players are alerted when there is one survivor or ghost left
 
+$\color{Green}{\textsf{+}}$ Ghost particle frequency now a config item
+
 $\color{Orange}{\textsf{∼}}$ Clears the map of all projectiles and items correctly 
 
 ### Ghost

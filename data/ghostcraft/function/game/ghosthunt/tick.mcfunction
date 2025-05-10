@@ -19,7 +19,7 @@ execute as @a if score @s ghostcraft.trigger.game matches 1.. run function ghost
 
 execute if score timer ghostcraft.temp matches 0 as @e[type=#ghostcraft:player,tag=ghostcraft.ghost] at @s run function #ghostcraft:game/ghost/effect
 scoreboard players add timer ghostcraft.temp 1
-scoreboard players operation timer ghostcraft.temp %= timer_cycle ghostcraft.temp
+scoreboard players operation timer ghostcraft.temp %= kit.ghost.particle.cycle ghostcraft.config
 
 function ghostcraft:game/ghosthunt/timer
 execute if score ghosthunt.timer.ended ghostcraft.temp matches 1 run return 0

@@ -21,4 +21,6 @@ scoreboard objectives add ghostcraft.game.ghosthunt.ghost_kills playerKillCount
 scoreboard players set game.ghosthunt.minimum_time ghostcraft.config 1198
 scoreboard players set max_time ghostcraft.item.grappling_hook.in_entity_timer 20
 
+scoreboard players set kit.ghost.particle.cycle ghostcraft.config 12
+
 

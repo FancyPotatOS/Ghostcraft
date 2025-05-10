@@ -2,14 +2,10 @@
 ## Additions
 
 - Ideas
-  - Clear arrows
-  - See remaining health at end of game
   - Blink stability
   - weighted ghost choice
   - Set spawn not working
     - lobby spawn still off
-  - See vote stats
-  - ghost particle more frequent (12 ticks)
   - random class
   - ghost glowing indicator
   - Resistance 5 on players when game starts
@@ -22,6 +18,8 @@
 	  - Has healing aura
     - See players health
   
+  - See vote stats
+  - See remaining health at end of game
   - Other players cannot pick up own items
   - Damage on ghost/survivor stats
   - Final kill

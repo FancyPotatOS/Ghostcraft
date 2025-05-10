@@ -72,6 +72,8 @@ For example, to change the amount of arrows an archer to 15 starts with, run `/s
         - `kit.machine_bow.arrow_count`
             - The amount of arrows you start with
     - Ghost
+        - `kit.ghost.particle.cycle`
+            - How often the ghost produces particles (in ticks)
         - `kit.ghost.blink.count`
             - The amount of Blink teleports you start with
         - `kit.ghost.crafting_table.count`
