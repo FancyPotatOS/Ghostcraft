@@ -8,6 +8,7 @@
 
 
 team join ghostcraft.lobby @s
+execute if entity @e[tag=ghostcraft.map.lobby] run spawnpoint @s ~ ~ ~
 
 execute unless score coming_from_lobby ghostcraft.temp matches 1 run function ghostcraft:game/player_reset
 
@@ -33,6 +34,5 @@ function #ghostcraft:game/lobby/give_books
 # Teleport all players to a random lobby entity
 tp @s @e[tag=ghostcraft.map.lobby,limit=1,sort=random]
 
-execute if entity @e[tag=ghostcraft.map.lobby] run spawnpoint @s ~ ~ ~
 gamemode survival
 

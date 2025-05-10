@@ -2,9 +2,6 @@
 ## Additions
 
 - Ideas
-  - Set spawn not working
-    - lobby spawn still off
-  - ghost glowing indicator
   - Resistance 5 on players when game starts
 
   - lower machinebow armor

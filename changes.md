@@ -78,6 +78,8 @@ $\color{Green}{\textsf{+}}$ Hunter has a quick netherite pickaxe for attacking<b
 
 ## Miscellaneous
 
+$\color{Green}{\textsf{+}}$ Some fixes to player lobby spawnpoint being off across games
+
 $\color{Green}{\textsf{+}}$ Ensures players leaving in weird times doesn't affect gameplay
 
 $\color{Green}{\textsf{+}}$ Shows the particle when a player chooses one
