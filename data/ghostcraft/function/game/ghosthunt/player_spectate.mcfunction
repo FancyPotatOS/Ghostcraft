@@ -7,6 +7,7 @@
 #
 
 
+function ghostcraft:game/lobby/player_teardown
 function ghostcraft:game/ghosthunt/on_death
 
 title @s title {"text":""}

@@ -2,8 +2,6 @@
 ## Additions
 
 - Ideas
-  - Blink stability
-  - weighted ghost choice
   - Set spawn not working
     - lobby spawn still off
   - ghost glowing indicator
@@ -17,6 +15,7 @@
 	  - Has healing aura
     - See players health
   
+  - Blink stability
   - See vote stats
   - See remaining health at end of game
   - Other players cannot pick up own items

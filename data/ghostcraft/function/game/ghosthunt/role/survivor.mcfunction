@@ -8,5 +8,7 @@
 
 
 tag @s add ghostcraft.survivor
-tag @s remove ghostcraft.game.ghosthunt.last_ghost
+
+# Add 1 to our ghost choice weight
+scoreboard players add @s ghostcraft.game.ghost_choice_weight 1
 

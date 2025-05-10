@@ -16,3 +16,5 @@ attribute @s minecraft:attack_damage modifier remove ghostcraft.game.lobby.playe
 
 tag @a[tag=!ghostcraft.spectator] remove ghostcraft.spectating
 
+execute at @e[type=marker,tag=ghostcraft.map.lobby,sort=random,limit=1] run spawnpoint @s ~ ~ ~
+

@@ -46,6 +46,8 @@
 
 ## Ghosthunt
 
+$\color{Green}{\textsf{+}}$ Ghost choosing is now weighed towards players who haven't been chosen in a while (+1 to weight per game, resets to 0 when was just ghost)
+
 $\color{Green}{\textsf{+}}$ Players are alerted when there is one survivor or ghost left
 
 $\color{Green}{\textsf{+}}$ Ghost particle frequency now a config item
@@ -75,6 +77,8 @@ $\color{Green}{\textsf{+}}$ Shotbow now has Quick Charge II again<br/>
 $\color{Green}{\textsf{+}}$ Hunter has a quick netherite pickaxe for attacking<br/>
 
 ## Miscellaneous
+
+$\color{Green}{\textsf{+}}$ Ensures players leaving in weird times doesn't affect gameplay
 
 $\color{Green}{\textsf{+}}$ Shows the particle when a player chooses one
 

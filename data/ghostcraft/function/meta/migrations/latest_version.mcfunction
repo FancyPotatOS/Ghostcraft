@@ -16,6 +16,7 @@ tellraw @a ["",{"text":"[GhostCraft Datapack] - Setting up v1.4","bold":true,"co
 scoreboard players set version ghostcraft.master 6
 
 scoreboard objectives add ghostcraft.game.ghosthunt.ghost_kills playerKillCount
+scoreboard objectives add ghostcraft.game.ghost_choice_weight dummy
 
 # Two minutes, minus a couple ticks to avoid any minute-based activations
 scoreboard players set game.ghosthunt.minimum_time ghostcraft.config 1198
