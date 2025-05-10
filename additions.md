@@ -6,7 +6,6 @@
   - weighted ghost choice
   - Set spawn not working
     - lobby spawn still off
-  - random class
   - ghost glowing indicator
   - Resistance 5 on players when game starts
 

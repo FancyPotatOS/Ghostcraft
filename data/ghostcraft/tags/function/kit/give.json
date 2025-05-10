@@ -5,6 +5,7 @@
         "ghostcraft:kit/support/test/give",
         "ghostcraft:kit/shotbow/test/give",
         "ghostcraft:kit/machine_bow/test/give",
-        "ghostcraft:kit/hunter/test/give"
+        "ghostcraft:kit/hunter/test/give",
+        "ghostcraft:kit/random/test/give"
     ]
 }

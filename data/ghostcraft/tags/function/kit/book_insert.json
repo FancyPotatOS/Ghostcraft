@@ -5,6 +5,7 @@
         "ghostcraft:kit/support/book_insert",
         "ghostcraft:kit/shotbow/book_insert",
         "ghostcraft:kit/machine_bow/book_insert",
-        "ghostcraft:kit/hunter/book_insert"
+        "ghostcraft:kit/hunter/book_insert",
+        "ghostcraft:kit/random/book_insert"
     ]
 }

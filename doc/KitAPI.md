@@ -47,6 +47,12 @@ The player's current class is set in the scoreboard `ghostcraft.class`. You will
     - <b>Provide feedback that the class was selected</b>
     - Requires `@s ghostcraft.class` to match
     - Display a simple message that the player's class was changed
+- `#ghostcraft:kit/random/subscribe_kit`
+    - <b>Subscribe this kit as one able to be chosen randomly</b>
+    - Optional.
+    - Append your kit ID to the list in storage `ghostcraft:data random_kits`
+    - Ensure that calls to your kit-related functions (like ability-related tick functions and items) work even if the player's `ghostcraft.class` score does NOT match!
+        - For example, your kit logic finds the player mid-game by some kind of tag or item, rather that relying on that particular scoreboard value
 
 ### Abilities
 
