@@ -1,4 +1,6 @@
 
+function ghostcraft:ability/feather_falling/grant
+
 loot give @s loot ghostcraft:kit/archer/sword
 
 loot give @s loot ghostcraft:kit/archer/bow

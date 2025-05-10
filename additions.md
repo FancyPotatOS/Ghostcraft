@@ -2,8 +2,35 @@
 ## Additions
 
 - Ideas
-- Maybe more healing when hurting survivors
-- A 'Mauler' kit with mace/boost effect
+  - archer has Feather falling ability (in book)
+  - See remaining health at end of game
+  - Blink stability
+  - weighted ghost choice
+  - Set spawn not working
+    - lobby spawn still off
+  - Clear arrows
+  - See vote stats
+  - ghost particle more frequent (12 ticks)
+  - random class
+  - ghost glowing indicator
+  - Resistance 5 on players when game starts
+
+  - lower machinebow armor
+  - support+archer needs a little boost
+  - remove all attack delay from survivors
+  - Support
+    - Replenishes items
+	  - Has healing aura
+    - See players health
+  
+  - Damage on ghost/survivor stats
+  - Final kill
+  - damage indictaors?
+    
+  - Maybe
+    - anti-camping mechanic
+    - Retreat ability
+    - A 'Mauler' kit with mace/boost effect
 
 - Potential particles
 

@@ -50,21 +50,25 @@ $\color{Green}{\textsf{+}}$ Players are alerted when there is one survivor or gh
 
 ### Ghost
 
-
 $\color{Green}{\textsf{+}}$ The timer is set to at least a minute left when a ghost kills a survivor
-
 
 ## Kits
 
 ### Archer
 
-$\color{Green}{\textsf{+}}$ Archer has Feather Falling IV<br/>
+$\color{Green}{\textsf{+}}$ Archer has no fall damage<br/>
 
 ### Shotbow
 
 $\color{Green}{\textsf{+}}$ Shotbow now has Quick Charge II again<br/>
 
+### Hunter
+
+$\color{Green}{\textsf{+}}$ Hunter has a quick netherite pickaxe for attacking<br/>
+
 ## Miscellaneous
+
+$\color{Green}{\textsf{+}}$ Shows the particle when a player chooses one
 
 $\color{Green}{\textsf{+}}$ Maps now clear items when the games end
 

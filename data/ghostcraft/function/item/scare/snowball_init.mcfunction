@@ -4,7 +4,7 @@ tag @s add ghostcraft.item.steed
 tag @s add ghostcraft.item.timer_cycle
 tag @s add ghostcraft.item.timer
 
-loot give @p[tag=ghostcraft.advtrigger.snowball.thrower,limit=1] loot ghostcraft:item/scare/scare
+loot give @p[tag=ghostcraft.advtrigger.snowball.thrower,limit=1] loot ghostcraft:ghost/scare
 
 data modify entity @s NoGravity set value 1b
 

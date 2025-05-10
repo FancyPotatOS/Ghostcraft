@@ -5,15 +5,26 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_pickaxe",
+          "name": "minecraft:netherite_pickaxe",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "unbreakable": {},
                 "tooltip_display": {
-                  "hidden_components": ["unbreakable"]
-                }
+                  "hidden_components": [
+                    "unbreakable"
+                  ]
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "ghostcraft.kit.hunter.netherite_pickaxe",
+                    "amount": 0.1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ]
               }
             }
           ]
