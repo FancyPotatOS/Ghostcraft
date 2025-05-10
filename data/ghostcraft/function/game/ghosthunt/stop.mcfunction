@@ -12,5 +12,5 @@ tag @a[tag=!ghostcraft.spectator] remove ghostcraft.spectating
 scoreboard players reset @a ghostcraft.game.ghosthunt.ghost_kills
 
 # Clean the map of remaining stuff
-execute in ghostcraft:empty run function #ghostcraft:game/clean_map
+execute in ghostcraft:empty run function ghostcraft:game/clean_map
 

@@ -2,13 +2,12 @@
 ## Additions
 
 - Ideas
-  - archer has Feather falling ability (in book)
+  - Clear arrows
   - See remaining health at end of game
   - Blink stability
   - weighted ghost choice
   - Set spawn not working
     - lobby spawn still off
-  - Clear arrows
   - See vote stats
   - ghost particle more frequent (12 ticks)
   - random class
@@ -23,6 +22,7 @@
 	  - Has healing aura
     - See players health
   
+  - Other players cannot pick up own items
   - Damage on ghost/survivor stats
   - Final kill
   - damage indictaors?

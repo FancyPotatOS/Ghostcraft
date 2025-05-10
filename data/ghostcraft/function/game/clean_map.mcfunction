@@ -8,7 +8,7 @@
 
 
 # Clean the map of remaining stuff
-execute in ghostcraft:empty run function #ghostcraft:game/clean_map
+function #ghostcraft:game/clean_map
 
-execute in ghostcraft:empty run kill @e[type=item,distance=..1000000]
+kill @e[type=#ghostcraft:map_clearable,distance=..1000000]
 

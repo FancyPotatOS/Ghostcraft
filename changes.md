@@ -48,6 +48,8 @@
 
 $\color{Green}{\textsf{+}}$ Players are alerted when there is one survivor or ghost left
 
+$\color{Orange}{\textsf{∼}}$ Clears the map of all projectiles and items correctly 
+
 ### Ghost
 
 $\color{Green}{\textsf{+}}$ The timer is set to at least a minute left when a ghost kills a survivor
