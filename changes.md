@@ -42,30 +42,31 @@
 </style>
 </details>
 
-# V1.3
+# V1.4
 
 ## Ghosthunt
 
-### Ghosts
+$\color{Green}{\textsf{+}}$ Players are alerted when there is one survivor or ghost left
 
-<span class="plus_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/ghost.png"/></span> Ghosts are given a Ghost Compass to track survivors when a minute's left<br/>
+### Ghost
 
-<span class="plus_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/ghost.png"/></span> Ghosts can now cling to walls by crouching against them. Clinging drains the ghost's energy, however.<br/>
 
-## Maps
+$\color{Green}{\textsf{+}}$ The timer is set to at least a minute left when a ghost kills a survivor
 
-<span class="avg_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/spectator.png"/></span> Added the **Haunted Ruins** map by **Shine9000**<br/>
 
-<span class="avg_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/spectator.png"/></span> Added the **Rocks** map by **mini_mc1**<br/>
+## Kits
 
-<span class="avg_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/spectator.png"/></span> Added the **The Lighthouse** map by **Moshyn**<br/>
+### Archer
 
-<span class="avg_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/spectator.png"/></span> Added the **Haunted Hillside** map by **Mohawk2**<br/>
+$\color{Green}{\textsf{+}}$ Archer has Feather Falling IV<br/>
 
-<span class="avg_background img-span"><img class="ghost-img" alt="👻" src="./images/icons/spectator.png"/></span> Added the **Spooky Mansion** map by **PaySafeKaart**<br/>
+### Shotbow
+
+$\color{Green}{\textsf{+}}$ Shotbow now has Quick Charge II again<br/>
 
 ## Miscellaneous
 
-<span class="plus">+</span> Map change cooldown configuration no longer resets after a map change
-<span class="plus">+</span> Migrations are now applied when transitioning from v1.2 to higher versions
+$\color{Green}{\textsf{+}}$ Maps now clear items when the games end
+
+$\color{Green}{\textsf{+}}$ Added simple function tag for updating abilities that other games can utilize now
 

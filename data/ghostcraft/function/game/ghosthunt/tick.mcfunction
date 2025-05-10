@@ -6,6 +6,9 @@
 #   Input: None
 #
 
+
+function #ghostcraft:ability/tick
+
 bossbar set ghostcraft.game.time players @a
 execute store result bossbar ghostcraft.game.time value run scoreboard players get game_timer ghostcraft.temp
 

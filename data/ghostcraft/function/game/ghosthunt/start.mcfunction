@@ -11,6 +11,7 @@ execute unless function ghostcraft:game/player_check run return run function gho
 
 execute as @e[type=#ghostcraft:player] run function ghostcraft:logic/clear_entity
 effect clear @e[type=#ghostcraft:player]
+scoreboard players reset @a ghostcraft.game.ghosthunt.ghost_kills
 
 # Choose roles and kit out
 function ghostcraft:game/ghosthunt/role/assign

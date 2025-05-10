@@ -21,7 +21,8 @@
               "function": "set_enchantments",
               "enchantments": {
                 "ghostcraft:item/shotbow/shotgun": 2,
-                "power": 3
+                "power": 3,
+                "quick_charge": 2
               }
             }
           ]

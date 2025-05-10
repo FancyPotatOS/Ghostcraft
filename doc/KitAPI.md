@@ -34,7 +34,6 @@ The player's current class is set in the scoreboard `ghostcraft.class`. You will
     - Reset all kit-related configuration items in the scoreboard `ghostcraft.config`
 - `#ghostcraft:kit/book_insert`
     - <b>Add a page for this class option</b>
-    - Requires `@s ghostcraft.class` to match
     - Insert a page in the written book in the `HandItems[0]` slot of the executing entity, which is then provided to the players to select a class
 - `#ghostcraft:kit/give`
     - <b>Give the kit</b>
@@ -48,5 +47,12 @@ The player's current class is set in the scoreboard `ghostcraft.class`. You will
     - <b>Provide feedback that the class was selected</b>
     - Requires `@s ghostcraft.class` to match
     - Display a simple message that the player's class was changed
-    
+
+### Abilities
+
+If your kit uses abilities, try to attach them to custom enchantments or advancements - these will help reduce lag. If it's not possible, there is a tick function tag you can attach to.
+- `#ghostcraft:ability/tick`
+    - <b>Run an ability function every tick</b>
+    - It is recommended that you tag every player with the ability
+    - Attach a 'test' function to this tag which checks that the player has the tag before running any other functions
 

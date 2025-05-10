@@ -1,0 +1,6 @@
+{
+    "values": [
+        "ghostcraft:ability/cling/test/tick",
+        "ghostcraft:ability/ghost_energy/test/tick"
+    ]
+}

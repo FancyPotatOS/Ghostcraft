@@ -1,6 +1,10 @@
 
 ## Additions
 
+- Ideas
+- Maybe more healing when hurting survivors
+- A 'Mauler' kit with mace/boost effect
+
 - Potential particles
 
   - Thin

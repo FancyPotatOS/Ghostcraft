@@ -34,6 +34,8 @@ For example, to change the amount of arrows an archer to 15 starts with, run `/s
     - `game.ghosthunt.game_time`
         - The amount of time (in ticks) that the game will go for
         - The survivors win if time runs out
+    - `game.ghosthunt.minimum_time`
+        - The guaranteed amount of time a ghost is given after killing a survivor
         
 - Abilities
     - `ability.ghost_energy.max_energy`

@@ -7,8 +7,8 @@
 #
 
 
-execute if entity @s[tag=ghostcraft.survivor] run tellraw @a {"text":"A survivor died!"}
-execute if entity @s[tag=ghostcraft.ghost] run tellraw @a {"text":"A ghost died!"}
+execute if entity @s[tag=ghostcraft.survivor] run function ghostcraft:game/ghosthunt/survivor_died
+execute if entity @s[tag=ghostcraft.ghost] run function ghostcraft:game/ghosthunt/ghost_died
 
 function ghostcraft:game/player_reset
 gamemode spectator
