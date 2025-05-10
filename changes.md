@@ -70,3 +70,5 @@ $\color{Green}{\textsf{+}}$ Maps now clear items when the games end
 
 $\color{Green}{\textsf{+}}$ Added simple function tag for updating abilities that other games can utilize now
 
+$\color{Green}{\textsf{+}}$ Fixes migrations to work no matter where it starts
+

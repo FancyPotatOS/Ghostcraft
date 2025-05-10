@@ -83,9 +83,6 @@ scoreboard objectives add ghostcraft.game.deaths deathCount
 
 scoreboard objectives add ghostcraft.game.map_change.vote trigger
 
-scoreboard objectives add ghostcraft.effect.ghost.hurt_effect dummy
-scoreboard objectives add ghostcraft.effect.ghost.hurt_effect.trigger trigger
-
 
 # Setup base config
 function ghostcraft:config/reset
@@ -104,40 +101,3 @@ schedule function ghostcraft:meta/grace/message_15 15s
 
 # Create storage
 data merge storage ghostcraft:data {stab_queue:[],vampire_queue:[],dimension:"ghostcraft:empty"}
-
-
-# Teams
-team add ghostcraft.lobby
-team modify ghostcraft.lobby collisionRule pushOtherTeams
-team modify ghostcraft.lobby deathMessageVisibility never
-team modify ghostcraft.lobby friendlyFire false
-team modify ghostcraft.lobby seeFriendlyInvisibles true
-
-
-
-# Setup gamerules
-gamerule doEntityDrops false
-gamerule doImmediateRespawn true
-gamerule doMobLoot false
-gamerule doMobSpawning false
-gamerule disableElytraMovementCheck true
-gamerule disableRaids true
-gamerule doDaylightCycle false
-gamerule doFireTick false
-gamerule doVinesSpread false
-gamerule doTileDrops false
-gamerule doWeatherCycle false
-gamerule doWardenSpawning false
-gamerule keepInventory true
-gamerule mobGriefing false
-gamerule naturalRegeneration false
-gamerule spawnRadius 0
-gamerule sendCommandFeedback false
-gamerule showDeathMessages false
-gamerule announceAdvancements false
-gamerule commandModificationBlockLimit 9000000
-
-
-return 0
-scoreboard objectives add fpconflict.conflict_map dummy
-
