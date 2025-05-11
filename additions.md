@@ -3,8 +3,6 @@
 
 - Ideas
 
-  - lower machinebow armor
-  - support+archer needs a little boost
   - remove all attack delay from survivors
   - Support
     - Replenishes items
@@ -20,6 +18,7 @@
   - damage indictaors?
     
   - Maybe
+    - lower machinebow armor
     - anti-camping mechanic
     - Retreat ability
     - A 'Mauler' kit with mace/boost effect

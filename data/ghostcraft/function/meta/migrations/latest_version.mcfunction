@@ -22,6 +22,8 @@ scoreboard objectives add ghostcraft.game.ghost_choice_weight dummy
 scoreboard players set game.ghosthunt.minimum_time ghostcraft.config 1198
 scoreboard players set max_time ghostcraft.item.grappling_hook.in_entity_timer 20
 
+# New config items
 scoreboard players set kit.ghost.particle.cycle ghostcraft.config 12
+scoreboard players set kit.archer.speed_sugar ghostcraft.config 3
 
 

@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "set_potion",
+              "id": "minecraft:healing"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "tooltip_display":{
+                  "hidden_components": [
+                    "enchantments",
+                    "potion_contents"
+                  ]
+                },
+                "use_cooldown": {
+                  "seconds": 15,
+                  "cooldown_group": "ghostcraft:kit/support/potion"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Infinity",
+                    "color": "#a037ac",
+                    "italic": false
+                  },
+                  {
+                    "text": "Can only be used every 15 seconds",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "enchantments": {
+                  "ghostcraft:kit/support/infinite_weak_potion": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

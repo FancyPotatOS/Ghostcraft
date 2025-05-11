@@ -55,6 +55,8 @@ For example, to change the amount of arrows an archer to 15 starts with, run `/s
     - Archer
         - `kit.archer.arrow_count`
             - The amount of arrows you start with
+        - `kit.archer.speed_sugar`
+            - The amount of Speed Sugar you start with
     - Shotbow
         - `kit.shotbow.arrow_count`
             - The amount of arrows you start with

@@ -58,6 +58,10 @@ $\color{Orange}{\textsf{∼}}$ Clears the map of all projectiles and items corre
 
 $\color{Green}{\textsf{+}}$ The timer is set to at least a minute left when a ghost kills a survivor
 
+### Survivor
+
+$\color{Green}{\textsf{+}}$ Players start with Resistance V for 1 second when a game starts to prevent any transition damage
+
 ## Kits
 
 ### Random
@@ -67,6 +71,12 @@ $\color{Green}{\textsf{+}}$ Adds a random kit that chooses your class every game
 ### Archer
 
 $\color{Green}{\textsf{+}}$ Archer has no fall damage<br/>
+
+$\color{Green}{\textsf{+}}$ Archer has Speed Sugar, a consumable speed boost<br/>
+
+### Support
+
+$\color{Green}{\textsf{+}}$ Support now has an infinite Instant Health I Splash Potion, that can be used every 15 seconds<br/>
 
 ### Shotbow
 

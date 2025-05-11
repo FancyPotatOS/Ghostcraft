@@ -7,6 +7,8 @@ loot give @s loot ghostcraft:kit/archer/bow
 
 loot give @s loot ghostcraft:kit/archer/grappling_hook
 
+loot give @s loot ghostcraft:kit/archer/speed_sugar
+
 loot give @s loot ghostcraft:kit/archer/arrows
 
 item replace entity @s armor.chest with minecraft:leather_chestplate[dyed_color=13356031,unbreakable={},tooltip_display={hidden_components:["enchantments","dyed_color","enchantment_glint_override","unbreakable"]},enchantment_glint_override=false,enchantments={"binding_curse":1,"vanishing_curse":1}]

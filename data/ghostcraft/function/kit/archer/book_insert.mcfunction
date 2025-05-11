@@ -2,7 +2,7 @@
 data modify entity @s equipment.mainhand.components."minecraft:written_book_content".pages append value {"raw":\
 [\
     {\
-        "text":"     -= Archer =-                         Equipment\n- Stone Sword\n- Bow\n- 32 Arrows\n- Leather Armor\n  - No helmet\n- Grappling Hook\n- Fall damage\n\n\n         "\
+        "text":"     -= Archer =-                         Equipment\n- Stone Sword\n- Bow\n- 32 Arrows\n- Leather Armor\n  - No helmet\n- Grappling Hook\n- 2 Speed Sugar\n- No fall damage\n\n         "\
     },\
     {\
         "text":"[Select]",\

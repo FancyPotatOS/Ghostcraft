@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Speed Sugar",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 0.5,
+                  "animation": "eat",
+                  "sound": "minecraft:entity.generic.eat",
+                  "has_consume_particles": true,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:speed",
+                          "amplifier": 1,
+                          "duration": 80,
+                          "ambient": true,
+                          "show_particles": true,
+                          "show_icon": false
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:play_sound",
+                      "sound": "minecraft:entity.player.burp"
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Consume to gain a speed boost!",
+                    "color": "gray"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "kit.archer.speed_sugar"
+                },
+                "score": "ghostcraft.config"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
