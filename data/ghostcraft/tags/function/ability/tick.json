@@ -1,6 +1,7 @@
 {
     "values": [
         "ghostcraft:ability/cling/test/tick",
-        "ghostcraft:ability/ghost_energy/test/tick"
+        "ghostcraft:ability/ghost_energy/test/tick",
+        "ghostcraft:ability/damage_indicator/tick"
     ]
 }

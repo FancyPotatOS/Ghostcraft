@@ -1,0 +1,39 @@
+#
+#   Effect
+#   
+#   Purpose: To display a damage effect from this player based on the score 'difference ghostcraft.game.ghosthunt.damage_indicators.current_health'
+#
+#   Input: None
+#
+
+
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches ..-10 run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"red","text":"💀"},background:16711680}
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches -9 run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"red","text":"-9"},background:16711680}
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches -8 run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"red","text":"-8"},background:16711680}
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches -7 run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"red","text":"-7"},background:16711680}
+
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches -6 run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"gold","text":"-6"},background:16711680}
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches -5 run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"gold","text":"-5"},background:16711680}
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches -4 run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"gold","text":"-4"},background:16711680}
+
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches -3 run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"yellow","text":"-3"},background:16711680}
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches -2 run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"yellow","text":"-2"},background:16711680}
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches -1 run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"yellow","text":"-1"},background:16711680}
+
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches 1 run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"#a2faa2","text":"1"},background:16711680}
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches 2 run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"#a2faa2","text":"2"},background:16711680}
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches 3 run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"#a2faa2","text":"3"},background:16711680}
+
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches 4 run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"#80f780","text":"4"},background:16711680}
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches 5 run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"#80f780","text":"5"},background:16711680}
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches 6 run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"#80f780","text":"6"},background:16711680}
+
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches 7 run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"green","text":"7"},background:16711680}
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches 8 run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"green","text":"8"},background:16711680}
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches 9 run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"green","text":"9"},background:16711680}
+execute if score difference ghostcraft.game.ghosthunt.damage_indicators.old_health matches 10.. run summon text_display ~ ~2.2 ~ {view_range:10000f,billboard:"center",alignment:"center",Tags:["ghostcraft.ability.damage_indicator.text","ghostcraft.ability.damage_indicator.text.new"],brightness:{sky:15,block:15},text:{"color":"green","text":"❤"},background:16711680}
+
+scoreboard players operation @e[tag=ghostcraft.ability.damage_indicator.text.new] ghostcraft.game.ghosthunt.damage_indicators.old_health = ability.damage_indicator.duration ghostcraft.config
+
+tag @e[tag=ghostcraft.ability.damage_indicator.text.new] remove ghostcraft.ability.damage_indicator.text.new
+

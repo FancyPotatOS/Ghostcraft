@@ -18,6 +18,9 @@ scoreboard players set version ghostcraft.master 6
 scoreboard objectives add ghostcraft.game.ghosthunt.ghost_kills playerKillCount
 scoreboard objectives add ghostcraft.game.ghost_choice_weight dummy
 
+# Damage indicators
+scoreboard objectives add ghostcraft.game.ghosthunt.damage_indicators.current_health dummy
+scoreboard objectives add ghostcraft.game.ghosthunt.damage_indicators.old_health dummy
 
 scoreboard objectives add ghostcraft.kit.ghost.suffocation_immunity dummy
 scoreboard players set last_id ghostcraft.kit.ghost.suffocation_immunity 1
@@ -31,6 +34,7 @@ scoreboard players set max_time ghostcraft.item.grappling_hook.in_entity_timer 2
 scoreboard players set kit.ghost.particle.cycle ghostcraft.config 12
 scoreboard players set kit.archer.speed_sugar ghostcraft.config 3
 scoreboard players set kit.ghost.teleport_crystal.count ghostcraft.config 10
+scoreboard players set ability.damage_indicator.duration ghostcraft.config 20
 
 team add ghostcraft.game.ghosthunt.survivor {"text":"Survivors","color":"blue","bold":true,"italic":false}
 team modify ghostcraft.game.ghosthunt.survivor color blue

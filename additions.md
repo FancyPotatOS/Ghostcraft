@@ -4,23 +4,25 @@
 - Ideas
 
   - Support
-    - Replenishes items
     - See players health
-  
-  - See vote stats
   - See remaining health at end of game
-  - Other players cannot pick up own items
   - Damage on ghost/survivor stats
   - Final kill
-  - damage indictaors?
+  - See vote stats
+
+  - Anti-camping mechanic
+    - 'Amongus'-like tasks to let the timer go down
+    - If staying around too long, gets 'haunted' with penalties
+  
+  - Players cannot pick up other's items
   - "How To Play" book
     - Ghost kit
     - Gameplay
   
   - Maybe
-    - lower machinebow armor
-    - anti-camping mechanic
-    - Retreat ability
+    - Support
+      - Replenishes items
+    - Lower machinebow armor
     - A 'Mauler' kit with mace/boost effect
 
 - Potential particles

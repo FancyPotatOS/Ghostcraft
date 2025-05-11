@@ -39,9 +39,11 @@ For example, to change the amount of arrows an archer to 15 starts with, run `/s
         
 - Abilities
     - `ability.ghost_energy.max_energy`
-    - The amount of energy a ghost can have. Increases by 1 every tick.
+        - The amount of energy a ghost can have. Increases by 1 every tick.
     - `ability.pounce.energy_requirement`
-    - The amount of energy a Pounce requires.
+        - The amount of energy a Pounce requires.
+    - `ability.damage_indicator.duration`
+        - How long the damage indicators last
 
 - Items
     - Boost
