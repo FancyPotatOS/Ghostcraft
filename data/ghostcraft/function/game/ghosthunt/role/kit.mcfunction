@@ -11,3 +11,5 @@ execute as @e[type=#ghostcraft:player,tag=ghostcraft.spectator] run function gho
 execute as @e[type=#ghostcraft:player,tag=ghostcraft.survivor] run function ghostcraft:kit/give
 execute as @e[type=#ghostcraft:player,tag=ghostcraft.ghost] run function ghostcraft:kit/ghost/give
 
+effect give @e[type=#ghostcraft:player,tag=ghostcraft.survivor] resistance 1 4 true
+

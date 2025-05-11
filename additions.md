@@ -2,7 +2,6 @@
 ## Additions
 
 - Ideas
-  - Resistance 5 on players when game starts
 
   - lower machinebow armor
   - support+archer needs a little boost
