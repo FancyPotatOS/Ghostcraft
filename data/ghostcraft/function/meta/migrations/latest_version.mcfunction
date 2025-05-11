@@ -18,6 +18,11 @@ scoreboard players set version ghostcraft.master 6
 scoreboard objectives add ghostcraft.game.ghosthunt.ghost_kills playerKillCount
 scoreboard objectives add ghostcraft.game.ghost_choice_weight dummy
 
+
+scoreboard objectives add ghostcraft.kit.ghost.suffocation_immunity dummy
+scoreboard players set last_id ghostcraft.kit.ghost.suffocation_immunity 1
+
+
 # Two minutes, minus a couple ticks to avoid any minute-based activations
 scoreboard players set game.ghosthunt.minimum_time ghostcraft.config 1198
 scoreboard players set max_time ghostcraft.item.grappling_hook.in_entity_timer 20
@@ -25,17 +30,19 @@ scoreboard players set max_time ghostcraft.item.grappling_hook.in_entity_timer 2
 # New config items
 scoreboard players set kit.ghost.particle.cycle ghostcraft.config 12
 scoreboard players set kit.archer.speed_sugar ghostcraft.config 3
+scoreboard players set kit.ghost.teleport_crystal.count ghostcraft.config 10
 
 team add ghostcraft.game.ghosthunt.survivor {"text":"Survivors","color":"blue","bold":true,"italic":false}
 team modify ghostcraft.game.ghosthunt.survivor color blue
-team modify ghostcraft.game.ghosthunt.survivor deathMessageVisibility hideForOtherTeams
 team modify ghostcraft.game.ghosthunt.survivor prefix {"text":"⚔ ","color":"blue"}
 team modify ghostcraft.game.ghosthunt.survivor suffix {"text":" ⚔","color":"blue"}
 
 team add ghostcraft.game.ghosthunt.ghost {"text":"Ghosts","color":"red","bold":true,"italic":false}
 team modify ghostcraft.game.ghosthunt.ghost color red
-team modify ghostcraft.game.ghosthunt.ghost deathMessageVisibility always
 team modify ghostcraft.game.ghosthunt.ghost prefix {"text":"👻 ","color":"red"}
 team modify ghostcraft.game.ghosthunt.ghost suffix {"text":" 👻","color":"red"}
+
+
+gamerule showDeathMessages true
 
 

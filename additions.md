@@ -7,14 +7,16 @@
     - Replenishes items
     - See players health
   
-  - Blink stability
   - See vote stats
   - See remaining health at end of game
   - Other players cannot pick up own items
   - Damage on ghost/survivor stats
   - Final kill
   - damage indictaors?
-    
+  - "How To Play" book
+    - Ghost kit
+    - Gameplay
+  
   - Maybe
     - lower machinebow armor
     - anti-camping mechanic

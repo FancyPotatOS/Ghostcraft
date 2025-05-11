@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "ghostcraft.item.teleport_crystal.consumed": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:cookie",
+          "components": {
+            "minecraft:custom_model_data": {
+              "strings": [
+                "teleport_crystal"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:item/teleport_crystal/advancement"
+  }
+}

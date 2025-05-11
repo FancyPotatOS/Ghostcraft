@@ -16,4 +16,10 @@ function ghostcraft:ability/ghost_block/block_launch/store_player_diff
 
 function ghostcraft:ability/ghost_block/block_launch/summon_block with storage ghostcraft:data block_launch
 
+# Save the owner of the launched block
+tag @s add ghostcraft.crafting_table.falling_block.launcher
+execute as @e[tag=ghostcraft.crafting_table.falling_block.new] run scoreboard players operation @s ghostcraft.uuid = @p[tag=ghostcraft.crafting_table.falling_block.launcher] ghostcraft.uuid
+tag @e[tag=ghostcraft.crafting_table.falling_block.new] remove ghostcraft.crafting_table.falling_block.new
+tag @s remove ghostcraft.crafting_table.falling_block.launcher
+
 setblock ~ ~ ~ air

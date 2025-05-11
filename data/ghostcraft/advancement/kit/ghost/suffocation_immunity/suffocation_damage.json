@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "ghostcraft.kit.ghost.suffocation_damage": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "ghostcraft:kit/ghost/suffocation_immunity/wearing"
+          }
+        ],
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "ghostcraft:suffocation_damage",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:kit/ghost/suffocation_immunity/advancement/suffocation_damage"
+  }
+}

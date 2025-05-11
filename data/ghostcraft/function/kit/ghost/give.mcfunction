@@ -5,14 +5,28 @@ loot give @s loot ghostcraft:ghost/stab
 loot give @s loot ghostcraft:ghost/scare
 
 # Consumables
-loot give @s loot ghostcraft:ghost/blink
 loot give @s loot ghostcraft:ghost/crafting_table
 loot give @s loot ghostcraft:ghost/flashbang
 loot give @s loot ghostcraft:ghost/frag_grenade
 loot give @s loot ghostcraft:ghost/poison_grenade
 
+# Infinite
+loot give @s loot ghostcraft:ghost/blink
+loot give @s loot ghostcraft:ghost/teleport_crystal
+
 # Armor items
-item replace entity @s armor.feet with minecraft:netherite_boots[unbreakable={},tooltip_display={"hidden_components":["enchantments", "attribute_modifiers"]},enchantment_glint_override=false,enchantments={"binding_curse":1,"vanishing_curse":1,projectile_protection:7,"ghostcraft:ability/pounce/pounce":1},attribute_modifiers=[{type:"minecraft:armor",amount:0,id:"ghostcraft.kit.ghost.feet",operation:add_value},{type:"minecraft:armor_toughness",amount:0,id:"ghostcraft.kit.ghost.feet",operation:add_value},{type:"minecraft:knockback_resistance",amount:-0,id:"ghostcraft.kit.ghost.feet",operation:add_value}]]
+item replace entity @s armor.feet with minecraft:netherite_boots\
+[\
+    unbreakable={},\
+    tooltip_display={"hidden_components":["enchantments", "attribute_modifiers"]},\
+    enchantment_glint_override=false,\
+    enchantments={"binding_curse":1,"vanishing_curse":1,projectile_protection:7,"ghostcraft:ability/pounce/pounce":1,"ghostcraft:kit/ghost/suffocation_immunity":1},\
+    attribute_modifiers=\
+    [\
+        {type:"minecraft:armor",amount:0,id:"ghostcraft.kit.ghost.feet",operation:add_value},\
+        {type:"minecraft:armor_toughness",amount:0,id:"ghostcraft.kit.ghost.feet",operation:add_value},\
+        {type:"minecraft:knockback_resistance",amount:-0,id:"ghostcraft.kit.ghost.feet",operation:add_value}\
+    ]]
 
 # Add abilities
 function ghostcraft:ability/feather_falling/grant

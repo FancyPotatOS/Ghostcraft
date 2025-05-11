@@ -98,6 +98,8 @@ For example, to change the amount of arrows an archer to 15 starts with, run `/s
             - The duration (in ticks) before the Frag Grenade explodes
         - `kit.ghost.frag_grenade.cycle`
             - How much time (in ticks) between the Frag Grenade's beeping when thrown
+        - `kit.ghost.teleport_crystal.count`
+            - The amount of Teleport Crystals you start with
         - `kit.ghost.ghost_compass.time`
             - How much time (int ticks) is left when the ghost is given the compass (Set to -1 to disable)
         - `ability.cling.regain_ability_energy`

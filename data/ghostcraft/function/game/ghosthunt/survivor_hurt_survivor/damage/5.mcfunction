@@ -6,5 +6,6 @@
 #   Input: None
 #
 
-damage @s 12 magic
+
+damage @s 12 ghostcraft:friendly_fire
 

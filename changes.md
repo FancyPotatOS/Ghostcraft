@@ -56,6 +56,10 @@ $\color{Orange}{\textsf{∼}}$ Clears the map of all projectiles and items corre
 
 ### Ghost
 
+$\color{Green}{\textsf{+}}$ Ghost no longer takes wall suffocation damage
+
+$\color{Green}{\textsf{+}}$ Ghost has an item that returns it to the spawn after 4 seconds (helps prevent wall softlocks)
+
 $\color{Green}{\textsf{+}}$ The timer is set to at least a minute left when a ghost kills a survivor
 
 ### Survivor
@@ -89,6 +93,8 @@ $\color{Green}{\textsf{+}}$ Shotbow now has Quick Charge II again<br/>
 $\color{Green}{\textsf{+}}$ Hunter has a quick netherite pickaxe for attacking<br/>
 
 ## Miscellaneous
+
+$\color{Green}{\textsf{+}}$ Players are now able to see death messages
 
 $\color{Green}{\textsf{+}}$ Books now show current configuration values when given
 
