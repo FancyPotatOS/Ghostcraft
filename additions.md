@@ -5,7 +5,6 @@
 
   - Support
     - Replenishes items
-	  - Has healing aura
     - See players health
   
   - Blink stability

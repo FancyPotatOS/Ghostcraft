@@ -14,3 +14,4 @@ scoreboard players add @s ghostcraft.game.ghost_choice_weight 1
 
 attribute @s minecraft:attack_speed modifier add ghostcraft.game.ghosthunt.survivor.attack_speed 1000000 add_value
 
+team join ghostcraft.game.ghosthunt.survivor

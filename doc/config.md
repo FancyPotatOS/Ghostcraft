@@ -100,10 +100,10 @@ For example, to change the amount of arrows an archer to 15 starts with, run `/s
             - How much time (in ticks) between the Frag Grenade's beeping when thrown
         - `kit.ghost.ghost_compass.time`
             - How much time (int ticks) is left when the ghost is given the compass (Set to -1 to disable)
-        - `effect.ambient_ghost.particles`
-            - The ambient particle of the ghost
-            - Defaults to the barrier particle if not set
-            - 0 is the smoke particle (And the only value at the moment)
+        - `ability.cling.regain_ability_energy`
+            - How much energy the ghost needs after spending it all to be able to cling again
+        - `effect.ghost.hurt_effect`
+            - The effect a ghost gives off when hurt. Currently only supports '0'.
 
 - Technical
     - `is_server`

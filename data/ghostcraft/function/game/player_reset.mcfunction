@@ -13,6 +13,9 @@ effect clear @s instant_health
 tag @s remove ghostcraft.survivor
 tag @s remove ghostcraft.ghost
 
+team leave ghostcraft.game.ghosthunt.survivor
+team leave ghostcraft.game.ghosthunt.ghost
+
 attribute @s minecraft:attack_speed modifier remove ghostcraft.game.ghosthunt.survivor.attack_speed
 
 function #ghostcraft:player/reset

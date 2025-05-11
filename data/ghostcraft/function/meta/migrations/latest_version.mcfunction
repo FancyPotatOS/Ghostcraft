@@ -26,4 +26,16 @@ scoreboard players set max_time ghostcraft.item.grappling_hook.in_entity_timer 2
 scoreboard players set kit.ghost.particle.cycle ghostcraft.config 12
 scoreboard players set kit.archer.speed_sugar ghostcraft.config 3
 
+team add ghostcraft.game.ghosthunt.survivor {"text":"Survivors","color":"blue","bold":true,"italic":false}
+team modify ghostcraft.game.ghosthunt.survivor color blue
+team modify ghostcraft.game.ghosthunt.survivor deathMessageVisibility hideForOtherTeams
+team modify ghostcraft.game.ghosthunt.survivor prefix {"text":"⚔ ","color":"blue"}
+team modify ghostcraft.game.ghosthunt.survivor suffix {"text":" ⚔","color":"blue"}
+
+team add ghostcraft.game.ghosthunt.ghost {"text":"Ghosts","color":"red","bold":true,"italic":false}
+team modify ghostcraft.game.ghosthunt.ghost color red
+team modify ghostcraft.game.ghosthunt.ghost deathMessageVisibility always
+team modify ghostcraft.game.ghosthunt.ghost prefix {"text":"👻 ","color":"red"}
+team modify ghostcraft.game.ghosthunt.ghost suffix {"text":" 👻","color":"red"}
+
 

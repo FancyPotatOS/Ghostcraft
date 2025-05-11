@@ -24,3 +24,5 @@ scoreboard players remove ghosts_left ghostcraft.temp 1
 # Reset our ghost choice weight
 scoreboard players set @s ghostcraft.game.ghost_choice_weight 0
 
+team join ghostcraft.game.ghosthunt.ghost
+
