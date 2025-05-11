@@ -3,7 +3,6 @@
 
 - Ideas
 
-  - remove all attack delay from survivors
   - Support
     - Replenishes items
 	  - Has healing aura

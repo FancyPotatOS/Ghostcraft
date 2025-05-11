@@ -60,7 +60,9 @@ $\color{Green}{\textsf{+}}$ The timer is set to at least a minute left when a gh
 
 ### Survivor
 
-$\color{Green}{\textsf{+}}$ Players start with Resistance V for 1 second when a game starts to prevent any transition damage
+$\color{Green}{\textsf{+}}$ Survivors have infinite attack speed
+
+$\color{Green}{\textsf{+}}$ Survivors start with Resistance V for 1 second when a game starts to prevent any transition damage
 
 ## Kits
 
