@@ -2,7 +2,27 @@
 data modify entity @s equipment.mainhand.components."minecraft:written_book_content".pages append value {"raw":\
 [\
     {\
-        "text":"     -= Archer =-                         Equipment\n- Stone Sword\n- Bow\n- 32 Arrows\n- Leather Armor\n  - No helmet\n- Grappling Hook\n- 2 Speed Sugar\n- No fall damage\n\n         "\
+        "text":"     -= Archer =-\n\nEquipment\n- Stone Sword\n- Bow\n- "\
+    },\
+    {\
+        "score":\
+        {\
+            "name":"kit.archer.arrow_count",\
+            "objective":"ghostcraft.config"\
+        }\
+    },\
+    {\
+        "text":" Arrows\n- Leather Armor\n  - No helmet\n- Grappling Hook\n- "\
+    },\
+    {\
+        "score":\
+        {\
+            "name":"kit.archer.speed_sugar",\
+            "objective":"ghostcraft.config"\
+        }\
+    },\
+    {\
+        "text":" Speed Sugar\n- No fall damage\n\n         "\
     },\
     {\
         "text":"[Select]",\
