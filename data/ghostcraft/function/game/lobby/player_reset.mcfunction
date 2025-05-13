@@ -7,12 +7,9 @@
 #
 
 
-team leave @s
+attribute @s minecraft:attack_damage modifier remove ghostcraft.game.lobby.player
 
-effect clear @s instant_health
-effect clear @s resistance
-
-function #ghostcraft:player/reset
+function ghostcraft:ability/feather_falling/revoke
 
 execute at @e[type=marker,tag=ghostcraft.map.lobby,sort=random,limit=1] run spawnpoint @s ~ ~ ~
 

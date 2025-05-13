@@ -9,5 +9,6 @@
 
 function ghostcraft:game/errors/new_player_joined
 
-function ghostcraft:game/lobby/player_setup
+# Re-call this function if the phase changed, it's that phase's problem now
+execute unless score phase ghostcraft.master matches 1 run function #ghostcraft:game/new_player
 

@@ -19,7 +19,7 @@ execute if score @a[tag=ghostcraft.game.map_change.calculate_vote.winner,limit=1
 tellraw @a [{"selector": "@a[tag=ghostcraft.game.map_change.calculate_vote.winner,limit=1]"},{"text":" won the vote!"}]
 function ghostcraft:game/map_change/to_lobby
 
-execute as @e[type=#ghostcraft:player] run function ghostcraft:logic/clear_entity
+execute as @e[type=#ghostcraft:player] run function ghostcraft:game/player_reset
 
 scoreboard players operation map ghostcraft.config = target_map ghostcraft.temp
 

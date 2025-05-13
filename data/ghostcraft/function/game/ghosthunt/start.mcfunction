@@ -9,17 +9,11 @@
 
 execute unless function ghostcraft:game/player_check run return run function ghostcraft:game/errors/not_enough_players
 
-execute as @e[type=#ghostcraft:player] run function ghostcraft:logic/clear_entity
-effect clear @e[type=#ghostcraft:player]
-scoreboard players reset @a ghostcraft.game.ghosthunt.ghost_kills
-
-tag @e[type=#ghostcraft:player] remove ghostcraft.game.ghosthunt.role.ghost
-tag @e[type=#ghostcraft:player] remove ghostcraft.game.ghosthunt.role.survivor
+execute as @e[type=#ghostcraft:player] run function ghostcraft:game/player_reset
 
 # Choose roles and kit out
 function ghostcraft:game/ghosthunt/role/assign
 function ghostcraft:game/ghosthunt/role/kit
-
 function ghostcraft:game/ghosthunt/role/tp
 
 function ghostcraft:game/ghosthunt/set_time

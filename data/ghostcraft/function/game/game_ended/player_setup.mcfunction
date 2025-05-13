@@ -6,7 +6,14 @@
 #   Input: None
 #
 
-function ghostcraft:game/ghosthunt/on_death
 
-title @s title {"text":""}
-title @s actionbar {"text":"A game is in progress, please wait..."}
+function ghostcraft:game/player_reset
+gamemode spectator
+tag @s add ghostcraft.spectating
+
+tp @s @e[type=#ghostcraft:player,limit=1,tag=ghostcraft.ghost]
+tp @s @e[type=#ghostcraft:player,limit=1,tag=ghostcraft.survivor]
+
+title @s actionbar {"text":"A game just finished, please wait..."}
+title @s title ''
+

@@ -3,11 +3,6 @@
 
 - Ideas
 
-  - Fix 'one player left' messages
-  - Damage on ghost/survivor stats
-  - Final kill
-  - See vote stats
-
   - Anti-camping mechanic
     - 'Amongus'-like tasks to let the timer go down
     - If staying around too long, gets 'haunted' with penalties
@@ -16,6 +11,11 @@
   - "How To Play" book
     - Ghost kit
     - Gameplay
+
+  - Fix 'one player left' messages
+  - Damage on ghost/survivor stats
+  - Final kill
+  - See vote stats
   
   - Maybe
     - Support
