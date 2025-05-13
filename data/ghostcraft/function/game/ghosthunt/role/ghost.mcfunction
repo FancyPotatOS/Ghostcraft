@@ -18,6 +18,7 @@ scoreboard players operation target_ghost_choice_weight ghostcraft.temp -= @s gh
 execute unless score target_ghost_choice_weight ghostcraft.temp matches ..-1 run return 0
 
 tag @s add ghostcraft.ghost
+tag @s add ghostcraft.game.ghosthunt.role.ghost
 
 scoreboard players remove ghosts_left ghostcraft.temp 1
 

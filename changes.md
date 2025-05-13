@@ -54,6 +54,8 @@ $\color{Green}{\textsf{+}}$ Ghost particle frequency now a config item
 
 $\color{Orange}{\textsf{∼}}$ Clears the map of all projectiles and items correctly 
 
+$\color{Orange}{\textsf{∼}}$ Shows the health or death of the remaining team when the game ends 
+
 ### Ghost
 
 $\color{Green}{\textsf{+}}$ Ghost no longer takes wall suffocation damage

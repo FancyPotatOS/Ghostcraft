@@ -3,9 +3,7 @@
 
 - Ideas
 
-  - Support
-    - See players health
-  - See remaining health at end of game
+  - Fix 'one player left' messages
   - Damage on ghost/survivor stats
   - Final kill
   - See vote stats
@@ -21,6 +19,7 @@
   
   - Maybe
     - Support
+      - See players health
       - Replenishes items
     - Lower machinebow armor
     - A 'Mauler' kit with mace/boost effect

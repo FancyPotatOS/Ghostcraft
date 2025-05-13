@@ -13,6 +13,9 @@ execute as @e[type=#ghostcraft:player] run function ghostcraft:logic/clear_entit
 effect clear @e[type=#ghostcraft:player]
 scoreboard players reset @a ghostcraft.game.ghosthunt.ghost_kills
 
+tag @e[type=#ghostcraft:player] remove ghostcraft.game.ghosthunt.role.ghost
+tag @e[type=#ghostcraft:player] remove ghostcraft.game.ghosthunt.role.survivor
+
 # Choose roles and kit out
 function ghostcraft:game/ghosthunt/role/assign
 function ghostcraft:game/ghosthunt/role/kit
