@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "ghostcraft.kit.support.crate.grenade.consumed": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:cookie",
+          "components": {
+            "minecraft:custom_model_data": {
+              "strings": [
+                "grenade_crate"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:kit/support/crate/grenade"
+  }
+}

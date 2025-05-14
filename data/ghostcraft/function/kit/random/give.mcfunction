@@ -16,8 +16,9 @@ function ghostcraft:kit/random/macro/get_kit with storage ghostcraft:data macro
 
 # Set player's random class
 scoreboard players operation @s ghostcraft.class = kit.random.kit_choice ghostcraft.temp
+scoreboard players operation @s ghostcraft.kit.random.chosen_kit = kit.random.kit_choice ghostcraft.temp
 
-tellraw @a {"score":{name:"@s",objective:"ghostcraft.class"}}
+#tellraw @a {"score":{name:"@s",objective:"ghostcraft.class"}}
 
 # Re-call this method. Thankfully, now that the ghostcraft.class value is NOT 7, this won't be recursive
 function #ghostcraft:kit/give

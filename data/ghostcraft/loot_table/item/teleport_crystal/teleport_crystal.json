@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 4,
+                  "animation": "block",
+                  "sound": "minecraft:block.conduit.attack.target",
+                  "has_consume_particles": false
+                },
+                "minecraft:custom_name": {
+                  "text": "Teleport Crystal",
+                  "color": "light_purple",
+                  "font": "minecraft:default",
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false
+                },
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "teleport_crystal"
+                  ]
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Can be consumed",
+                      "italic": false,
+                      "color": "gray"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Returns you back to your spawn",
+                      "italic": false,
+                      "color": "gray"
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

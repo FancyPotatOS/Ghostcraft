@@ -4,8 +4,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:arrow",
+          "type": "minecraft:loot_table",
+          "value": "ghostcraft:item/arrows/machine_bow_arrow",
           "functions": [
             {
               "function": "minecraft:set_count",

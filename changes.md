@@ -56,6 +56,8 @@ $\color{Orange}{\textsf{∼}}$ Clears the map of all projectiles and items corre
 
 $\color{Orange}{\textsf{∼}}$ Shows the health or death of the remaining team when the game ends 
 
+$\color{Orange}{\textsf{∼}}$ All players can no longer pick up items that don't belong to them. This prevents sharing items, for the exception of the Support's item crates
+
 ### Ghost
 
 $\color{Green}{\textsf{+}}$ Ghost no longer takes wall suffocation damage
@@ -84,7 +86,9 @@ $\color{Green}{\textsf{+}}$ Archer has Speed Sugar, a consumable speed boost<br/
 
 ### Support
 
-$\color{Green}{\textsf{+}}$ Support now has an infinite Instant Health I Splash Potion, that can be used every 15 seconds<br/>
+$\color{Green}{\textsf{+}}$ Support has an infinite Instant Health I Splash Potion, that can be used every 15 seconds<br/>
+
+$\color{Green}{\textsf{+}}$ Support has different **_Item Crates_** that drop key items for different classes<br/>
 
 ### Shotbow
 

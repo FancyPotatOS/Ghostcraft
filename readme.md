@@ -95,7 +95,7 @@ This datapack requires the included resource pack. Here is some of the <b>server
 
 It includes a google drive link to my copy of the resource pack, so feel free to use it.
 - require-resource-pack=true
-- resource-pack=https://drive.google.com/uc?export=download&id=1eBihk_qf_e67KmNqcsr95aGCNRxn_yVU
+- resource-pack=https://drive.google.com/uc?export=download&id=1flsVS2nQpInn5YbkMbJyvjxR1YuaBcwA
+- resource-pack-sha1=588a51a43c05f828a8fd80967a3d1fe446aea105
 - resource-pack-prompt=This resource pack is required to play GhostCraft. Compatible with vanilla Minecraft.
-
 

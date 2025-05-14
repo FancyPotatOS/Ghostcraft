@@ -53,6 +53,29 @@ The player's current class is set in the scoreboard `ghostcraft.class`. You will
     - Append your kit ID to the list in storage `ghostcraft:data random_kits`
     - Ensure that calls to your kit-related functions (like ability-related tick functions and items) work even if the player's `ghostcraft.class` score does NOT match!
         - For example, your kit logic finds the player mid-game by some kind of tag or item, rather that relying on that particular scoreboard value
+- `#ghostcraft:game/ghosthunt/item_ownership/check_compliance`
+    - <b>Tag all players as able or unable to pick up this item</b>
+    - Tag all players with the tag `ghostcraft.game.ghosthunt.item_ownership.compliant` or `ghostcraft.game.ghosthunt.item_ownership.discompliant` to allow/prevent them (respectively) from picking up this item
+    - Current list of kit-related compliance tags
+        - `ghostcraft.game.ghosthunt.item_ownership.compliance.self`
+            - The thrower can pick up the item
+        - `ghostcraft.game.ghosthunt.item_ownership.compliance.anti_self`
+            - The thrower cannot pick up the item
+        - `ghostcraft.game.ghosthunt.item_ownership.compliance.kit.has_arrow`
+            - The kit can pick up regular Arrows
+        - `ghostcraft.game.ghosthunt.item_ownership.compliance.kit.has_grenade`
+            - The kit can pick up Grenades
+        - `ghostcraft.game.ghosthunt.item_ownership.compliance.kit.has_speed_sugar`
+            - The kit can pick up Speed Sugar
+        - `ghostcraft.game.ghosthunt.item_ownership.compliance.kit.has_machine_bow_arrow`
+            - The kit can pick up Machine Bow Arrows
+        - `ghostcraft.game.ghosthunt.item_ownership.compliance.kit.has_flare`
+            - The kit can pick up Flares
+        - `ghostcraft.game.ghosthunt.item_ownership.compliance.kit.*`
+            - The kit can pick up kit-related items (replace '*' with the kit)
+            - `ghostcraft.game.ghosthunt.item_ownership.compliance.kit.anti_*`
+                - The inverted logic to this. Tag all players with this kit as discompliant
+    - You can find an example of this in the function `ghostcraft:kit/archer/item_ownership/check_compliance`
 
 ### Abilities
 

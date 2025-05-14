@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "ghostcraft.kit.support.crate.machine_bow_arrow.consumed": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:cookie",
+          "components": {
+            "minecraft:custom_model_data": {
+              "strings": [
+                "machine_bow_arrow_crate"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:kit/support/crate/machine_bow_arrow"
+  }
+}

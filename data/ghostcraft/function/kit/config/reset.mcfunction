@@ -14,7 +14,7 @@ scoreboard players set kit.soldier.potion.splash.count ghostcraft.config 1
 scoreboard players set kit.soldier.potion.normal.count ghostcraft.config 1
 scoreboard players set kit.soldier.grenade_count ghostcraft.config 3
 
-## Machinebow
+## Machine Bow
 scoreboard players set kit.machine_bow.arrow_count ghostcraft.config 32
 
 ## Hunter

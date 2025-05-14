@@ -65,6 +65,16 @@ For example, to change the amount of arrows an archer to 15 starts with, run `/s
     - Support
         - `kit.support.potion.count`
             - The amount of Instant Health II potions you start with
+        - `kit.support.crate.arrow.count`
+            - The amount of Arrow Crates you start with
+        - `kit.support.crate.speed_sugar.count`
+            - The amount of Speed Sugar Crates you start with
+        - `kit.support.crate.grenade.count`
+            - The amount of Grenades Crates you start with
+        - `kit.support.crate.machine_bow_arrow.count`
+            - The amount of Machine Bow Arrow Crates you start with
+        - `kit.support.crate.flare.count`
+            - The amount of Flare Crates you start with
     - Soldier
         - `kit.soldier.grenade_count`
             - The amount of grenades you start with
@@ -72,7 +82,7 @@ For example, to change the amount of arrows an archer to 15 starts with, run `/s
             - The amount of Courage splash potions you start with
         - `kit.soldier.potion.normal.count`
             - The amount of normal Courage potions you start with
-    - Machinebow
+    - Machine Bow
         - `kit.machine_bow.arrow_count`
             - The amount of arrows you start with
     - Ghost

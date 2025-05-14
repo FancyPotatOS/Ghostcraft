@@ -2,12 +2,13 @@
 ## Additions
 
 - Ideas
+  
+  - Grenade ping sound distance
 
   - Anti-camping mechanic
     - 'Amongus'-like tasks to let the timer go down
     - If staying around too long, gets 'haunted' with penalties
-  
-  - Players cannot pick up other's items
+
   - "How To Play" book
     - Ghost kit
     - Gameplay
@@ -21,7 +22,7 @@
     - Support
       - See players health
       - Replenishes items
-    - Lower machinebow armor
+    - Lower machine bow armor
     - A 'Mauler' kit with mace/boost effect
 
 - Potential particles

@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 0.333,
+                  "animation": "block",
+                  "sound": "minecraft:entity.item.pickup",
+                  "has_consume_particles": true,
+                  "on_consume_effects": []
+                },
+                "minecraft:custom_name": {
+                  "text": "Flare Crate",
+                  "color": "#a37f4d",
+                  "font": "minecraft:default",
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false
+                },
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "flare_crate"
+                  ]
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "Can be consumed",
+                      "italic": false,
+                      "color": "gray"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Drops Flares that can be",
+                      "italic": true,
+                      "color": "gray"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "   picked up by classes that use it",
+                      "italic": true,
+                      "color": "gray"
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
