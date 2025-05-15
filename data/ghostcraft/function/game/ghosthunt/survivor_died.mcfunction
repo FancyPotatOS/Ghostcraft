@@ -7,6 +7,10 @@
 #
 
 
+tag @s add ghostcraft.game.ghosthunt.player.died
+execute as @e[type=marker,tag=ghostcraft.game.ghosthunt.anti_camp.player_marker] if score @s ghostcraft.uuid = @e[type=#ghostcraft:player,tag=ghostcraft.game.ghosthunt.player.died,limit=1,sort=nearest] ghostcraft.uuid run kill @s
+tag @s remove ghostcraft.game.ghosthunt.player.died
+
 # Tell everybody if one survivor is left
 scoreboard players set survivors_left ghostcraft.temp -1
 execute as @e[type=#ghostcraft:player,tag=ghostcraft.survivor] run scoreboard players add survivors_left ghostcraft.temp 1

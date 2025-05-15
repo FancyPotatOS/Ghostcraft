@@ -34,3 +34,4 @@ execute if score ghosthunt.timer.ended ghostcraft.temp matches 1 run return 0
 execute as @e[type=#ghostcraft:player,tag=ghostcraft.ghost] at @s run particle minecraft:glow ~ ~1 ~ 0.1 0.5 0.1 0 2 force @a[tag=ghostcraft.spectating]
 
 function ghostcraft:game/ghosthunt/item_ownership/tick
+function ghostcraft:game/ghosthunt/anti_camp/tick

@@ -45,6 +45,17 @@ scoreboard players set kit.support.crate.grenade.count ghostcraft.config 2
 scoreboard players set kit.support.crate.machine_bow_arrow.count ghostcraft.config 16
 scoreboard players set kit.support.crate.flare.count ghostcraft.config 3
 
+# Anti-Camp config
+scoreboard objectives add ghostcraft.game.ghosthunt.anti_camp.lifetime dummy
+scoreboard objectives add ghostcraft.game.ghosthunt.anti_camp.tails dummy
+scoreboard players set game.ghosthunt.anti_camp.clock ghostcraft.config 60
+scoreboard players set game.ghosthunt.anti_camp.tail ghostcraft.config 20
+scoreboard players set game.ghosthunt.anti_camp.vex.lifetime ghostcraft.config 300
+scoreboard players set game.ghosthunt.anti_camp.density.alone.warning ghostcraft.config 10
+scoreboard players set game.ghosthunt.anti_camp.density.alone.fault ghostcraft.config 20
+scoreboard players set game.ghosthunt.anti_camp.density.multiple.warning ghostcraft.config 30
+scoreboard players set game.ghosthunt.anti_camp.density.multiple.fault ghostcraft.config 60
+
 team add ghostcraft.game.ghosthunt.survivor {"text":"Survivors","color":"blue","bold":true,"italic":false}
 team modify ghostcraft.game.ghosthunt.survivor color blue
 team modify ghostcraft.game.ghosthunt.survivor prefix {"text":"⚔ ","color":"blue"}

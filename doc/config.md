@@ -7,7 +7,7 @@ This is a compiled list of the config values. It changes things like  how many a
 
 The configuration is stored under the scoreboard `ghostcraft.config`. To change a value, just run `/scoreboard players set <config item> ghostcraft.config <value>`
 
-For example, to change the amount of arrows an archer to 15 starts with, run `/scoreboard players set kit.archer.arrow_count ghostcraft.config 15`
+For example, to change the amount of arrows an archer starts with to 15, run `/scoreboard players set kit.archer.arrow_count ghostcraft.config 15`
 
 
 #### Values
@@ -36,6 +36,21 @@ For example, to change the amount of arrows an archer to 15 starts with, run `/s
         - The survivors win if time runs out
     - `game.ghosthunt.minimum_time`
         - The guaranteed amount of time a ghost is given after killing a survivor
+    - `game.ghosthunt.anti_camp.clock`
+        - How often to update the anti-camp functionality (in ticks)
+        - Set to '-1' to disable
+    - `game.ghosthunt.anti_camp.tail`
+        - How long behind the player to check (One marker created every clock cycle)
+    - `game.ghosthunt.anti_camp.vex.lifetime`
+        - How long the anti-camp vexes last (in ticks)
+    - `game.ghosthunt.anti_camp.density.alone.warning`
+        - How many player's tails need to be in a 10-block radius to warn them
+    - `game.ghosthunt.anti_camp.density.alone.fault`
+        - How many player's tails need to be in a 10-block radius to trigger the anti-camp function
+    - `game.ghosthunt.anti_camp.density.multiple.warning`
+        - How many group of player's tails need to be in a 10-block radius to warn them
+    - `game.ghosthunt.anti_camp.density.multiple.fault`
+        - How many group of player's tails need to be in a 10-block radius to trigger the anti-camp function
         
 - Abilities
     - `ability.ghost_energy.max_energy`

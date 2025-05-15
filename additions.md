@@ -3,11 +3,8 @@
 
 - Ideas
   
-  - Grenade ping sound distance
-
   - Anti-camping mechanic
     - 'Amongus'-like tasks to let the timer go down
-    - If staying around too long, gets 'haunted' with penalties
 
   - "How To Play" book
     - Ghost kit

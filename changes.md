@@ -72,6 +72,8 @@ $\color{Green}{\textsf{+}}$ Survivors have infinite attack speed
 
 $\color{Green}{\textsf{+}}$ Survivors start with Resistance V for 1 second when a game starts to prevent any transition damage
 
+$\color{Green}{\textsf{+}}$ Added an anti-camping mechanic. Staying around an area (~10 block radius) for too long will eventually spawn in vexes after a warning to move around.
+
 ## Kits
 
 ### Random
@@ -86,7 +88,7 @@ $\color{Green}{\textsf{+}}$ Archer has Speed Sugar, a consumable speed boost<br/
 
 ### Support
 
-$\color{Green}{\textsf{+}}$ Support has an infinite Instant Health I Splash Potion, that can be used every 15 seconds<br/>
+$\color{Green}{\textsf{+}}$ Support has an infinite Instant Health I Splash Potion, that can be used every 25 seconds<br/>
 
 $\color{Green}{\textsf{+}}$ Support has different **_Item Crates_** that drop key items for different classes<br/>
 

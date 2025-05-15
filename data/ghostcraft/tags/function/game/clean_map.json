@@ -1,6 +1,7 @@
 {
     "values": [
         "ghostcraft:item/trap/clean_map",
-        "ghostcraft:ability/ghost_block/block_launch/clean_map"
+        "ghostcraft:ability/ghost_block/block_launch/clean_map",
+        "ghostcraft:game/ghosthunt/anti_camp/clean_map"
     ]
 }
