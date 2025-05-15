@@ -29,7 +29,7 @@ execute as @a at @s run playsound ghostcraft:game_start master @s ~ ~ ~ 10000000
 scoreboard players operation game_timer ghostcraft.temp = game.ghosthunt.game_time ghostcraft.config
 scoreboard players set timer ghostcraft.temp 0
 
-scoreboard players reset @e[type=#ghostcraft:player] ghostcraft.game.ghosthunt.anti_camp.tails
+function #ghostcraft:game/ghosthunt/start
 
 execute store result bossbar ghostcraft.game.time max run scoreboard players get game.ghosthunt.game_time ghostcraft.config
 bossbar set minecraft:ghostcraft.game.time visible true
