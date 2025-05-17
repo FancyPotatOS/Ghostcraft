@@ -5,6 +5,14 @@
   
   - Anti-camping mechanic
     - 'Amongus'-like tasks to let the timer go down
+      - Game types
+        - Consume/destroy all 'soul jar' - random items scattered about
+          - Has minimum number of location config
+          - Number of jars per game config
+          - Prevents timer or just win condition config
+        - Piece together four artifacts
+          - Has minimum number of location (not config)
+          - Just win condition (not config)
 
   - "How To Play" book
     - Ghost kit

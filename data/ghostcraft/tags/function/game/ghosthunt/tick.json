@@ -1,0 +1,7 @@
+{
+    "values": [
+        "ghostcraft:game/ghosthunt/item_ownership/tick",
+        "ghostcraft:game/ghosthunt/anti_camp/tick",
+        "ghostcraft:game/ghosthunt/tasks/tick"
+    ]
+}
