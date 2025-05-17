@@ -13,7 +13,7 @@ execute unless score version ghostcraft.master matches 5.. run function ghostcra
 tellraw @a ["",{"text":"[GhostCraft Datapack] - Setting up v1.4","bold":true,"color":"dark_blue"}," - Setup"]
 
 # Set the version
-scoreboard players set version ghostcraft.master 6
+scoreboard players set version ghostcraft.master 7
 
 # Ghost chosen by weight
 scoreboard objectives add ghostcraft.game.ghosthunt.ghost_kills playerKillCount

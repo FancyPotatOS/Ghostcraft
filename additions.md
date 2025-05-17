@@ -3,6 +3,9 @@
 
 - Ideas
   
+  - Change name of scoreboard effect.ghost.hurt_effect
+  - Config functions for each ability/kit (Total separation, if possible)
+
   - Anti-camping mechanic
     - 'Amongus'-like tasks to let the timer go down
       - Game types

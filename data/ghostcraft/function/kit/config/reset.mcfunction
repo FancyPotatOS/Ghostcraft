@@ -5,9 +5,15 @@ scoreboard players set kit.shotbow.arrow_count ghostcraft.config 10
 
 ## Archer
 scoreboard players set kit.archer.arrow_count ghostcraft.config 32
+scoreboard players set kit.archer.speed_sugar ghostcraft.config 3
 
 ## Support
 scoreboard players set kit.support.potion.count ghostcraft.config 3
+scoreboard players set kit.support.crate.arrow.count ghostcraft.config 16
+scoreboard players set kit.support.crate.speed_sugar.count ghostcraft.config 2
+scoreboard players set kit.support.crate.grenade.count ghostcraft.config 2
+scoreboard players set kit.support.crate.machine_bow_arrow.count ghostcraft.config 16
+scoreboard players set kit.support.crate.flare.count ghostcraft.config 3
 
 ## Soldier
 scoreboard players set kit.soldier.potion.splash.count ghostcraft.config 1
@@ -39,5 +45,8 @@ scoreboard players set kit.ghost.frag_grenade.timer ghostcraft.config 60
 scoreboard players set kit.ghost.frag_grenade.cycle ghostcraft.config 10
 
 scoreboard players set kit.ghost.ghost_compass.time ghostcraft.config 1200
+
+scoreboard players set kit.ghost.particle.cycle ghostcraft.config 12
+scoreboard players set kit.ghost.teleport_crystal.count ghostcraft.config 10
 
 function #ghostcraft:kit/config/reset
