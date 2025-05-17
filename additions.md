@@ -5,6 +5,9 @@
   
   - Change name of scoreboard effect.ghost.hurt_effect
   - Config functions for each ability/kit (Total separation, if possible)
+  
+  - More stabilty for multiplayer item ownership
+  - Better feedback for anti-camping progression
 
   - Anti-camping mechanic
     - 'Amongus'-like tasks to let the timer go down

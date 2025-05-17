@@ -1,6 +1,6 @@
 
 
-<img src="images/screenshot.png" alt="library_screenshot" style="width:50%;"/>
+<img src="https://github.com/FancyPotatOS/Ghostcraft/blob/master/images/screenshot.png?raw=true" alt="library_screenshot" style="width:50%;"/>
 
 <em>Recreated by FancyPotatOS</em>
 
@@ -27,47 +27,47 @@ There is also 4 maps available. By default, a vote can be cast to switch maps ev
 <details>
     <summary>Temple</summary>
     <br>
-    <img src="images/maps/temple.png" alt="temple_screenshot" style="width:50%;"/>
+    <img src="https://github.com/FancyPotatOS/Ghostcraft/blob/master/images/maps/temple.png?raw=true" alt="temple_screenshot" style="width:50%;"/>
 </details>
 <details>
     <summary>Blackout</summary>
     <br>
-    <img src="images/maps/blackout.png" alt="temple_screenshot" style="width:50%;"/>
+    <img src="https://github.com/FancyPotatOS/Ghostcraft/blob/master/images/maps/blackout.png?raw=true" alt="temple_screenshot" style="width:50%;"/>
 </details>
 <details>
     <summary>Sanctum</summary>
     <br>
-    <img src="images/maps/sanctum.png" alt="sanctum_screenshot" style="width:50%;"/>
+    <img src="https://github.com/FancyPotatOS/Ghostcraft/blob/master/images/maps/sanctum.png?raw=true" alt="sanctum_screenshot" style="width:50%;"/>
 </details>
 <details>
     <summary>Keterbrandt Library</summary>
     <br>
-    <img src="images/maps/library.png" alt="library_screenshot" style="width:50%;"/>
+    <img src="https://github.com/FancyPotatOS/Ghostcraft/blob/master/images/maps/library.png?raw=true" alt="library_screenshot" style="width:50%;"/>
 </details>
 <details>
     <summary>Haunted Ruins</summary>
     <br>
-    <img src="images/maps/haunted_ruins.png" alt="haunted_ruins_screenshot" style="width:50%;"/>
+    <img src="https://github.com/FancyPotatOS/Ghostcraft/blob/master/images/maps/haunted_ruins.png?raw=true" alt="haunted_ruins_screenshot" style="width:50%;"/>
 </details>
 <details>
     <summary>Rocks</summary>
     <br>
-    <img src="images/maps/rocks.png" alt="rocks_screenshot" style="width:50%;"/>
+    <img src="https://github.com/FancyPotatOS/Ghostcraft/blob/master/images/maps/rocks.png?raw=true" alt="rocks_screenshot" style="width:50%;"/>
 </details>
 <details>
     <summary>The Lighthouse</summary>
     <br>
-    <img src="images/maps/the_lighthouse.png" alt="lighthouse_screenshot" style="width:50%;"/>
+    <img src="https://github.com/FancyPotatOS/Ghostcraft/blob/master/images/maps/the_lighthouse.png?raw=true" alt="lighthouse_screenshot" style="width:50%;"/>
 </details>
 <details>
     <summary>Haunted Hillside</summary>
     <br>
-    <img src="images/maps/haunted_hillside.png" alt="haunted_hillside_screenshot" style="width:50%;"/>
+    <img src="https://github.com/FancyPotatOS/Ghostcraft/blob/master/images/maps/haunted_hillside.png?raw=true" alt="haunted_hillside_screenshot" style="width:50%;"/>
 </details>
 <details>
     <summary>Spooky Mansion</summary>
     <br>
-    <img src="images/maps/spooky_mansion.png" alt="spooky_mansion_screenshot" style="width:50%;"/>
+    <img src="https://github.com/FancyPotatOS/Ghostcraft/blob/master/images/maps/spooky_mansion.png?raw=true" alt="spooky_mansion_screenshot" style="width:50%;"/>
 </details>
 
 
