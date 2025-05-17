@@ -6,8 +6,6 @@
   - Change name of scoreboard effect.ghost.hurt_effect
   - Config functions for each ability/kit (Total separation, if possible)
 
-  - Anti-camping never really triggers if there's a little mixture of one entity going around
-
   - Anti-camping mechanic
     - 'Amongus'-like tasks to let the timer go down
       - Game types
