@@ -57,8 +57,8 @@ scoreboard players set game.ghosthunt.anti_camp.density.multiple.warning ghostcr
 scoreboard players set game.ghosthunt.anti_camp.density.multiple.fault ghostcraft.config 60
 
 # Tasks
-scoreboard players set game.ghosthunt.tasks.enabled ghostcraft.config 1
-scoreboard players set game.ghosthunt.tasks.map_supported ghostcraft.config 1
+scoreboard players set game.ghosthunt.tasks.enabled ghostcraft.config 0
+scoreboard players set game.ghosthunt.tasks.map_supported ghostcraft.config 0
 
 team add ghostcraft.game.ghosthunt.survivor {"text":"Survivors","color":"blue","bold":true,"italic":false}
 team modify ghostcraft.game.ghosthunt.survivor color blue
