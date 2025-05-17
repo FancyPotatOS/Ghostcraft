@@ -91,15 +91,5 @@ There is also 4 maps available. By default, a vote can be cast to switch maps ev
 
 If you are running a server, please ensure that it is compatible with the [player_motion](https://modrinth.com/datapack/player_motion) datapack. Some optimizations from servers like Paper break some functionality like ghost boosting and the grappling hook.
 
-<<<<<<< HEAD
-This datapack requires the included resource pack. Here is some of the <b>server.properties</b> values you can set to ensure the players have access to it and use it (Otherwise you can cheat and see the ghost easily)
-
-It includes a google drive link to my copy of the resource pack, so feel free to use it.
-- require-resource-pack=true
-- resource-pack=https://drive.google.com/uc?export=download&id=1flsVS2nQpInn5YbkMbJyvjxR1YuaBcwA
-- resource-pack-sha1=588a51a43c05f828a8fd80967a3d1fe446aea105
-- resource-pack-prompt=This resource pack is required to play GhostCraft. Compatible with vanilla Minecraft.
-=======
 This datapack requires the included resource pack. The <b>server.properties</b> values you must set to enforce it on your server is available in the release details, which includes updated links as well.
->>>>>>> bc787e932b230b66522ed1a2275e0cb0bcf2c3f0
 

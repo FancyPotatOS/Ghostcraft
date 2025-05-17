@@ -42,79 +42,8 @@
 </style>
 </details>
 
-# V1.4
+# V1.5
 
 ## Ghosthunt
 
-$\color{Green}{\textsf{+}}$ Ghost choosing is now weighed towards players who haven't been chosen in a while (+1 to weight per game, resets to 0 when was just ghost)
-
-$\color{Green}{\textsf{+}}$ Players are alerted when there is one survivor or ghost left
-
-$\color{Green}{\textsf{+}}$ Ghost particle frequency now a config item
-
-$\color{Orange}{\textsf{∼}}$ Clears the map of all projectiles and items correctly 
-
-$\color{Orange}{\textsf{∼}}$ Shows the health or death of the remaining team when the game ends 
-
-$\color{Orange}{\textsf{∼}}$ All players can no longer pick up items that don't belong to them. This prevents sharing items, for the exception of the Support's item crates
-
-### Ghost
-
-$\color{Green}{\textsf{+}}$ Ghost no longer takes wall suffocation damage
-
-$\color{Green}{\textsf{+}}$ Ghost has an item that returns it to the spawn after 4 seconds (helps prevent wall softlocks)
-
-$\color{Green}{\textsf{+}}$ The timer is set to at least a minute left when a ghost kills a survivor
-
-### Survivor
-
-$\color{Green}{\textsf{+}}$ Survivors have infinite attack speed
-
-$\color{Green}{\textsf{+}}$ Survivors start with Resistance V for 1 second when a game starts to prevent any transition damage
-
-$\color{Green}{\textsf{+}}$ Added an anti-camping mechanic. Staying around an area (~10 block radius) for too long will eventually spawn in vexes after a warning to move around.
-
-## Kits
-
-### Random
-
-$\color{Green}{\textsf{+}}$ Adds a random kit that chooses your class every game! New API function call to subscribe to this option<br/>
-
-### Archer
-
-$\color{Green}{\textsf{+}}$ Archer has no fall damage<br/>
-
-$\color{Green}{\textsf{+}}$ Archer has Speed Sugar, a consumable speed boost<br/>
-
-### Support
-
-$\color{Green}{\textsf{+}}$ Support has an infinite Instant Health I Splash Potion, that can be used every 25 seconds<br/>
-
-$\color{Green}{\textsf{+}}$ Support has different **_Item Crates_** that drop key items for different classes<br/>
-
-### Shotbow
-
-$\color{Green}{\textsf{+}}$ Shotbow now has Quick Charge II again<br/>
-
-### Hunter
-
-$\color{Green}{\textsf{+}}$ Hunter has a quick netherite pickaxe for attacking<br/>
-
-## Miscellaneous
-
-$\color{Green}{\textsf{+}}$ Players are now able to see death messages
-
-$\color{Green}{\textsf{+}}$ Books now show current configuration values when given
-
-$\color{Green}{\textsf{+}}$ Some fixes to player lobby spawnpoint being off across games
-
-$\color{Green}{\textsf{+}}$ Ensures players leaving in weird times doesn't affect gameplay
-
-$\color{Green}{\textsf{+}}$ Shows the particle when a player chooses one
-
-$\color{Green}{\textsf{+}}$ Maps now clear items when the games end
-
-$\color{Green}{\textsf{+}}$ Added simple function tag for updating abilities that other games can utilize now
-
-$\color{Green}{\textsf{+}}$ Fixes migrations to work no matter where it starts
-
+$\color{Green}{\textsf{+}}$ Nothing to see here<br/>
