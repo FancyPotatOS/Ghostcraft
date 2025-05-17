@@ -6,6 +6,7 @@ execute positioned ~ ~1.62 ~ positioned ^ ^ ^1.6 run loot spawn ~ ~ ~ loot ghost
 
 # Add all the tags/data
 tag @e[tag=!ghostcraft.kit.support.crate.not_it,type=item] add ghostcraft.game.ghosthunt.item_ownership.compliance
+tag @e[tag=!ghostcraft.kit.support.crate.not_it,type=item] add ghostcraft.game.ghosthunt.item_ownership.compliance.anti_ghost
 tag @e[tag=!ghostcraft.kit.support.crate.not_it,type=item] add ghostcraft.game.ghosthunt.item_ownership.compliance.anti_self
 tag @e[tag=!ghostcraft.kit.support.crate.not_it,type=item] add ghostcraft.game.ghosthunt.item_ownership.compliance.kit.has_arrow
 tag @e[tag=!ghostcraft.kit.support.crate.not_it,type=item] add ghostcraft.game.ghosthunt.item_ownership.new

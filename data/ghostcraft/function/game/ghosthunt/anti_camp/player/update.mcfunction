@@ -41,11 +41,14 @@ execute if score game.ghosthunt.anti_camp.multiple.sum ghostcraft.temp matches 1
 # Clean up tags
 tag @s remove ghostcraft.game.ghosthunt.anti_camp.current
 
-#tellraw @p ["",{"text":"[","bold":true},{"score":{"name":"game.ghosthunt.anti_camp.alone.sum","objective":"ghostcraft.temp"}},{"text":", ","bold":true},{"score":{"name":"game.ghosthunt.anti_camp.multiple.sum","objective":"ghostcraft.temp"}},{"text":"]","bold":true}]
+#execute if entity @s[type=player] run tellraw @p ["",{"text":"[","bold":true},{"score":{"name":"game.ghosthunt.anti_camp.alone.sum","objective":"ghostcraft.temp"}},{"text":", ","bold":true},{"score":{"name":"game.ghosthunt.anti_camp.multiple.sum","objective":"ghostcraft.temp"}},{"text":"]","bold":true}]
+
+# If the players are mixed, then offset the alone sum to give some leeway
+execute if score game.ghosthunt.anti_camp.multiple.is_mixed ghostcraft.temp matches 1 run scoreboard players operation game.ghosthunt.anti_camp.alone.sum ghostcraft.temp -= game.ghosthunt.anti_camp.density.alone.multiple_offset ghostcraft.config
 
 # Fault or warn if alone
-execute unless score game.ghosthunt.anti_camp.multiple.is_mixed ghostcraft.temp matches 1 if score game.ghosthunt.anti_camp.density.alone.fault ghostcraft.config <= game.ghosthunt.anti_camp.alone.sum ghostcraft.temp run return run function ghostcraft:game/ghosthunt/anti_camp/player/alone/fault
-execute unless score game.ghosthunt.anti_camp.multiple.is_mixed ghostcraft.temp matches 1 unless entity @e[type=marker,distance=..10,tag=ghostcraft.game.ghosthunt.anti_camp.alone.marker.warned] if score game.ghosthunt.anti_camp.density.alone.warning ghostcraft.config <= game.ghosthunt.anti_camp.alone.sum ghostcraft.temp run function ghostcraft:game/ghosthunt/anti_camp/player/alone/warn
+execute if score game.ghosthunt.anti_camp.density.alone.fault ghostcraft.config <= game.ghosthunt.anti_camp.alone.sum ghostcraft.temp run return run function ghostcraft:game/ghosthunt/anti_camp/player/alone/fault
+execute unless entity @e[type=marker,distance=..10,tag=ghostcraft.game.ghosthunt.anti_camp.alone.marker.warned] if score game.ghosthunt.anti_camp.density.alone.warning ghostcraft.config <= game.ghosthunt.anti_camp.alone.sum ghostcraft.temp run function ghostcraft:game/ghosthunt/anti_camp/player/alone/warn
 
 # Fault or warn if grouped
 execute if score game.ghosthunt.anti_camp.multiple.is_mixed ghostcraft.temp matches 1 if score game.ghosthunt.anti_camp.density.multiple.fault ghostcraft.config <= game.ghosthunt.anti_camp.multiple.sum ghostcraft.temp run return run function ghostcraft:game/ghosthunt/anti_camp/player/multiple/fault_all

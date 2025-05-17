@@ -18,6 +18,7 @@ scoreboard players set game.ghosthunt.anti_camp.tail ghostcraft.config 20
 scoreboard players set game.ghosthunt.anti_camp.vex.lifetime ghostcraft.config 300
 scoreboard players set game.ghosthunt.anti_camp.density.alone.warning ghostcraft.config 10
 scoreboard players set game.ghosthunt.anti_camp.density.alone.fault ghostcraft.config 20
+scoreboard players set game.ghosthunt.anti_camp.density.alone.multiple_offset ghostcraft.config 10
 scoreboard players set game.ghosthunt.anti_camp.density.multiple.warning ghostcraft.config 30
 scoreboard players set game.ghosthunt.anti_camp.density.multiple.fault ghostcraft.config 60
 
