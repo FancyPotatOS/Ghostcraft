@@ -2,7 +2,7 @@
 tag @s add ghostcraft.item.survivor_grenade
 tag @s add ghostcraft.item.steed
 
-summon item ~ ~ ~ {Item:{id:"minecraft:snowball",count:1b},PickupDelay:10000,Tags:["ghostcraft.new", "ghostcraft.item.survivor_grenade", "ghostcraft.item.ride_trigger", "ghostcraft.item.uuid"]}
+summon item ~ ~ ~ {Item:{id:"minecraft:snowball",count:1b},PickupDelay:10000,Tags:["ghostcraft.new", "ghostcraft.game.ghosthunt.item_ownership.compliance", "ghostcraft.game.ghosthunt.item_ownership.excepted", "ghostcraft.item.survivor_grenade", "ghostcraft.item.ride_trigger", "ghostcraft.item.uuid"]}
 ride @e[tag=ghostcraft.new,limit=1] mount @s
 
 execute store result score @e[tag=ghostcraft.new,limit=1] ghostcraft.uuid run data get entity @s Owner[0]

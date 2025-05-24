@@ -12,6 +12,7 @@
               "components": {
                 "minecraft:custom_data": "{ghostcraft:{type:\"tracking_compass\"}}",
                 "minecraft:custom_name": {"text":"Tracking Compass","italic":false,"color":"white"},
+                "minecraft:lore": [{"text":"Right click to update","italic":true,"color":"gray"}],
                 "minecraft:consumable": {
                   "consume_seconds": 1000000,
                   "animation": "none",

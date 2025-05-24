@@ -8,7 +8,7 @@
 
 
 function ghostcraft:game/lobby/player_teardown
-function ghostcraft:game/ghosthunt/on_death
+execute in ghostcraft:empty positioned 0 0 0 run function ghostcraft:game/ghosthunt/on_death
 
 title @s title {"text":""}
 title @s actionbar {"text":"A game is in progress, please wait..."}

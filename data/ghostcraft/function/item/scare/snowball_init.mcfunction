@@ -8,7 +8,7 @@ loot give @p[tag=ghostcraft.advtrigger.snowball.thrower,limit=1] loot ghostcraft
 
 data modify entity @s NoGravity set value 1b
 
-summon item ~ ~ ~ {Item:{id:"minecraft:snowball",count:1b},PickupDelay:10000,Tags:["ghostcraft.new", "ghostcraft.item.scare", "ghostcraft.item.ride_trigger", "ghostcraft.item.timer_receive", "ghostcraft.item.motion_receive", "ghostcraft.item.uuid"]}
+summon item ~ ~ ~ {Item:{id:"minecraft:snowball",count:1b},PickupDelay:10000,Tags:["ghostcraft.new", "ghostcraft.game.ghosthunt.item_ownership.compliance", "ghostcraft.game.ghosthunt.item_ownership.excepted", "ghostcraft.item.scare", "ghostcraft.item.ride_trigger", "ghostcraft.item.timer_receive", "ghostcraft.item.motion_receive", "ghostcraft.item.uuid"]}
 ride @e[tag=ghostcraft.new,limit=1] mount @s
 
 execute store result entity @s Motion[0] double 0.0015 run data get entity @s Motion[0] 2000

@@ -14,7 +14,7 @@
                 "minecraft:lore":[[{"text":"Can be thrown","italic":false,"color":"gray"}],[{"text":"Plays a scary noise where it lands","italic":false,"color":"gray"}],[{"text":"Is not affected by gravity","italic":false,"color":"gray"}]],
                 "minecraft:custom_data": "{ghostcraft:{type:\"scare\"}}",
                 "minecraft:custom_model_data": {"strings": ["ghost_scare"]},
-                "minecraft:use_cooldown": {"seconds": 1,"cooldown_group": "ghostcraft:ghost/scare"}
+                "minecraft:use_cooldown": {"seconds": 3,"cooldown_group": "ghostcraft:ghost/scare"}
               }
             }
           ]

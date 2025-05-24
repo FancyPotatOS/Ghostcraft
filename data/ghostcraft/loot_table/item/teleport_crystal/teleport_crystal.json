@@ -37,7 +37,7 @@
                 "minecraft:lore": [
                   [
                     {
-                      "text": "Can be consumed",
+                      "text": "Can be consumed (4 seconds)",
                       "italic": false,
                       "color": "gray"
                     }

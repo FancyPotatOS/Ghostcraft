@@ -42,8 +42,14 @@
 </style>
 </details>
 
-# V1.5
+# V1.6 (Hotfix)
 
-## Ghosthunt
+$\color{Green}{\textsf{+}}$ Added a simple 'How To Play' book<br/>
 
-$\color{Green}{\textsf{+}}$ Nothing to see here<br/>
+$\color{Green}{\textsf{+}}$ Added lore for compass items and improved the Teleport Crystal item lore<br/>
+
+$\color{Green}{\textsf{+}}$ Fixed item ownership breaking almostall of the throwable items<br/>
+
+$\color{Yellow}{\textsf{∼}}$ Attempted to fix players spawning into the overworld when logging in mid-game<br/>
+
+$\color{Red}{\textsf{⎯}}$ Increased Scare cooldown to 3 seconds<br/>

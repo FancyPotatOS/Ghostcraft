@@ -2,12 +2,21 @@
 ## Additions
 
 - Ideas
+
+  - FIXES
+    - Disable all signs
   
+  - More ghost healing
+  - Soldier nerf
+  - Can charge boost in air
+  - Automatic new game
   - Change name of scoreboard effect.ghost.hurt_effect
   - Config functions for each ability/kit (Total separation, if possible)
   
   - More stabilty for multiplayer item ownership
   - Better feedback for anti-camping progression
+  - Fix 'one player left' messages
+  - Start/Stop game separation
 
   - Anti-camping mechanic
     - 'Amongus'-like tasks to let the timer go down
@@ -24,15 +33,11 @@
     - Ghost kit
     - Gameplay
 
-  - Fix 'one player left' messages
   - Damage on ghost/survivor stats
   - Final kill
   - See vote stats
   
   - Maybe
-    - Support
-      - See players health
-      - Replenishes items
     - Lower machine bow armor
     - A 'Mauler' kit with mace/boost effect
 
