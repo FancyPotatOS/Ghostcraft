@@ -22,7 +22,7 @@ The ghost has numerous abilities such as being able to leap around and stab, as 
 
 There is currently 6 kits the survivors can use, all with their own tools to help everybody survive the ghost.
 
-There is also 4 maps available. By default, a vote can be cast to switch maps every 3 turns.
+There is also 9 maps available. By default, a vote can be cast to switch maps every 3 turns.
 
 <details>
     <summary>Temple</summary>
