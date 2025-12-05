@@ -22,7 +22,7 @@ My own implementation goes back/forth between using commands or loot tables to p
 
 The API is all function tags under the path `#ghostcraft:kit/*`. Include your own functions within these tags to implement a kit.
 
-The player's current class is set in the scoreboard `ghostcraft.class`. You will need to choose a unique ID for you kit so it can be saved in the scoreboard. There is a trigger scoreboard `ghostcraft.trigger.class` where the player can choose their class.
+The player's current class is set in the scoreboard `ghostcraft.class`. You will need to choose a unique, positive ID for you kit so it can be saved in the scoreboard. There is a trigger scoreboard `ghostcraft.trigger.class` where the player can choose their class.
 
 - `#ghostcraft:kit/class/trigger`
     - <b>Set the player's class score</b>
@@ -32,9 +32,13 @@ The player's current class is set in the scoreboard `ghostcraft.class`. You will
 - `#ghostcraft:kit/config/reset`
     - <b>Reset the kit configuration values</b>
     - Reset all kit-related configuration items in the scoreboard `ghostcraft.config`
-- `#ghostcraft:kit/book_insert`
-    - <b>Add a page for this class option</b>
-    - Insert a page in the written book in the `HandItems[0]` slot of the executing entity, which is then provided to the players to select a class
+- `#ghostcraft:kit/option_insert`
+    - <b>Add an option for this class</b>
+    - Append a function reference at the path `equipment.mainhand.components."minecraft:custom_data".ghostcraft.kit_options` of the executing entity, which will then be run as a macro
+    - The resulting function should display the dialog, along with following options onthe bottom:
+        1. Left button: runs the command `/trigger ghostcraft.trigger.class set -1` to navigate to the previous class
+        1. Middle button: runs the command `/trigger ghostcraft.trigger.class set <ID>` where is uses your class's ID
+        1. Right button: runs the command `/trigger ghostcraft.trigger.class set -2` to navigate to the next class
 - `#ghostcraft:kit/give`
     - <b>Give the kit</b>
     - Requires `@s ghostcraft.class` to match
