@@ -8,10 +8,11 @@
 
 
 execute unless data entity @s {OnGround:1b} run tag @s add ghostcraft.item.grappling_hook.aerial
+execute if data entity @s {OnGround:1b} run tag @s add ghostcraft.item.grappling_hook.grounded
 
 function ghostcraft:item/grappling_hook/tag_owner
 
-execute if entity @s[tag=ghostcraft.item.grappling_hook.aerial] run data modify storage ghostcraft:data bobber_data set value {OnGround:0b}
+execute if entity @s[tag=ghostcraft.item.grappling_hook.aerial] unless entity @s[tag=ghostcraft.item.grappling_hook.grounded] run data modify storage ghostcraft:data bobber_data set value {OnGround:0b}
 execute unless entity @s[tag=ghostcraft.item.grappling_hook.aerial] run data modify storage ghostcraft:data bobber_data set value {OnGround:1b}
 execute unless entity @s[tag=ghostcraft.item.grappling_hook.aerial] unless entity @s[tag=ghostcraft.item.grappling_hook.clicked] at @s run playsound minecraft:entity.fishing_bobber.retrieve master @a[distance=..25] ~ ~ ~ 1 1.9 0.5
 execute unless entity @s[tag=ghostcraft.item.grappling_hook.aerial] unless entity @s[tag=ghostcraft.item.grappling_hook.clicked] at @s run playsound minecraft:entity.fishing_bobber.retrieve master @a[distance=..25] ~ ~ ~ 1 0.1 0.5

@@ -10,6 +10,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:item_model": "ghostcraft:kit/archer/grappling_hook",
                 "minecraft:custom_name": {"text":"Grappling Hook","italic":false,"color":"aqua"},
                 "minecraft:custom_data": "{ghostcraft:{type:\"grappling_hook\"}}"
               }

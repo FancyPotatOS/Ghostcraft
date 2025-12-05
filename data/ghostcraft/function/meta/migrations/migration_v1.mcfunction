@@ -21,3 +21,25 @@ team modify ghostcraft.lobby deathMessageVisibility never
 team modify ghostcraft.lobby friendlyFire false
 team modify ghostcraft.lobby seeFriendlyInvisibles true
 
+
+# Setup gamerules
+gamerule doEntityDrops false
+gamerule doImmediateRespawn true
+gamerule doMobLoot false
+gamerule doMobSpawning false
+gamerule disableElytraMovementCheck true
+gamerule disableRaids true
+gamerule doDaylightCycle false
+gamerule doFireTick false
+gamerule doVinesSpread false
+gamerule doTileDrops false
+gamerule doWeatherCycle false
+gamerule doWardenSpawning false
+gamerule keepInventory true
+gamerule mobGriefing false
+gamerule naturalRegeneration false
+gamerule spawnRadius 0
+gamerule sendCommandFeedback false
+gamerule showDeathMessages false
+gamerule announceAdvancements false
+
