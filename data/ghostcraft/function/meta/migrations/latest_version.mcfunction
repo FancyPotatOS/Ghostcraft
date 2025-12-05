@@ -25,5 +25,7 @@ scoreboard objectives add ghostcraft.effect.ghost.particle_effect.trigger trigge
 
 scoreboard players set game.lobby.next_game.cooldown ghostcraft.config 200
 
+scoreboard objectives add ghostcraft.game.ghosthunt.survivor_hurt_ghost.total_damage dummy
+
 
 

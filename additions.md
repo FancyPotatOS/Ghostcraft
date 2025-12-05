@@ -3,7 +3,6 @@
 
 - Ideas
 
-  - Can charge boost in air
   - Config functions for each ability/kit (Total separation, if possible)
   
   - More stabilty for multiplayer item ownership
@@ -25,7 +24,6 @@
     - Ghost kit
     - Gameplay
 
-  - Damage on ghost/survivor stats
   - Final kill
   - See vote stats
   

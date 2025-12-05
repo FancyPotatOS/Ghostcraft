@@ -1,5 +1,40 @@
 
 import os
+
+
+def replace_file(file_name: str, replacements:dict[str,str]):
+    new_file_name = replace_all(file_name, replacements)
+
+    file_contents = ""
+    with open(file_name, "r") as file:
+        file_contents = "".join(file.readlines())
+    
+    file_contents = replace_all(file_contents, replacements)
+    
+    with open(new_file_name, "w") as file:
+        file.write(file_contents)
+
+
+def replace_all(value: str, replacements:dict[str,str]):
+    for key in replacements.keys():
+        value = value.replace(key, replacements[key])
+    
+    return value
+
+
+replacements = {}
+for i in range(20):
+    i += 1
+    replacements["_DAMAGE_"] = str(i)
+
+    replace_file("data/ghostcraft/advancement/game/ghosthunt/survivor_hurt_ghost/melee/_DAMAGE_.json", replacements)
+    replace_file("data/ghostcraft/advancement/game/ghosthunt/survivor_hurt_ghost/melee/_DAMAGE_.json", replacements)
+
+
+
+
+# Who knows what this is for!
+exit()
 os.chdir("gen")
 
 chunk = 31

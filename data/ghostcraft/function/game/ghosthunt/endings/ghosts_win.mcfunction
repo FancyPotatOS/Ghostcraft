@@ -9,7 +9,8 @@
 
 title @a title {"text":""}
 title @a subtitle {"text":"Ghosts Win","bold": true,"color": "red"}
-execute as @e[type=#ghostcraft:player,tag=ghostcraft.game.ghosthunt.role.ghost] run function ghostcraft:game/ghosthunt/display/show_health
+function ghostcraft:game/ghosthunt/display/show_ghost_health_stats
+function ghostcraft:game/ghosthunt/survivor_hurt_ghost/display_stats
 
 execute as @a at @s run playsound ghostcraft:ghosts_win master @s ~ ~ ~ 100000000000 1 1
 

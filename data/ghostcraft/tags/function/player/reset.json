@@ -3,6 +3,7 @@
         "ghostcraft:kit/reset_tags",
         "#ghostcraft:kit/clear",
         "ghostcraft:game/ghosthunt/player_reset",
-        "ghostcraft:game/lobby/player_reset"
+        "ghostcraft:game/lobby/player_reset",
+        "ghostcraft:game/ghosthunt/survivor_hurt_ghost/reset"
     ]
 }

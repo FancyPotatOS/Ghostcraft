@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "ghostcraft.game.ghosthunt.survivor_hurt_ghost": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"ghostcraft.survivor\"]}"
+            }
+          }
+        ],
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:arrow"
+            }
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"ghostcraft.ghost\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:game/ghosthunt/survivor_hurt_ghost/advancement/hurt"
+  }
+}
