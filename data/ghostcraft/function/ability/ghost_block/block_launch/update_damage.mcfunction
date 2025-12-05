@@ -1,6 +1,6 @@
 
-execute positioned ~ ~-0.5 ~ as @e[type=#ghostcraft:player,distance=..0.75,scores={ghostcraft.item.crafting_table.invincibility=..0}] run tag @s add ghostcraft.item.crafting_table.hit
-execute positioned ~ ~-1.5 ~ as @e[type=#ghostcraft:player,distance=..0.75,scores={ghostcraft.item.crafting_table.invincibility=..0}] run tag @s add ghostcraft.item.crafting_table.hit
+execute positioned ~ ~-0.5 ~ as @e[type=#ghostcraft:player,distance=..1,scores={ghostcraft.item.crafting_table.invincibility=..0}] run tag @s add ghostcraft.item.crafting_table.hit
+execute positioned ~ ~-1.5 ~ as @e[type=#ghostcraft:player,distance=..1,scores={ghostcraft.item.crafting_table.invincibility=..0}] run tag @s add ghostcraft.item.crafting_table.hit
 
 # Get the entity that launched
 tag @s add ghostcraft.crafting_table.falling_block.current
