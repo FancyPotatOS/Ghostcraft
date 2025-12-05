@@ -29,6 +29,7 @@ function ghostcraft:ability/feather_falling/grant
 # Only continue execution if not coming from lobby
 execute if score coming_from_lobby ghostcraft.temp matches 1 run return 0
 
+function #ghostcraft:game/lobby/give_options
 function #ghostcraft:game/lobby/give_books
 
 # Teleport all players to a random lobby entity

@@ -34,6 +34,7 @@
     - A 'Mauler' kit with mace/boost effect
 
 - Potential particles
+  - GUI with gifs of particles to show them instead?
 
   - Thin
     - nautilus

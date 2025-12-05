@@ -1,0 +1,173 @@
+{
+  "type": "minecraft:multi_action",
+  "title": [
+    {
+      "text": "Class Selection",
+      "bold": false,
+      "underlined": false
+    }
+  ],
+  "external_title": "",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "Random",
+          "bold": true,
+          "shadow_color": -16777216
+        },
+        {
+          "atlas":"minecraft:gui",
+          "sprite": "minecraft:mob_effect/luck"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text":"Leave it up to RNG!",
+          "italic": true,
+          "color": "white",
+          "shadow_color": -16777216
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": ""
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": ""
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": ""
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": ""
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": ""
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": ""
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": ""
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": ""
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": ""
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": ""
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": ""
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": ""
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": ""
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": ""
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": ""
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": ""
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": ""
+      }
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "columns": 3,
+  "actions": [
+    {
+      "label": "<",
+      "tooltip": "Previous Class",
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger ghostcraft.trigger.class set -1"
+      }
+    },
+    {
+      "label": "Select",
+      "width": 300,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger ghostcraft.trigger.class set 7"
+      }
+    },
+    {
+      "label": ">",
+      "tooltip": "Next Class",
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger ghostcraft.trigger.class set -2"
+      }
+    }
+  ]
+}

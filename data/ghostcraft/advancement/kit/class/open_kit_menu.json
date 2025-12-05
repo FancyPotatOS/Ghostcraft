@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "ghostcraft.kit.class.open_kit_menu": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:stick"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:kit/class/open_kit_menu"
+  }
+}

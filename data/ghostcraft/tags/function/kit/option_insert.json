@@ -1,0 +1,11 @@
+{
+    "values": [
+        "ghostcraft:kit/archer/option_insert",
+        "ghostcraft:kit/hunter/option_insert",
+        "ghostcraft:kit/shotbow/option_insert",
+        "ghostcraft:kit/soldier/option_insert",
+        "ghostcraft:kit/support/option_insert",
+        "ghostcraft:kit/machine_bow/option_insert",
+        "ghostcraft:kit/random/option_insert"
+    ]
+}
