@@ -25,7 +25,10 @@ For example, to change the amount of arrows an archer starts with to 15, run `/s
             - Changing this score to 0 allows you to change the map immediately
     - `game.lobby.next_game.cooldown`
         - The amount of time before the next game is automatically started.
-        - Set to -1 to disable
+        - Set to -1 to disable entirely
+    - `game.lobby.next_game.enabled`
+        - Whether the game auto-start is enabled
+        - This is toggleable from the options
 
 - Ghost Hunt
     - `game.ghosthunt.ghosts`

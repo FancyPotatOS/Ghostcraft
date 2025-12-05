@@ -3,19 +3,11 @@
 
 - Ideas
 
-  - FIXES
-    - Disable all signs
-  
-  - More ghost healing
-  - Soldier nerf
   - Can charge boost in air
-  - Automatic new game
-  - Change name of scoreboard effect.ghost.hurt_effect
   - Config functions for each ability/kit (Total separation, if possible)
   
   - More stabilty for multiplayer item ownership
   - Better feedback for anti-camping progression
-  - Fix 'one player left' messages
   - Start/Stop game separation
 
   - Anti-camping mechanic

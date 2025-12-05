@@ -47,7 +47,16 @@ give @s written_book[written_book_content={author:"FancyPotatOS",title:"Game Con
             "click_event": {"action": "run_command","command": "/trigger ghostcraft.trigger.game set 5"}\
         },\
         {\
-            "text":"            "\
+            "text":"        "\
+        },\
+        {\
+            "color":"dark_green",\
+            "text": "[Toggle Auto-Start]",\
+            "hover_event": {"action": "show_text","value": "Click to toggle game auto-starting"},\
+            "click_event": {"action": "run_command","command": "/trigger ghostcraft.trigger.game set 6"}\
+        },\
+        {\
+            "text":"        "\
         },\
         {\
             "color":"blue",\
