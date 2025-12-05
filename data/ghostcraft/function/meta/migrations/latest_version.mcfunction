@@ -23,5 +23,7 @@ scoreboard objectives remove ghostcraft.effect.ghost.hurt_effect.trigger
 scoreboard objectives add ghostcraft.effect.ghost.particle_effect dummy
 scoreboard objectives add ghostcraft.effect.ghost.particle_effect.trigger trigger
 
+scoreboard players set game.lobby.next_game.cooldown ghostcraft.config 200
+
 
 

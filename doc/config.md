@@ -23,6 +23,9 @@ For example, to change the amount of arrows an archer starts with to 15, run `/s
         - The number of games required before you can vote to change the map
         - The actual counter for this value is set at `map.change_cooldown ghostcraft.temp`
             - Changing this score to 0 allows you to change the map immediately
+    - `game.lobby.next_game.cooldown`
+        - The amount of time before the next game is automatically started.
+        - Set to -1 to disable
 
 - Ghost Hunt
     - `game.ghosthunt.ghosts`

@@ -16,4 +16,6 @@ execute unless score coming_from_lobby ghostcraft.temp matches 1 run title @a ti
 execute unless score coming_from_lobby ghostcraft.temp matches 1 run title @a subtitle {"text":""}
 execute unless score coming_from_lobby ghostcraft.temp matches 1 run title @a actionbar {"text":""}
 
+scoreboard players operation next_game.cooldown ghostcraft.temp = game.lobby.next_game.cooldown ghostcraft.config
+
 scoreboard players reset coming_from_lobby ghostcraft.temp

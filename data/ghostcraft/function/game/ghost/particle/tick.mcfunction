@@ -9,3 +9,4 @@
 
 execute as @a at @s if score @s ghostcraft.effect.ghost.particle_effect.trigger matches 0.. run function ghostcraft:game/ghost/particle/effect_trigger
 
+scoreboard players enable @a ghostcraft.effect.ghost.particle_effect.trigger
