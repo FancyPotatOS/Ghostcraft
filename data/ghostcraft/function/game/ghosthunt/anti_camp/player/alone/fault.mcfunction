@@ -37,7 +37,7 @@ summon minecraft:vex ~ ~2 ~-1 {attributes:[{base:1.4,id:"minecraft:movement_spee
 scoreboard players operation @e[type=minecraft:vex,tag=ghostcraft.game.ghosthunt.anti_camp.vex.new] ghostcraft.game.ghosthunt.anti_camp.lifetime = game.ghosthunt.anti_camp.vex.lifetime ghostcraft.config
 
 # Save  some hurt-based data
-execute as @e[type=minecraft:vex,tag=ghostcraft.game.ghosthunt.anti_camp.vex.new] at @s run data modify entity @s last_hurt_by_player set from entity @p[tag=ghostcraft.game.ghosthunt.anti_camp.current] UUID
+execute as @e[type=minecraft:vex,tag=ghostcraft.game.ghosthunt.anti_camp.vex.new] at @s run data modify entity @s last_hurt_by_player set from entity @e[type=#ghostcraft:player,limit=1,tag=ghostcraft.game.ghosthunt.anti_camp.current] UUID
 
 # Clear all my tail markers
 execute as @e[type=marker,tag=ghostcraft.game.ghosthunt.anti_camp.player_marker,distance=..10] if score @s ghostcraft.uuid = @e[type=#ghostcraft:player,tag=ghostcraft.game.ghosthunt.anti_camp.current,limit=1,sort=nearest] ghostcraft.uuid run kill @s

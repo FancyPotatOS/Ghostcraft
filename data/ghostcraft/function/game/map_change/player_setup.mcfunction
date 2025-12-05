@@ -15,12 +15,8 @@ scoreboard players reset coming_from_player_logged_in ghostcraft.temp
 
 scoreboard players reset @s ghostcraft.game.map_change.vote
 
-summon armor_stand ~ ~ ~ {equipment:{},Tags:["ghostcraft.game.map_change.player_setup.temp"]}
+item replace entity @s weapon.mainhand with written_book[written_book_content={author:"FancyPotatOS",title:"Map Vote",pages:[[{"text":"    -= Map Vote =-                              Each page has an available map.                                 Choose one to vote!"}]]}] 1
 
-item replace entity @e[tag=ghostcraft.game.map_change.player_setup.temp] weapon.mainhand with written_book[written_book_content={author:"FancyPotatOS",title:"Map Vote",pages:[[{"text":"    -= Map Vote =-                              Each page has an available map.                                 Choose one to vote!"}]]}] 1
-
-execute as @e[tag=ghostcraft.game.map_change.player_setup.temp] run function #ghostcraft:map/book_input
-
-item replace entity @s hotbar.0 from entity @e[tag=ghostcraft.game.map_change.player_setup.temp,limit=1] weapon.mainhand
+function #ghostcraft:map/book_input
 
 kill @e[tag=ghostcraft.game.map_change.player_setup.temp]

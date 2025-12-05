@@ -23,6 +23,13 @@
                     "amount": 0.1,
                     "operation": "add_value",
                     "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "ghostcraft.kit.hunter.netherite_pickaxe",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
                   }
                 ]
               }

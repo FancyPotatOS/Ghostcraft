@@ -7,8 +7,6 @@
 #
 
 
-scoreboard players reset @s ghostcraft.game.ghosthunt.ghost_kills
-
 tag @s remove ghostcraft.survivor
 tag @s remove ghostcraft.ghost
 

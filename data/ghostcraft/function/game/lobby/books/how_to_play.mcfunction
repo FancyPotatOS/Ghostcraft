@@ -7,7 +7,7 @@
 #
 
 
-give @s written_book[written_book_content={author:"FancyPotatOS",title:"How To Play",pages:\
+item replace entity @s hotbar.3 with written_book[written_book_content={author:"FancyPotatOS",title:"How To Play",pages:\
 [\
     [\
         {\
@@ -63,7 +63,7 @@ give @s written_book[written_book_content={author:"FancyPotatOS",title:"How To P
     [\
         {\
             "text":"  = The Ghost (5/8) =\n\nStabbing requires a massive amount of energy, and you cannot boost, pounce, or attack during this.\n\n\
-            The Scare item is a simple, invisible projectile that mimics the Stab sound effect when it lands. Use it to throw off them off!"\
+            The Scare item is a simple, invisible projectile that mimics the Stab sound effect when it lands. Use it to throw them off!"\
         }\
     ],\
     [\

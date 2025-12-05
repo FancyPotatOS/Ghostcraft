@@ -8,7 +8,7 @@
 
 
 team join ghostcraft.lobby @s
-execute if entity @e[tag=ghostcraft.map.lobby] run spawnpoint @s ~ ~ ~
+execute if entity @e[tag=ghostcraft.map.lobby] at @e[tag=ghostcraft.map.lobby,sort=random,limit=1] run spawnpoint @s ~ ~ ~
 
 execute unless score coming_from_lobby ghostcraft.temp matches 1 run function ghostcraft:game/player_reset
 

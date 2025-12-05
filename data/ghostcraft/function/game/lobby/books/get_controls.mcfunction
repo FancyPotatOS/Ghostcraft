@@ -7,7 +7,7 @@
 #
 
 
-give @s written_book[written_book_content={author:"FancyPotatOS",title:"Game Controls",pages:\
+item replace entity @s hotbar.1 with written_book[written_book_content={author:"FancyPotatOS",title:"Game Controls",pages:\
 [\
     [\
         {\

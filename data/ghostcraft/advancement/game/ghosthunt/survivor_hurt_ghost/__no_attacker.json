@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "ghostcraft.game.ghosthunt.survivor_hurt_ghost.no_attacker": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"ghostcraft.ghost\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:game/ghosthunt/survivor_hurt_ghost/advancement/no_attacker"
+  }
+}

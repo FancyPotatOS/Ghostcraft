@@ -52,7 +52,7 @@ To ensure there is no function conflicts, assign your map a unique integer ID, a
     - A simple 'The map was set to [Map]' will suffice
 - `#ghostcraft:map/book_input`
     - <b>Include a page to vote for your map</b>
-    - Insert a page in the written book in the `HandItems[0]` slot of the executing entity, which is then provided to the players when voting for a map
+    - Insert a page in the written book in the weapon.mainhand slot of the executing entity.
     - Include a click action for the players to vote
         - It should run `/trigger ghostcraft.game.map_change.vote set <ID>`, where the ID is your map ID
 - `#ghostcraft:map/compare_id`

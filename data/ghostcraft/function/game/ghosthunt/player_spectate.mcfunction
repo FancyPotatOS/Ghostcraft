@@ -7,6 +7,8 @@
 #
 
 
+function ghostcraft:game/ghosthunt/survivor_hurt_ghost/reset
+
 function ghostcraft:game/lobby/player_teardown
 execute in ghostcraft:empty positioned 0 0 0 run function ghostcraft:game/ghosthunt/on_death
 

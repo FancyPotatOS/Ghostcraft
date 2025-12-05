@@ -10,4 +10,10 @@ execute as @e[tag=ghostcraft.ghost,nbt={HurtTime:10s}] run function ghostcraft:g
 
 tag @s remove ghostcraft.game.ghosthunt.survivor_hurt_ghost.attacker
 
+tag @e remove ghostcraft.game.ghosthunt.survivor_hurt_ghost.last_attacker
+tag @e remove ghostcraft.game.ghosthunt.survivor_hurt_ghost.killer
+
+tag @s add ghostcraft.game.ghosthunt.survivor_hurt_ghost.killer
+tag @s add ghostcraft.game.ghosthunt.survivor_hurt_ghost.last_attacker
+
 execute if score phase ghostcraft.master matches 2 if score accum_damage ghostcraft.temp matches 1.. run function ghostcraft:game/ghosthunt/survivor_hurt_ghost/save_damage

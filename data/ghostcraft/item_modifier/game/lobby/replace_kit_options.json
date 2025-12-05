@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:copy_custom_data",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "ghostcraft:data"
+  },
+  "ops": [
+    {
+      "source": "kit_options",
+      "target": "ghostcraft.kit_options",
+      "op": "replace"
+    }
+  ]
+}

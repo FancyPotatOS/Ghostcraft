@@ -7,31 +7,5 @@
 #
 
 
-data modify entity @s equipment.mainhand.components."minecraft:written_book_content".pages append value {raw:\
-[\
-    {\
-        "text":"         Haunted\n          Hillside\n   A map created by           "\
-    },\
-    {\
-        "text":"Mohawk2",\
-        "color":"dark_green",\
-        "bold":true,\
-        "hover_event": {"action": "show_text","value": "Click to view Shotbow profile"},\
-        "click_event": {"action": "open_url","url": "https://shotbow.net/forum/members/mohawk2.3598432/"}\
-    },\
-    {\
-        "text":"\n\nA dark mansion amidst a small graveyard. Gnarled tree circle the area."\
-    },\
-    [\
-        {\
-            "text":"\n\n\n\n          "\
-        },\
-        {\
-            "text":"[Vote]",\
-            "color":"green",\
-            "hover_event":{"action":"show_text","value": "Click to vote!"},\
-            "click_event":{"action": "run_command","command": "/trigger ghostcraft.game.map_change.vote set 8"}\
-        }\
-    ]\
-]}
+item modify entity @s weapon.mainhand ghostcraft:map/haunted_hillside/insert_page
 

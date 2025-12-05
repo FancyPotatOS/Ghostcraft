@@ -6,3 +6,6 @@ scoreboard players operation damage_dealt ghostcraft.temp = @s ghostcraft.game.g
 scoreboard players operation damage_dealt ghostcraft.temp -= new_health ghostcraft.temp
 
 scoreboard players operation accum_damage ghostcraft.temp += damage_dealt ghostcraft.temp
+
+
+
