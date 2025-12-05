@@ -7,5 +7,5 @@
 #
 
 
-execute as @a at @s if score @s ghostcraft.effect.ghost.hurt_effect.trigger matches 0.. run function ghostcraft:game/ghost/particle/effect_trigger
+execute as @a at @s if score @s ghostcraft.effect.ghost.particle_effect.trigger matches 0.. run function ghostcraft:game/ghost/particle/effect_trigger
 

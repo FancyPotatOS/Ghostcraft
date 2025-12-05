@@ -13,6 +13,7 @@ execute if entity @s[tag=ghostcraft.ghost] run function ghostcraft:game/ghosthun
 function ghostcraft:game/player_reset
 gamemode spectator
 tag @s add ghostcraft.spectating
+team leave @s
 
 tp @s @e[type=#ghostcraft:player,limit=1,tag=ghostcraft.ghost]
 tp @s @e[type=#ghostcraft:player,limit=1,tag=ghostcraft.survivor]
