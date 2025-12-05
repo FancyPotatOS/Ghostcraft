@@ -20,15 +20,7 @@
           - Has minimum number of location (not config)
           - Just win condition (not config)
 
-  - "How To Play" book
-    - Ghost kit
-    - Gameplay
-
-  - Final kill
-  - See vote stats
-  
   - Maybe
-    - Lower machine bow armor
     - A 'Mauler' kit with mace/boost effect
 
 - Potential particles
