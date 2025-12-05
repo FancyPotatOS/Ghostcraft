@@ -20,6 +20,10 @@
                 "minecraft:custom_data": "{ghostcraft:{type:\"frag_grenade\"}}",
                 "minecraft:custom_model_data": {
                   "strings": ["ghost_frag_grenade"]
+                },
+                "minecraft:use_cooldown": {
+                  "seconds": 2,
+                  "cooldown_group": "ghostcraft:grenade"
                 }
               }
             }

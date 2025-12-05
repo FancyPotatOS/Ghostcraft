@@ -20,6 +20,10 @@
                 "minecraft:custom_data": "{ghostcraft:{type:\"flashbang\"}}",
                 "minecraft:custom_model_data": {
                   "strings": ["ghost_flashbang"]
+                },
+                "minecraft:use_cooldown": {
+                  "seconds": 2,
+                  "cooldown_group": "ghostcraft:grenade"
                 }
               }
             }

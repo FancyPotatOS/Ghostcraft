@@ -20,6 +20,10 @@
                 "minecraft:custom_name": {"text":"Flare","italic":false,"color":"gold"},
                 "minecraft:custom_model_data": {
                   "strings": ["survivor_flare"]
+                },
+                "minecraft:use_cooldown": {
+                  "seconds": 2,
+                  "cooldown_group": "ghostcraft:grenade"
                 }
               }
             }
