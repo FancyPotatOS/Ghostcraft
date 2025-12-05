@@ -4,7 +4,6 @@
     "predicate": {
         "flags": {
             "is_sneaking": true
-        },
-        "nbt": "{OnGround:1b}"
+        }
     }
 }
