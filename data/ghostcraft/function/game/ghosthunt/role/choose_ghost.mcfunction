@@ -6,6 +6,7 @@
 #   Input: None
 #
 
+execute unless entity @e[type=#ghostcraft:player,scores={ghostcraft.game.ghost_choice_weight=1..}] run scoreboard players set @e[type=#ghostcraft:player,tag=!ghostcraft.spectator] ghostcraft.game.ghost_choice_weight 1
 
 # Get all weights for our ghost contenders
 scoreboard players set total_ghost_choice_weight ghostcraft.temp 0
