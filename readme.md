@@ -72,8 +72,8 @@ There is also 9 maps available. By default, a vote can be cast to switch maps ev
 
 
 ### Requirements
-- The [player_motion](https://cdn.modrinth.com/data/oDhxdGVZ/versions/aW4ph2OC/player_motion.zip) datapack
-- The [BlockState](https://github.com/Triton365/BlockState/releases/download/v1.0.3/BlockState_1.21.5.zip) datapack
+- The [player_motion](https://modrinth.com/datapack/player_motion/versions) datapack (v1.4.4)
+- The [BlockState](https://github.com/Triton365/BlockState/releases/tag/v1.1.0) datapack (v1.1.0)
 
 
 ### Credits
