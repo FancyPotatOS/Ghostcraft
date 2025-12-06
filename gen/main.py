@@ -22,6 +22,28 @@ def replace_all(value: str, replacements:dict[str,str]):
     return value
 
 
+os.chdir("data/minecraft/advancement")
+
+disabled_file_contents = ""
+with open("disabled.json", "r") as file:
+    disabled_file_contents = "".join(file.readlines())
+
+def rec_disable(path):
+    global disabled_file_contents
+
+    for dir in [x for x in os.listdir(path) if os.path.isdir(f"{path}/{x}")]:
+        rec_disable(f"{path}/{dir}")
+    
+    for filename in [x for x in os.listdir(path) if os.path.isfile(f"{path}/{x}")]:
+        with open(f"{path}/{filename}", "w") as file:
+            file.write(disabled_file_contents)
+
+
+rec_disable(".")
+
+
+exit()
+
 replacements = {}
 for i in range(20):
     i += 1

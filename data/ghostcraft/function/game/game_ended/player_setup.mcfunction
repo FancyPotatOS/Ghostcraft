@@ -11,7 +11,7 @@ function ghostcraft:game/player_reset
 gamemode spectator
 tag @s add ghostcraft.spectating
 
-tp @s @e[type=#ghostcraft:player,limit=1,gamemode=adventure]
+tp @s @e[type=#ghostcraft:player,limit=1,gamemode=!spectator]
 tp @s @e[type=#ghostcraft:player,limit=1,gamemode=survival]
 tp @s @e[type=#ghostcraft:player,limit=1,tag=ghostcraft.ghost]
 tp @s @e[type=#ghostcraft:player,limit=1,tag=ghostcraft.survivor]

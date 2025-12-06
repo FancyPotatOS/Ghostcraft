@@ -7,8 +7,6 @@
 #
 
 
-function ghostcraft:game/ghosthunt/survivor_hurt_ghost/reset
-
 bossbar set minecraft:ghostcraft.game.time visible false
 tag @a[tag=!ghostcraft.spectator] remove ghostcraft.spectating
 scoreboard players reset @a ghostcraft.game.ghosthunt.ghost_kills

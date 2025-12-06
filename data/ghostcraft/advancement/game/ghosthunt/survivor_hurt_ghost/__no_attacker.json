@@ -11,7 +11,17 @@
               "nbt": "{Tags:[\"ghostcraft.ghost\"]}"
             }
           }
-        ]
+        ],
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "ghostcraft:not_player"
+              }
+            ]
+          }
+        }
       }
     }
   },

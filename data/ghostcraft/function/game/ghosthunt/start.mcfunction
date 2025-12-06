@@ -11,6 +11,8 @@ execute unless function ghostcraft:game/player_check run return run function gho
 
 execute as @e[type=#ghostcraft:player] run function ghostcraft:game/player_reset
 
+function ghostcraft:game/ghosthunt/survivor_hurt_ghost/reset
+
 # Choose roles and kit out
 function ghostcraft:game/ghosthunt/role/assign
 function ghostcraft:game/ghosthunt/role/kit
