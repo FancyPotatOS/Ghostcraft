@@ -109,6 +109,28 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "ghostcraft:item/crate/invisibility_dust",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "kit.support.crate.invisibility_dust.count"
+                },
+                "score": "ghostcraft.config"
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }

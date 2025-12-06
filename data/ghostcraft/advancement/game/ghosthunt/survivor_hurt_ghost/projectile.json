@@ -15,7 +15,7 @@
         "damage": {
           "type": {
             "direct_entity": {
-              "type": "minecraft:arrow"
+              "type": "#ghostcraft:projectile"
             }
           }
         },

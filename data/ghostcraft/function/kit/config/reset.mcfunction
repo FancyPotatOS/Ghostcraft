@@ -14,6 +14,7 @@ scoreboard players set kit.support.crate.speed_sugar.count ghostcraft.config 2
 scoreboard players set kit.support.crate.grenade.count ghostcraft.config 2
 scoreboard players set kit.support.crate.machine_bow_arrow.count ghostcraft.config 16
 scoreboard players set kit.support.crate.flare.count ghostcraft.config 3
+scoreboard players set kit.support.crate.invisibility_dust.count ghostcraft.config 2
 
 ## Soldier
 scoreboard players set kit.soldier.potion.splash.count ghostcraft.config 1
@@ -26,6 +27,10 @@ scoreboard players set kit.machine_bow.arrow_count ghostcraft.config 32
 ## Hunter
 scoreboard players set kit.hunter.flare_count ghostcraft.config 5
 scoreboard players set kit.hunter.trap.count ghostcraft.config 3
+
+## Mauler
+scoreboard players set kit.mauler.speed_sugar ghostcraft.config 5
+scoreboard players set kit.mauler.invisibility_dust ghostcraft.config 2
 
 ## Ghost
 scoreboard players set kit.ghost.blink.count ghostcraft.config 16

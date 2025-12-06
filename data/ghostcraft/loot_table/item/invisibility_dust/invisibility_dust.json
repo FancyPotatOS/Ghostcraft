@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Invisibility Dust",
+                  "color": "#F6F6F6",
+                  "bold": false,
+                  "italic": false
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "animation": "eat",
+                  "sound": {
+                    "sound_id": "minecraft:block.big_dripleaf.tilt_up",
+                    "range": 32
+                  },
+                  "has_consume_particles": true,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:invisibility",
+                          "amplifier": 0,
+                          "duration": 200,
+                          "ambient": true,
+                          "show_particles": false,
+                          "show_icon": false
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:play_sound",
+                      "sound": {
+                        "sound_id": "minecraft:block.bubble_column.whirlpool_inside",
+                        "range": 32
+                      }
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Consume to become temporarily invisible!",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

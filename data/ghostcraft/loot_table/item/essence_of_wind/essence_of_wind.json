@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wind_charge",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Essence of Wind",
+                  "color": "#4855c9",
+                  "bold": false,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Infinity",
+                    "color": "#a037ac",
+                    "italic": false
+                  },
+                  {
+                    "text": "Can only be used every 5 seconds",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "tooltip_display":{
+                  "hidden_components": [
+                    "enchantments",
+                    "potion_contents"
+                  ]
+                },
+                "use_cooldown": {
+                  "seconds": 5,
+                  "cooldown_group": "ghostcraft:kit/mauler/essence_of_wind"
+                },
+                "enchantments": {
+                  "ghostcraft:kit/mauler/infinite_essence_of_wind": 1
+                },
+                "minecraft:enchantment_glint_override": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

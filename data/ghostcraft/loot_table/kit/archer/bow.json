@@ -10,12 +10,28 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "custom_name": {
+                  "text": "Archer's Bow",
+                  "italic": false,
+                  "color": "#CBCBFF"
+                },
+                "lore": [
+                  {
+                    "text":"Can't be spammed",
+                    "italic": true,
+                    "color": "gray"
+                  }
+                ],
                 "unbreakable": {},
                 "tooltip_display": {
                   "hidden_components": ["unbreakable"]
                 },
                 "enchantments": {
                   "power": 4
+                },
+                "use_cooldown": {
+                  "seconds": 1.0,
+                  "cooldown_group": "ghostcraft:item/bow"
                 }
               }
             }

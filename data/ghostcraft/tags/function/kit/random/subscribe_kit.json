@@ -6,6 +6,7 @@
         "ghostcraft:kit/support/subscribe_kit",
         "ghostcraft:kit/shotbow/subscribe_kit",
         "ghostcraft:kit/soldier/subscribe_kit",
+        "ghostcraft:kit/mauler/subscribe_kit",
         "ghostcraft:kit/machine_bow/subscribe_kit"
     ]
 }

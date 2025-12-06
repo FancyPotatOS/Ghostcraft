@@ -28,5 +28,9 @@ scoreboard players set game.lobby.next_game.enabled ghostcraft.config 1
 
 scoreboard objectives add ghostcraft.game.ghosthunt.survivor_hurt_ghost.total_damage dummy
 
+scoreboard players set kit.mauler.speed_sugar ghostcraft.config 5
+scoreboard players set kit.mauler.invisibility_dust ghostcraft.config 2
+scoreboard players set kit.support.crate.invisibility_dust.count ghostcraft.config 2
+
 
 

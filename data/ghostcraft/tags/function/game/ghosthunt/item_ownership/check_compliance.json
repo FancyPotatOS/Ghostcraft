@@ -6,6 +6,7 @@
         "ghostcraft:kit/machine_bow/item_ownership/check_compliance",
         "ghostcraft:kit/shotbow/item_ownership/check_compliance",
         "ghostcraft:kit/soldier/item_ownership/check_compliance",
-        "ghostcraft:kit/support/item_ownership/check_compliance"
+        "ghostcraft:kit/support/item_ownership/check_compliance",
+        "ghostcraft:kit/mauler/item_ownership/check_compliance"
     ]
 }

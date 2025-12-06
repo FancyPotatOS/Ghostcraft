@@ -7,6 +7,7 @@ tag @s add ghostcraft.game.ghosthunt.survivor_hurt_ghost.attacker
 scoreboard players set accum_damage ghostcraft.temp 0
 
 execute as @e[tag=ghostcraft.ghost,nbt={HurtTime:10s}] run function ghostcraft:game/ghosthunt/survivor_hurt_ghost/save
+execute unless entity @e[tag=ghostcraft.ghost,nbt={HurtTime:10s}] run function ghostcraft:game/ghosthunt/survivor_hurt_ghost/calculate_remaining_health
 
 tag @s remove ghostcraft.game.ghosthunt.survivor_hurt_ghost.attacker
 
@@ -17,3 +18,5 @@ tag @s add ghostcraft.game.ghosthunt.survivor_hurt_ghost.killer
 tag @s add ghostcraft.game.ghosthunt.survivor_hurt_ghost.last_attacker
 
 execute if score phase ghostcraft.master matches 2 if score accum_damage ghostcraft.temp matches 1.. run function ghostcraft:game/ghosthunt/survivor_hurt_ghost/save_damage
+
+function ghostcraft:game/ghosthunt/survivor_hurt_ghost/sum_all_ghost_health
