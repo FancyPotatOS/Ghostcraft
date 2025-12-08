@@ -20,9 +20,9 @@ Ghostcraft is a Minecraft minigame based on [The Hidden: Source](https://www.hid
 
 The ghost has numerous abilities such as being able to leap around and stab, as well as a handful of different grenades.
 
-There is currently 6 kits the survivors can use, all with their own tools to help everybody survive the ghost.
+There is currently 7 kits the survivors can use, all with their own tools to help everybody survive the ghost.
 
-There is also 9 maps available. By default, a vote can be cast to switch maps every 3 turns.
+There is also 10 maps available. By default, a vote can be cast to switch maps every 3 turns.
 
 <details>
     <summary>Temple</summary>
@@ -68,6 +68,11 @@ There is also 9 maps available. By default, a vote can be cast to switch maps ev
     <summary>Spooky Mansion</summary>
     <br>
     <img src="https://github.com/FancyPotatOS/Ghostcraft/blob/master/images/maps/spooky_mansion.png?raw=true" alt="spooky_mansion_screenshot" style="width:50%;"/>
+</details>
+<details>
+    <summary>Warehouse</summary>
+    <br>
+    <img src="https://github.com/FancyPotatOS/Ghostcraft/blob/master/images/maps/warehouse.png?raw=true" alt="warehouse_screenshot" style="width:50%;"/>
 </details>
 
 
