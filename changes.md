@@ -47,8 +47,6 @@ $\color{Green}{\textsf{+}}$ **Moves all class selection to dialogs**<br/>
 
 $\color{Green}{\textsf{+}}$ **Adds a Mauler class**<br/>
 
-$\color{Green}{\textsf{+}}$ Buffs ghost healing to 1 heart, but must do more than half a heart of damage<br/>
-
 $\color{Green}{\textsf{+}}$ Gives Ghosts infinite attack speed<br/>
 
 $\color{Green}{\textsf{+}}$ Buffs the Hunter's melee weapon<br/>
@@ -60,6 +58,8 @@ $\color{Green}{\textsf{+}}$ Adds a toggle-able 10 second cooldown that will auto
 $\color{Green}{\textsf{+}}$ Displays damage statistics at the end of the game<br/>
 
 $\color{Green}{\textsf{+}}$ Displays the ghost killer/last attacker at the end of the game<br/>
+
+$\color{Red}{\textsf{⎯}}$ Ghost must do at least a heart of damage to heal from the attack<br/>
 
 $\color{Red}{\textsf{⎯}}$ Adds a cooldown to all grenades<br/>
 
