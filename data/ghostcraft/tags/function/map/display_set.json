@@ -8,6 +8,7 @@
         "ghostcraft:map/rocks/test/display_set",
         "ghostcraft:map/the_lighthouse/test/display_set",
         "ghostcraft:map/haunted_hillside/test/display_set",
-        "ghostcraft:map/spooky_mansion/test/display_set"
+        "ghostcraft:map/spooky_mansion/test/display_set",
+        "ghostcraft:map/warehouse/test/display_set"
     ]
 }

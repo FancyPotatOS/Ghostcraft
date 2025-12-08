@@ -8,6 +8,7 @@
         "ghostcraft:map/rocks/book_input",
         "ghostcraft:map/the_lighthouse/book_input",
         "ghostcraft:map/haunted_hillside/book_input",
-        "ghostcraft:map/spooky_mansion/book_input"
+        "ghostcraft:map/spooky_mansion/book_input",
+        "ghostcraft:map/warehouse/book_input"
     ]
 }

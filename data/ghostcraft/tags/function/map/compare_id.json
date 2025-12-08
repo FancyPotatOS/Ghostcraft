@@ -8,6 +8,7 @@
         "ghostcraft:map/rocks/compare_id",
         "ghostcraft:map/the_lighthouse/compare_id",
         "ghostcraft:map/haunted_hillside/compare_id",
-        "ghostcraft:map/spooky_mansion/compare_id"
+        "ghostcraft:map/spooky_mansion/compare_id",
+        "ghostcraft:map/warehouse/compare_id"
     ]
 }

@@ -1,0 +1,18 @@
+
+
+ghostcraft:map/warehouse/0
+0, 1, 0
+48 25 48
+
+ghostcraft:map/warehouse/1
+0, 1, 48
+48 25 48
+
+ghostcraft:map/warehouse/2
+0, 1, 96
+48, 25, 10
+
+ghostcraft:map/warehouse/3
+48, 1, 48
+12, 25, 30
+
