@@ -3,12 +3,6 @@
     "ghostcraft.kit.ghost.suffocation_damage": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "ghostcraft:kit/ghost/suffocation_immunity/wearing"
-          }
-        ],
         "damage": {
           "type": {
             "tags": [

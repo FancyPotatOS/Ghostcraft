@@ -13,5 +13,25 @@
   },
   "anvil_cost": 0,
   "slots": [],
-  "effects": {}
+  "effects": {
+    "minecraft:damage_protection": [
+      {
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "ghostcraft:suffocation_damage",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": 0
+        }
+      }
+    ]
+  }
 }

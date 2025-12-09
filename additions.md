@@ -20,9 +20,6 @@
           - Has minimum number of location (not config)
           - Just win condition (not config)
 
-  - Maybe
-    - A 'Mauler' kit with mace/boost effect
-
 - Potential particles
   - GUI with gifs of particles to show them instead?
 
