@@ -41,40 +41,19 @@
 </style>
 </details>
 
-# V2.0
+# V2.1
 
-$\color{Green}{\textsf{+}}$ **Moves all class selection to dialogs**<br/>
+$\color{Green}{\textsf{+}}$ Buffs the Hunter<br/>
+&nbsp;&nbsp; $\color{Green}{\textsf{+}}$ 6 Armor points<br/>
+&nbsp;&nbsp; $\color{Green}{\textsf{+}}$ 8 Flares<br/>
+&nbsp;&nbsp; $\color{Green}{\textsf{+}}$ 5 Trap uses<br/>
+&nbsp;&nbsp; $\color{Green}{\textsf{+}}$ Support has 4 Flare Crates<br/>
 
-$\color{Green}{\textsf{+}}$ **Adds a Mauler class**<br/>
+$\color{Yellow}{\textsf{∼}}$ Fixes Ghosts taking suffocation damage
 
-$\color{Green}{\textsf{+}}$ Gives Ghosts infinite attack speed<br/>
+$\color{Yellow}{\textsf{∼}}$ Removes Crafting Tables from the Warehouse map
 
-$\color{Green}{\textsf{+}}$ Buffs the Hunter's melee weapon<br/>
+$\color{Yellow}{\textsf{∼}}$ Hides Ghost's Survivor Compass being visible to other players
 
-$\color{Green}{\textsf{+}}$ Gives Support a crate for Invisiblity Dust<br/>
-
-$\color{Green}{\textsf{+}}$ Adds a toggle-able 10 second cooldown that will automatically start the game<br/>
-
-$\color{Green}{\textsf{+}}$ Displays damage statistics at the end of the game<br/>
-
-$\color{Green}{\textsf{+}}$ Displays the ghost killer/last attacker at the end of the game<br/>
-
-$\color{Red}{\textsf{⎯}}$ Ghost must do at least a heart of damage to heal from the attack<br/>
-
-$\color{Red}{\textsf{⎯}}$ Adds a cooldown to all grenades<br/>
-
-$\color{Red}{\textsf{⎯}}$ Adds a cooldown to the Archer's bow<br/>
-
-$\color{Red}{\textsf{⎯}}$ Reduces Machine Bow's armor by 2 points<br/>
-
-$\color{Yellow}{\textsf{∼}}$ Bug Fixes<br/>
-&nbsp;&nbsp; $\color{Yellow}{\textsf{∼}}$ Fixes grappling hook inconsistent reeling<br/>
-&nbsp;&nbsp; $\color{Yellow}{\textsf{∼}}$ Prevents thrown items from stacking<br/>
-&nbsp;&nbsp; $\color{Yellow}{\textsf{∼}}$ Fixes timed grenades exploding instantly when throw downwards while shifting<br/>
-&nbsp;&nbsp; $\color{Yellow}{\textsf{∼}}$ Fixes crafting tables not doing damage<br/>
-&nbsp;&nbsp; $\color{Yellow}{\textsf{∼}}$ Waxes all signs in Haunted Ruins<br/>
-&nbsp;&nbsp; $\color{Yellow}{\textsf{∼}}$ Fixes game not starting when all players have no weight to be Ghost<br/>
-&nbsp;&nbsp; $\color{Yellow}{\textsf{∼}}$ Enables the particle trigger scoreboard on tick instead of on reaction<br/>
-&nbsp;&nbsp; $\color{Yellow}{\textsf{∼}}$ Attempts to fix the 'last survivor/ghost' message<br/>
-&nbsp;&nbsp; $\color{Yellow}{\textsf{∼}}$ Fixes 'Not enough energy' messages displaying at the wrong times<br/>
-&nbsp;&nbsp; $\color{Yellow}{\textsf{∼}}$ Clears all Vex at the end of the game<br/>
+$\color{Red}{\textsf{⎯}}$ Nerfs the ShotBow<br/>
+&nbsp;&nbsp; $\color{Red}{\textsf{⎯}}$ 2 Armor points<br/>
