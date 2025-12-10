@@ -10,6 +10,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:item_model": "ghostcraft:kit/ghost/compass",
                 "minecraft:custom_data": "{ghostcraft:{type:\"ghost_compass\"}}",
                 "minecraft:custom_name": {"text":"Ghost Compass","italic":false,"color":"white"},
                 "minecraft:lore": [{"text":"Right click to update","italic":true,"color":"gray"}],

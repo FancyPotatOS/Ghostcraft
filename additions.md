@@ -3,6 +3,10 @@
 
 - Ideas
 
+  - No direction to UI sounds
+  - Buff Hunter
+  - Reduce ShotBow armor
+
   - Config functions for each ability/kit (Total separation, if possible)
   
   - More stabilty for multiplayer item ownership
