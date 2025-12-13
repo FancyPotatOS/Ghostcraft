@@ -92,6 +92,13 @@ There is also 10 maps available. By default, a vote can be cast to switch maps e
 
 
 
+## Contributors
+Thank you so much!
+
+### [Trunkis](https://github.com/Trunkis)
+
+
+
 ## Server Details
 
 If you are running a server, please ensure that it is compatible with the [player_motion](https://modrinth.com/datapack/player_motion) datapack. Some optimizations from servers like Paper break some functionality like ghost boosting and the grappling hook.
