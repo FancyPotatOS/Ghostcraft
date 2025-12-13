@@ -9,4 +9,4 @@
 
 execute in ghostcraft:empty run forceload add -64 -64 64 64
 
-execute in ghostcraft:empty run fill 24 -61 -8 -8 -61 24 air
+execute in ghostcraft:empty run fill 24 -61 -8 -8 -61 24 air strict
