@@ -28,7 +28,7 @@ gamerule immediate_respawn true
 gamerule mob_drops false
 gamerule spawn_mobs false
 gamerule elytra_movement_check true
-gamerule raids true
+gamerule raids false
 gamerule advance_time false
 gamerule fire_spread_radius_around_player -1
 gamerule spread_vines false
@@ -39,7 +39,6 @@ gamerule keep_inventory true
 gamerule mob_griefing false
 gamerule natural_health_regeneration false
 gamerule respawn_radius 0
-gamerule send_command_feedback false
+gamerule send_command_feedback true
 gamerule show_death_messages false
 gamerule show_advancement_messages false
-

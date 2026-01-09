@@ -90,14 +90,7 @@ function ghostcraft:config/reset
 # Setup dimension
 function ghostcraft:world/initialize
 
-schedule function ghostcraft:map/refresh 5s
-
-# Gracious messages to spam chat with
-schedule function ghostcraft:meta/grace/message_1 1s
-schedule function ghostcraft:meta/grace/message_5 5s
-schedule function ghostcraft:meta/grace/message_10 10s
-schedule function ghostcraft:meta/grace/message_15 15s
-
+function ghostcraft:map/refresh
 
 # Create storage
 data merge storage ghostcraft:data {stab_queue:[],vampire_queue:[],dimension:"ghostcraft:empty"}

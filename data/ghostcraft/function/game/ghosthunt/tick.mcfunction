@@ -11,8 +11,12 @@
 execute as @a at @s run function #ghostcraft:ability/tick
 
 # Update the score
-bossbar set ghostcraft.game.time players @a
-execute store result bossbar ghostcraft.game.time value run scoreboard players get game_timer ghostcraft.temp
+execute store result score #Survivors ghostcraft.temp if entity @a[tag=ghostcraft.survivor]
+execute store result score #Ghosts ghostcraft.temp if entity @a[tag=ghostcraft.ghost]
+
+bossbar set ghostcraft:game.time players @a
+execute store result bossbar ghostcraft:game.time value run scoreboard players get game_timer ghostcraft.temp
+bossbar set ghostcraft:game.time name ["",[{text:"⚔ ",color:blue},{score:{name:"#Survivors",objective:ghostcraft.temp}}," "],"",["[ Round Time: ",{score:{name:"game_timer",objective:ghostcraft.temp}},"t ]"],[{text:" ",color:red},{score:{name:"#Ghosts",objective:ghostcraft.temp}},{text:" 👻"}]]
 
 # Check that the game hasn't ended yet
 function ghostcraft:game/ghosthunt/mid_game_player_check
@@ -31,7 +35,7 @@ function ghostcraft:game/ghosthunt/timer
 execute if score ghosthunt.timer.ended ghostcraft.temp matches 1 run return 0
 
 # Make all ghosts glow for the spectators
-execute as @e[type=#ghostcraft:player,tag=ghostcraft.ghost] at @s run particle minecraft:glow ~ ~1 ~ 0.1 0.5 0.1 0 2 force @a[tag=ghostcraft.spectating]
+execute as @e[type=#ghostcraft:player,tag=ghostcraft.ghost] at @s run particle glow ~ ~1 ~ 0.1 0.5 0.1 0 2 force @a[tag=ghostcraft.spectating]
 
 # Tick all ghosthunt-related functions
 function #ghostcraft:game/ghosthunt/tick
