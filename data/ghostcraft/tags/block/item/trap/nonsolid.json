@@ -75,7 +75,11 @@
 		},
 		{
 			"required": false,
-			"id": "minecraft:chain"
+			"id": "minecraft:copper_chain"
+		},
+		{
+			"required": false,
+			"id": "minecraft:iron_chain"
 		},
 		{
 			"required": false,

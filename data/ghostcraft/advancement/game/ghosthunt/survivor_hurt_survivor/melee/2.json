@@ -19,7 +19,7 @@
           },
           "type": {
             "direct_entity": {
-              "type": "#ghostcraft:player"
+              "entity_type": "#ghostcraft:player"
             }
           }
         },

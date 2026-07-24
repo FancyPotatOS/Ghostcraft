@@ -2,6 +2,6 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{ghostcraft:{type:\"tracking_compass\"}}}}}"
+    "nbt": "{SelectedItem:{id:\"minecraft:compass\",components:{\"minecraft:custom_data\":{ghostcraft:{type:\"tracking_compass\"}}}}}"
   }
 }
