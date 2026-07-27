@@ -29,11 +29,13 @@ function ghostcraft:ability/feather_falling/grant
 # Only continue execution if not coming from lobby
 execute if score coming_from_lobby ghostcraft.temp matches 1 run return 0
 
-function #ghostcraft:game/lobby/give_options
 function #ghostcraft:game/lobby/give_books
+function #ghostcraft:game/lobby/give_options
 
 # Teleport all players to a random lobby entity
 tp @s @e[tag=ghostcraft.map.lobby,limit=1,sort=random]
+
+function ghostcraft:kit/ghost/user_config/enable_trigger
 
 gamemode survival
 

@@ -13,6 +13,5 @@ data modify storage ghostcraft:data macro.function set from entity @s SelectedIt
 
 function ghostcraft:kit/class/show_dialog_macro with storage ghostcraft:data macro
 
-item replace entity @s weapon.offhand from entity @s weapon.mainhand
-item replace entity @s weapon.mainhand with minecraft:air
+function ghostcraft:kit/class/kit_options/to_offhand
 

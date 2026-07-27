@@ -1,5 +1,5 @@
 #
-#   Migration File v1.3
+#   Migration File v3.0
 #   
 #   Purpose: To update the datapack up to this level, then apply new/updated configs or setup
 #
@@ -7,30 +7,60 @@
 #
 
 
-# Apply last migration
-execute unless score version ghostcraft.master matches 6.. run function ghostcraft:meta/migrations/migration_v5
+# Early migration stop if right version
+execute if score version ghostcraft.master matches 8 run return 0
 
-tellraw @a ["",{"text":"[GhostCraft Datapack] - Setting up v2.0","bold":true,"color":"dark_blue"}," - Setup"]
+# Apply last migration
+execute unless score version ghostcraft.master matches 7.. run function ghostcraft:meta/migrations/migration_v6
+
+tellraw @a ["",{"text":"[GhostCraft Datapack] - Setting up v3.0","bold":true,"color":"dark_blue"}," - Setup"]
 
 # Set the version
-scoreboard players set version ghostcraft.master 7
+scoreboard players set version ghostcraft.master 8
 
 
-# 1.21.10 (v2.0) updates
-scoreboard objectives remove ghostcraft.effect.ghost.hurt_effect
-scoreboard objectives remove ghostcraft.effect.ghost.hurt_effect.trigger
+# 26.2 (v3.0) updates
+data merge storage ghostcraft:data \
+{\
+    users:{},\
+    kit: {\
+        ghost: {\
+            cycles: {\
+                "Scare": {\
+                    "next": "CraftingTable",\
+                    "display": "Scare",\
+                    "sprite": "ghostcraft:item/gui/kits/ghost/bone"\
+                },\
+                "CraftingTable": {\
+                    "next": "Blink",\
+                    "display": "Crafting Table",\
+                    "sprite": "ghostcraft:item/gui/kits/ghost/crafting_table"\
+                },\
+                "Blink": {\
+                    "next": "FragGrenade",\
+                    "display": "Blink",\
+                    "sprite": "ghostcraft:item/gui/kits/ghost/ender_eye"\
+                },\
+                "FragGrenade": {\
+                    "next": "Flashbang",\
+                    "display": "Frag Grenade",\
+                    "sprite": "ghostcraft:item/gui/kits/ghost/magma_cream"\
+                },\
+                "Flashbang": {\
+                    "next": "PoisonGrenade",\
+                    "display": "Flashbang",\
+                    "sprite": "ghostcraft:item/gui/kits/ghost/nether_star"\
+                },\
+                "PoisonGrenade": {\
+                    "next": "Scare",\
+                    "display": "Poison Grenade",\
+                    "sprite": "ghostcraft:item/gui/kits/ghost/ghast_tear"\
+                }\
+            }\
+        }\
+    }\
+}
 
-scoreboard objectives add ghostcraft.effect.ghost.particle_effect dummy
-scoreboard objectives add ghostcraft.effect.ghost.particle_effect.trigger trigger
-
-scoreboard players set game.lobby.next_game.cooldown ghostcraft.config 200
-scoreboard players set game.lobby.next_game.enabled ghostcraft.config 1
-
-scoreboard objectives add ghostcraft.game.ghosthunt.survivor_hurt_ghost.total_damage dummy
-
-scoreboard players set kit.mauler.speed_sugar ghostcraft.config 5
-scoreboard players set kit.mauler.invisibility_dust ghostcraft.config 2
-scoreboard players set kit.support.crate.invisibility_dust.count ghostcraft.config 2
-
-
+scoreboard objectives add ghostcraft.kit.ghost.cycle_nth_trigger trigger
+scoreboard players set options ghostcraft.kit.ghost.cycle_nth_trigger 1
 

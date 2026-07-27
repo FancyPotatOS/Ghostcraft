@@ -11,58 +11,43 @@ item replace entity @s hotbar.1 with written_book[written_book_content={author:"
 [\
     [\
         {\
-            "text":"    = GhostCraft =                                         "\
+            "text":"    = GhostCraft =\n\n"\
         },\
         {\
             "color":"dark_green",\
-            "text": "[Start Game]",\
+            "text": "      [Start Game]\n",\
             "hover_event": {"action": "show_text","value": "Click to start"},\
             "click_event": {"action": "run_command","command": "/trigger ghostcraft.trigger.game set 1"}\
         },\
         {\
-            "text":"                "\
+            "color":"blue",\
+            "text": "      [Change Map]\n\n",\
+            "hover_event": {"action": "show_text","value": "Click to change map"},\
+            "click_event": {"action": "run_command","command": "/trigger ghostcraft.trigger.game set 4"}\
         },\
         {\
             "color":"dark_green",\
-            "text": "[Spectate]",\
+            "text": "       [Spectate]\n",\
             "hover_event": {"action": "show_text","value": "Click to spectate"},\
             "click_event": {"action": "run_command","command": "/trigger ghostcraft.trigger.game set 2"}\
         },\
         {\
-            "text":"            "\
-        },\
-        {\
             "color":"dark_green",\
-            "text": "[Stop Spectating]",\
+            "text": "   [Stop Spectating]\n",\
             "hover_event": {"action": "show_text","value": "Click to play"},\
             "click_event": {"action": "run_command","command": "/trigger ghostcraft.trigger.game set 3"}\
         },\
         {\
-            "text":"         "\
-        },\
-        {\
             "color":"dark_green",\
-            "text": "[Toggle Music]",\
+            "text": "     [Toggle Music]\n",\
             "hover_event": {"action": "show_text","value": "Click to toggle music"},\
             "click_event": {"action": "run_command","command": "/trigger ghostcraft.trigger.game set 5"}\
         },\
         {\
-            "text":"        "\
-        },\
-        {\
             "color":"dark_green",\
-            "text": "[Toggle Auto-Start]",\
+            "text": "  [Toggle Auto-Start]",\
             "hover_event": {"action": "show_text","value": "Click to toggle game auto-starting"},\
             "click_event": {"action": "run_command","command": "/trigger ghostcraft.trigger.game set 6"}\
-        },\
-        {\
-            "text":"        "\
-        },\
-        {\
-            "color":"blue",\
-            "text": "[Change Map]",\
-            "hover_event": {"action": "show_text","value": "Click to change map"},\
-            "click_event": {"action": "run_command","command": "/trigger ghostcraft.trigger.game set 4"}\
         }\
     ]\
 ]}] 1

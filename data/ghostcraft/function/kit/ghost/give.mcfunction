@@ -1,17 +1,13 @@
 
+function ghostcraft:user_config/ensure_init
+
 # Basic Items
 loot give @s loot ghostcraft:ghost/boost
 loot give @s loot ghostcraft:ghost/stab
-loot give @s loot ghostcraft:ghost/scare
 
-# Consumables
-loot give @s loot ghostcraft:ghost/crafting_table
-loot give @s loot ghostcraft:ghost/flashbang
-loot give @s loot ghostcraft:ghost/frag_grenade
-loot give @s loot ghostcraft:ghost/poison_grenade
+function ghostcraft:kit/ghost/give_configured
 
 # Infinite
-loot give @s loot ghostcraft:ghost/blink
 loot give @s loot ghostcraft:ghost/teleport_crystal
 
 # Armor items

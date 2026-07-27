@@ -1,5 +1,6 @@
 {
     "values": [
-        "ghostcraft:kit/class/kit_options/get"
+        "ghostcraft:kit/class/kit_options/get",
+        "ghostcraft:kit/class/ghost_kit_options/get"
     ]
 }
