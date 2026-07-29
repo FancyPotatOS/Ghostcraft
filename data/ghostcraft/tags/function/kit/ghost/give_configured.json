@@ -1,0 +1,10 @@
+{
+    "values": [
+        "ghostcraft:item/blink/give_configured",
+        "ghostcraft:item/scare/give_configured",
+        "ghostcraft:item/crafting_table/give_configured",
+        "ghostcraft:item/frag_grenade/give_configured",
+        "ghostcraft:item/flashbang/give_configured",
+        "ghostcraft:item/poison_grenade/give_configured"
+    ]
+}
