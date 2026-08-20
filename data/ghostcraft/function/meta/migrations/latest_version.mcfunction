@@ -64,3 +64,11 @@ data merge storage ghostcraft:data \
 scoreboard objectives add ghostcraft.kit.ghost.cycle_nth_trigger trigger
 scoreboard players set options ghostcraft.kit.ghost.cycle_nth_trigger 1
 
+team modify ghostcraft.game.ghosthunt.survivor nametagVisibility hideForOtherTeams
+team modify ghostcraft.game.ghosthunt.survivor seeFriendlyInvisibles true
+team modify ghostcraft.game.ghosthunt.survivor collisionRule never
+
+team modify ghostcraft.game.ghosthunt.ghost nametagVisibility hideForOtherTeams
+team modify ghostcraft.game.ghosthunt.ghost seeFriendlyInvisibles true
+team modify ghostcraft.game.ghosthunt.ghost collisionRule never
+

@@ -1,5 +1,26 @@
 
 
+### Classes
+
+#### Spider
+- Web Slinger
+  - Can throw a 'web'
+    - If it hits the underside of a block, you are attached by a lead
+      - Attached to a very small, invisible armor stand
+      - Riding a very small, invisible armor stand
+        - Once grounded, it breaks
+    - Some propulsion is provided, letting you swing
+  - Can throw stickyballs
+    - Will cobweb the Ghost if hit
+  - Spideysense
+    - Compass
+  - Wall Climb
+    - Gains height, unlike the Ghost
+  - No fall damage
+  - Weapon?
+    - Spear would be neat - "Stinger"
+
+
 ### Tasks
 - Use Artifact
   - Players must use an artifact for a certain amount of time

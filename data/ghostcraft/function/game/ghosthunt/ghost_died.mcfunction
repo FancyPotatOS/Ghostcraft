@@ -15,7 +15,7 @@ execute if score ghosts_left ghostcraft.temp matches 1 run tellraw @a[tag=ghostc
 execute if score ghosts_left ghostcraft.temp matches 1 run tellraw @a[tag=ghostcraft.spectator] {"color":"gray","italic":true,"text":"One ghost left!"}
 
 # More than one left
-execute if score ghosts_left ghostcraft.temp matches 2.. run tellraw @a {"text":"A ghost died!"}
+# execute if score ghosts_left ghostcraft.temp matches 2.. run tellraw @a {"text":"A ghost died!"}
 
 # Clear all ghosts of their kill count since a ghost died
 scoreboard players reset @e[type=#ghostcraft:player,tag=ghostcraft.ghost] ghostcraft.game.ghosthunt.ghost_kills

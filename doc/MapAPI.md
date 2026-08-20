@@ -2,9 +2,9 @@
 
 ## Map API
 
-You can add your own maps using the function tags to include logic into the normal flow of the GhostCraft datapack.
+You can add your own maps using some function tags to include logic into the normal flow of the GhostCraft datapack.
 
-There are two maps included so far (Blackout and Temple), both of which are from the original game. You can use those for reference to see how to properly implement your own maps.
+There are many maps included so far (under `data/ghostcraft/function/map`). You can use those for reference to see how to properly implement your own maps.
 
 
 ### Background
@@ -23,21 +23,27 @@ The function to clear the world is `ghostcraft:world/clear`
 
 ### API
 
-The API is contained entirely within two function tags. Include your own functions within these tags to implement a map.
+The API is contained entirely within the following function tags. Include your own functions within these tags to implement a map.
 
-To ensure there is no function conflicts, assign your map a unique integer ID, and stop the execution of some of the functions if that ID is not the same as score `map ghostcraft.config`. Have a look at `ghostcraft:map/blackout/test/setup` for reference.
+To ensure there is no function conflicts: 
+1. Decide on a unique integer to act as an ID
+2. Stop the execution of functions if that ID is not the same as score `map ghostcraft.config`.
+    - This only applies to the functions that specify this
+    - Have a look at `ghostcraft:map/blackout/test/setup` for reference.
+
+#### Function Tags
 
 - `#ghostcraft:map/setup`
     - <b>Place your map</b>
     - Requires `map ghostcraft.config` to match
     - Place your map into the world
         - This includes the lobby
-        - Your map and lobby should NEVER exceed (-64, 64, -64) to (60, 248, 60)
+        - ***Your map and lobby should NEVER exceed (-64, 64, -64) to (60, 248, 60)***
         - This allows it to be cleared from the world properly
         - The execution location is not certain, so please don't use relative coordinates `~ ~ ~`
         
-    - <b>All map entities must be tagged with `ghostcraft.map`!!!</b>
-    - Place marker entities where you want your locations to be
+    - <b>All entities within your map (armor stands, block displays, anything!) must be tagged with `ghostcraft.map`!!!</b>
+    - Place marker entities where you want spawn locations to be
         - During gameplay, the appropriate markers will be chosen randomly when moving the players
         - Use the specific tags to designate the location:
             1. `ghostcraft.map.lobby`
@@ -52,7 +58,7 @@ To ensure there is no function conflicts, assign your map a unique integer ID, a
     - A simple 'The map was set to [Map]' will suffice
 - `#ghostcraft:map/book_input`
     - <b>Include a page to vote for your map</b>
-    - Insert a page in the written book in the weapon.mainhand slot of the executing entity.
+    - Insert a page in the written book in the `weapon.mainhand` slot of the executing entity.
     - Include a click action for the players to vote
         - It should run `/trigger ghostcraft.game.map_change.vote set <ID>`, where the ID is your map ID
 - `#ghostcraft:map/compare_id`

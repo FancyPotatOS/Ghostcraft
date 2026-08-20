@@ -19,7 +19,7 @@ execute if score survivors_left ghostcraft.temp matches 1 run tellraw @a[tag=gho
 execute if score survivors_left ghostcraft.temp matches 1 run tellraw @a[tag=ghostcraft.spectator] {"color":"gray","italic":true,"text":"One survivor left!"}
 
 # More than one left
-execute if score survivors_left ghostcraft.temp matches 2.. run tellraw @a {"text":"A survivor died!"}
+# execute if score survivors_left ghostcraft.temp matches 2.. run tellraw @a {"text":"A survivor died!"}
 
 execute as @e[type=#ghostcraft:player,tag=ghostcraft.ghost] if score @s ghostcraft.game.ghosthunt.ghost_kills matches 1.. at @s run function ghostcraft:game/ghosthunt/ensure_minimum_timer
 scoreboard players reset @a ghostcraft.game.ghosthunt.ghost_kills
