@@ -9,6 +9,8 @@
 
 execute unless function ghostcraft:game/player_check run return run function ghostcraft:game/errors/not_enough_players
 
+function #ghostcraft:game/on_start
+
 execute as @e[type=#ghostcraft:player] run function ghostcraft:game/player_reset
 
 function ghostcraft:game/ghosthunt/survivor_hurt_ghost/reset

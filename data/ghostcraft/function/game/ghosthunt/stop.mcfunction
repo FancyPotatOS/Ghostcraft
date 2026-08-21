@@ -7,6 +7,8 @@
 #
 
 
+function #ghostcraft:game/on_end
+
 bossbar set minecraft:ghostcraft.game.time visible false
 tag @a[tag=!ghostcraft.spectator] remove ghostcraft.spectating
 scoreboard players reset @a ghostcraft.game.ghosthunt.ghost_kills

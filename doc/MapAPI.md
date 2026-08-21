@@ -31,7 +31,7 @@ To ensure there is no function conflicts:
     - This only applies to the functions that specify this
     - Have a look at `ghostcraft:map/blackout/test/setup` for reference.
 
-#### Function Tags
+#### Required Function Tags
 
 - `#ghostcraft:map/setup`
     - <b>Place your map</b>
@@ -66,5 +66,19 @@ To ensure there is no function conflicts:
     - To check if the score `target_map ghostcraft.temp` matches your map ID
     - If so, set the score `map_exists ghostcraft.temp` to 1.
         - This is the flag saying the map a player voted for is an existing map, to stop manual `/trigger` shenanigans
-    
+
+#### Optional Function Tags
+
+These are optional function tags to help you clean up your map when these events occur
+
+- `#ghostcraft:game/on_start`
+    - Requires `map ghostcraft.config` to match
+    - Runs just before the game is started and players are placed
+- `#ghostcraft:game/on_midgame`
+    - Requires `map ghostcraft.config` to match
+    - Runs when the game is reaching the end
+        - Ex. ~30 second mark when the ghost is given a compass
+- `#ghostcraft:game/on_end`
+    - Requires `map ghostcraft.config` to match
+    - Runs immediately after the game ends
 
