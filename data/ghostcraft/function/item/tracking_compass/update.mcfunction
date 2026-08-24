@@ -11,6 +11,9 @@ data modify entity @e[tag=ghostcraft.item.tracking_compass.compass_placeholder,l
 data modify entity @e[tag=ghostcraft.item.tracking_compass.compass_placeholder,limit=1] equipment.mainhand.components."minecraft:lodestone_tracker".target.pos[1] set from entity @e[tag=ghostcraft.item.tracking_compass.target,limit=1] Pos[1]
 data modify entity @e[tag=ghostcraft.item.tracking_compass.compass_placeholder,limit=1] equipment.mainhand.components."minecraft:lodestone_tracker".target.pos[2] set from entity @e[tag=ghostcraft.item.tracking_compass.target,limit=1] Pos[2]
 
+# Damage by one if it uses durability
+execute if items entity @s weapon.mainhand *[minecraft:max_damage] run function ghostcraft:item/tracking_compass/reduce_durability
+
 execute if data entity @s SelectedItem{id:"minecraft:compass"} run item replace entity @s weapon.mainhand from entity @e[tag=ghostcraft.item.tracking_compass.compass_placeholder,limit=1] weapon.mainhand
 
 kill @e[tag=ghostcraft.item.tracking_compass.compass_placeholder]

@@ -11,7 +11,7 @@
         - Once grounded, it breaks
     - Some propulsion is provided, letting you swing
   - Can throw stickyballs
-    - Will cobweb the Ghost if hit
+    - Will cobweb for a time the Ghost if hit
   - Spideysense
     - Compass
   - Wall Climb
@@ -66,6 +66,7 @@
 ### Situations
 - Gain Boons From Condition Completion
   - Survivors gain rewards for completing tasks
+  - Ominous/Trial vaults as native currency
   - Special items that harass the Ghost
     - Crucifix
       - Using it reveals the Ghost within a radius
@@ -74,6 +75,13 @@
       - Has a max use time
     - Radar
       - Dot for the Ghost's direction appears around you, but not super accurate
+    - Shoddy Compass
+      - Breaks after some amount of updates
+    - Spear with limited durability
+    - Trident with limited durability
+      - Loyalty?
+    - Item that grants abilty to fly for a second or two
+      - Could come with rockets, or that could be another item
     - Item Stocking
       - Vending machines accept money in exchange for items that anybody can use
       - Enough conditions met grants everybody a one-time use
@@ -81,6 +89,7 @@
         - Fix supply lines
         - Turn on local network
     - Potions
+    - Can summon and lead Allays for some reason
 - Invincible Ghost
   - When the ghost dies, it has ~15-30 seconds before respawning
   - It could be much weaker allowing death to occur often but survivor resources dwindle
@@ -113,9 +122,35 @@
 
 ### Json Formatting
 
+#### Event Choosing
 {
-    id: namespaced reference id,
-    requires: namespaced reference id,
-    criteria: block_state|item_at|stand_at,
+  id: namespaced reference id,
+  requires: namespaced reference id,
+  criteria: block_state|item_at|stand_at,
+  activates: [
+    {
+      type: choose_marker|,
+      
+      (choose_marker)
+      tag: EntityTag,
+    }
+  ],
+  rewards: [
+    {
+      type: loot_table|,
+
+      (loot_table)
+      loot_table: LootTable,
+      location: EntityTag
+    }
+  ],
+}
+
+#### Entity Activation
+{
+  type: block|,
+  id: namespaced reference id,
+  place: Function,
+  reset: Function,
 }
 
