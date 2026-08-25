@@ -84,3 +84,5 @@ scoreboard players set game.tasks.enabled ghostcraft.config 1
 scoreboard objectives add ghostcraft.effect.ghost.hurt_effect dummy
 scoreboard objectives add ghostcraft.effect.ghost.hurt_sound dummy
 
+scoreboard objectives remove ghostcraft.logic.login
+
