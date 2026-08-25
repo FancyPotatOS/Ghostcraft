@@ -29,9 +29,6 @@ function #ghostcraft:map/display_set
 
 tellraw @a [{"text":"Please wait while the new map is being loaded...","italic": true,"color":"red"}]
 
-# Default to unsupported map
-scoreboard players set game.tasks.map_supported ghostcraft.config 0
-
 function ghostcraft:map/refresh
 
 tag @a remove ghostcraft.game.map_change.calculate_vote.winner
