@@ -7,7 +7,7 @@
 #
 
 
-tag @s remove ghostcraft.ability.cling.prevent_spasmsw
+tag @s remove ghostcraft.ability.cling.prevent_spasm
 tag @s remove ghostcraft.ability.cling.engaged
 tag @s add ghostcraft.ability.cling.hesitation
 attribute @s gravity modifier remove ghostcraft.ability.cling

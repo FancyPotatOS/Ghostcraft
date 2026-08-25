@@ -137,8 +137,6 @@ For example, to change the amount of arrows an archer starts with to 15, run `/s
             - How much time (int ticks) is left when the ghost is given the compass (Set to -1 to disable)
         - `ability.cling.regain_ability_energy`
             - How much energy the ghost needs after spending it all to be able to cling again
-        - `effect.ghost.hurt_effect`
-            - The effect a ghost gives off when hurt. Currently only supports '0'.
 
 - Technical
     - `is_server`
