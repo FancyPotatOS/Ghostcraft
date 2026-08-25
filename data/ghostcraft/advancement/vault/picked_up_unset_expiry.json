@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "ghostcraft.vault.picked_up_unset_expiry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {
+                "ghostcraft": {
+                  "type": "vault.unset_expiry"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:vault/advancements/picked_up_unset_expiry"
+  }
+}

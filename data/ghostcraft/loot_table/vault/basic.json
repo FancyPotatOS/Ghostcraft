@@ -1,0 +1,114 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 7,
+          "type": "minecraft:loot_table",
+          "value": "ghostcraft:item/flare/item"
+        },
+        {
+          "weight": 7,
+          "type": "minecraft:loot_table",
+          "value": "ghostcraft:item/blink/blink",
+          "functions": [
+            {
+                "function": "minecraft:set_components",
+                "components": {
+                    "minecraft:item_model": "minecraft:ender_eye"
+                }
+            }
+          ]
+        },
+        {
+          "weight": 7,
+          "type": "minecraft:loot_table",
+          "value": "ghostcraft:item/trap/item",
+          "functions": [
+            {
+                "function": "minecraft:set_damage",
+                "damage": 0.08
+            },
+            {
+                "function": "minecraft:set_name",
+                "name": {"text":"Single-Use Trap","italic":false,"color":"gray"}
+            }
+          ]
+        },
+        {
+          "weight": 3,
+          "type": "minecraft:loot_table",
+          "value": "ghostcraft:item/courage/normal"
+        },
+        {
+          "weight": 3,
+          "type": "minecraft:loot_table",
+          "value": "ghostcraft:item/survivor_grenade/survivor_grenade"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:loot_table",
+          "value": "ghostcraft:item/grappling_hook/grappling_hook",
+          "functions": [
+            {
+                "function": "minecraft:set_damage",
+                "damage": 0.078125
+            },
+            {
+                "function": "minecraft:set_name",
+                "name": {"text":"Shoddy Grappling Hook","italic":false,"color":"gray"}
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:loot_table",
+          "value": "ghostcraft:item/tracking_compass/tracking_compass",
+          "functions": [
+            {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:max_damage": 5,
+                  "minecraft:damage": 0
+                }
+            },
+            {
+                "function": "minecraft:set_damage",
+                "damage": 0.078125
+            },
+            {
+                "function": "minecraft:set_name",
+                "name": {"text":"Shoddy Tracking Compass","italic":false,"color":"gray"}
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+            "condition": "minecraft:reference",
+            "name": "ghostcraft:vault/unexpired"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "ghostcraft:vault/expired_reward"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:reference",
+            "name": "ghostcraft:vault/unexpired"
+          }
+        }
+      ]
+    }
+  ]
+}

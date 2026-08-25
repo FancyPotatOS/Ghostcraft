@@ -61,6 +61,8 @@ data merge storage ghostcraft:data \
     }\
 }
 
+scoreboard objectives add ghostcraft.token.expiry_time dummy
+
 scoreboard objectives add ghostcraft.kit.ghost.cycle_nth_trigger trigger
 scoreboard players set options ghostcraft.kit.ghost.cycle_nth_trigger 1
 

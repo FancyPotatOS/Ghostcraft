@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "minecraft:loot_table",
+          "value": "ghostcraft:item/flare/item"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:loot_table",
+          "value": "ghostcraft:item/courage/normal"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:loot_table",
+          "value": "ghostcraft:item/survivor_grenade/survivor_grenade"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:loot_table",
+          "value": "ghostcraft:item/trap/item"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:loot_table",
+          "value": "ghostcraft:item/grappling_hook/grappling_hook"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:loot_table",
+          "value": "ghostcraft:item/tracking_compass/tracking_compass"
+        }
+      ]
+    }
+  ]
+}

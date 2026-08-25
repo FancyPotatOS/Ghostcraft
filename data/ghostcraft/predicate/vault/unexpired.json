@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:entity_scores",
+  "entity": "this",
+  "scores": {
+    "ghostcraft.token.expiry_time": {
+      "min": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "world_time"
+        },
+        "score": "ghostcraft.master"
+      }
+    }
+  }
+}

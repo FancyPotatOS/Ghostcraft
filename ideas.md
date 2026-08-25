@@ -124,33 +124,59 @@
 
 #### Event Choosing
 {
-  id: namespaced reference id,
-  requires: namespaced reference id,
-  criteria: block_state|item_at|stand_at,
+  id: namespaced id,
+  on_choose: Function,
   activates: [
     {
       type: choose_marker|,
       
       (choose_marker)
       tag: EntityTag,
+      id: entity activation id,
     }
   ],
+  criteria: [
+    {
+      type: block_state|entity_at|,
+      completions_required: int,
+      on_complete_one: Function,
+      on_completed: Function,
+      
+      (block_state)
+      predicate: Predicate,
+      location: EntityTag,
+
+      (entity_at)
+      predicate: Entity Predicate,
+      distance: int,
+      location: EntityTag,
+    }
+  ]
   rewards: [
     {
       type: loot_table|,
 
       (loot_table)
       loot_table: LootTable,
-      location: EntityTag
+      location: EntityTag,
     }
   ],
 }
 
 #### Entity Activation
 {
-  type: block|,
-  id: namespaced reference id,
+  id: namespaced id,
   place: Function,
   reset: Function,
 }
+
+
+
+### Map Goals
+
+#### Warehouse
+- Supressing agents on all brewing stands
+- Help trucks leave by fuelling and lifting gates
+- Move merchandise around crates
+
 

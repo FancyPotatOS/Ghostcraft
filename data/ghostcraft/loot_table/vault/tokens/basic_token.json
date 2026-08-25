@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trial_key",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {"text":"Token","italic":false,"color":"aqua"},
+                "minecraft:lore":[
+                  {"text":"Cash this in at a Trial Vault!","color":"white"},
+                  [{"text":"Must be used within 60 seconds","color":"gray"}]
+                ],
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "basic_token"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "ghostcraft": {
+                      "type": "vault.basic_token"
+                  }
+                }
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": {
+                "ghostcraft": {
+                  "type": "vault.basic_token"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
