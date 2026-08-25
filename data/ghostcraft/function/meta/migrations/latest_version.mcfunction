@@ -81,7 +81,6 @@ scoreboard players reset game.ghosthunt.tasks.map_supported ghostcraft.config
 scoreboard players set game.tasks.enabled ghostcraft.master 1
 scoreboard players set game.tasks.enabled ghostcraft.config 1
 
-scoreboard objectives add effect.ghost.hurt_effect dummy
-
-
+scoreboard objectives add ghostcraft.effect.ghost.hurt_effect dummy
+scoreboard objectives add ghostcraft.effect.ghost.hurt_sound dummy
 

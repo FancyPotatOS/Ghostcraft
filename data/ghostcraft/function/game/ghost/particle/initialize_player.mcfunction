@@ -13,3 +13,6 @@ execute if entity @s[tag=ghostcraft.player.initialized] run return 0
 scoreboard players set @s ghostcraft.effect.ghost.particle_effect 0
 scoreboard players enable @s ghostcraft.effect.ghost.particle_effect.trigger
 
+scoreboard players set @s ghostcraft.effect.ghost.hurt_effect 0
+scoreboard players set @s ghostcraft.effect.ghost.hurt_sound 0
+

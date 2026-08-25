@@ -17,4 +17,4 @@ tag @s remove ghostcraft.item.poison_grenade.immune
 tag @s remove ghostcraft.item.stab.immune
 
 tag @s remove ghostcraft.effect.ambient_ghost.invisible
-tag @s remove effect.ghost.hurt_effect.invisible
+tag @s remove ghostcraft.effect.ghost.hurt_effect.invisible
