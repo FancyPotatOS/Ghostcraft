@@ -120,63 +120,11 @@
 - Items provided can permanently kill the Ghost
 
 
-### Json Formatting
-
-#### Event Choosing
-{
-  id: namespaced id,
-  on_choose: Function,
-  activates: [
-    {
-      type: choose_marker|,
-      
-      (choose_marker)
-      tag: EntityTag,
-      id: entity activation id,
-    }
-  ],
-  criteria: [
-    {
-      type: block_state|entity_at|,
-      completions_required: int,
-      on_complete_one: Function,
-      on_completed: Function,
-      
-      (block_state)
-      predicate: Predicate,
-      location: EntityTag,
-
-      (entity_at)
-      predicate: Entity Predicate,
-      distance: int,
-      location: EntityTag,
-    }
-  ]
-  rewards: [
-    {
-      type: loot_table|,
-
-      (loot_table)
-      loot_table: LootTable,
-      location: EntityTag,
-    }
-  ],
-}
-
-#### Entity Activation
-{
-  id: namespaced id,
-  place: Function,
-  reset: Function,
-}
-
-
-
 ### Map Goals
 
 #### Warehouse
-- Supressing agents on all brewing stands
-- Help trucks leave by fuelling and lifting gates
+- ~~Supressing agents on all brewing stands~~
+- Help trucks leave by fuelling, replacing tires, and lifting gates
 - Move merchandise around crates
 
 

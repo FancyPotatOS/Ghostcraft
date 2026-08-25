@@ -23,14 +23,14 @@ execute as @e[type=#ghostcraft:player] run function ghostcraft:game/player_reset
 
 scoreboard players operation map ghostcraft.config = target_map ghostcraft.temp
 
-effect give @a slow_falling 20 10 true
+effect give @e[type=#ghostcraft:player] slow_falling 20 10 true
 
 function #ghostcraft:map/display_set
 
 tellraw @a [{"text":"Please wait while the new map is being loaded...","italic": true,"color":"red"}]
 
 # Default to unsupported map
-scoreboard players set game.ghosthunt.tasks.map_supported ghostcraft.config 0
+scoreboard players set game.tasks.map_supported ghostcraft.config 0
 
 function ghostcraft:map/refresh
 

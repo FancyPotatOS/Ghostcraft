@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "ghostcraft.map.warehouse.tasks.brewing_stand.interacted_with_supplier": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "minecraft:entity_tags": {
+            "any_of": [
+              "ghostcraft.map.warehouse.tasks.brewing_stand.supplier"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:map/warehouse/tasks/brewing_stand/supplier/advancements/interacted_with_supplier"
+  }
+}

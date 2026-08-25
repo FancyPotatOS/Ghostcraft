@@ -1,0 +1,19 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:entity_type": "minecraft:item",
+    "minecraft:slots": {
+      "contents": {
+        "items": "minecraft:poisonous_potato",
+        "predicates": {
+          "minecraft:custom_data": {
+            "ghostcraft": {
+              "type": "map.warehouse.tasks.brewing_stand.suppressant"
+            }
+          }
+        }
+      }
+    }
+  }
+}

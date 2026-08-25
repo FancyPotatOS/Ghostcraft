@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "ghostcraft": {
+      "ghosthunt": {
+        "item_ownership": "exempt"
+      }
+    }
+  }
+}

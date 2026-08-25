@@ -17,5 +17,11 @@
         }
       ]
     }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "ghostcraft:game/ghosthunt/item_ownership/exempt"
+    }
   ]
 }

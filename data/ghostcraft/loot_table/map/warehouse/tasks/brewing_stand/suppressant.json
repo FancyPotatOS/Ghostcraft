@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:redstone",
+                "minecraft:item_name": "Chemical Suppressant",
+                "minecraft:lore": [
+                  {
+                    "text": "Throw onto overflowing brewing stands!",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "ghostcraft": {
+                    "type": "map.warehouse.tasks.brewing_stand.suppressant"
+                  }
+                },
+                "!minecraft:consumable": {},
+                "!minecraft:food": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

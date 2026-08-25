@@ -62,6 +62,7 @@ data merge storage ghostcraft:data \
 }
 
 scoreboard objectives add ghostcraft.token.expiry_time dummy
+scoreboard objectives add ghostcraft.map.warehouse.task.brewing_stand.contributed dummy
 
 scoreboard objectives add ghostcraft.kit.ghost.cycle_nth_trigger trigger
 scoreboard players set options ghostcraft.kit.ghost.cycle_nth_trigger 1
@@ -73,4 +74,12 @@ team modify ghostcraft.game.ghosthunt.survivor collisionRule never
 team modify ghostcraft.game.ghosthunt.ghost nametagVisibility hideForOtherTeams
 team modify ghostcraft.game.ghosthunt.ghost seeFriendlyInvisibles true
 team modify ghostcraft.game.ghosthunt.ghost collisionRule never
+
+
+scoreboard players reset game.ghosthunt.tasks.enabled ghostcraft.config
+scoreboard players reset game.ghosthunt.tasks.map_supported ghostcraft.config
+scoreboard players set game.tasks.enabled ghostcraft.master 1
+scoreboard players set game.tasks.enabled ghostcraft.config 1
+
+
 
