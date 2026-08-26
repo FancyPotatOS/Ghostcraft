@@ -1,5 +1,5 @@
 
-advancement revoke @s only ghostcraft:game/ghosthunt/survivor_hurt_ghost/__no_attacker
+advancement revoke @s only ghostcraft:game/ghosthunt/survivor_hurt_ghost/no_attacker
 
 tag @e remove ghostcraft.game.ghosthunt.survivor_hurt_ghost.killer
 
