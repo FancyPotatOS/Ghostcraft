@@ -125,6 +125,18 @@
 #### Warehouse
 - ~~Supressing agents on all brewing stands~~
 - Help trucks leave by fuelling, replacing tires, and lifting gates
-- Move merchandise around crates
+  - Fuel: Consume next to the trucks
+  - Tires
+    - Needs a wrench to take off wheel (iron axe-esque texture)
+    - Consume 'wheel' next to the tire
+      - Blackstone block model
+  - Lift gates
+    - Restore power
+      - Flip breakers around building
+  - Pull winch next to doors
+  - Calculate contributor framework
+    - Any tire action
+    - Within two of breakers (min 1)
+    - Pull winch
 
 
