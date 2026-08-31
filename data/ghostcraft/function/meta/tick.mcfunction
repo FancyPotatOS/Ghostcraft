@@ -34,6 +34,7 @@ execute as @e[type=arrow,tag=!ghostcraft.arrow.accounted] run function ghostcraf
 
 function ghostcraft:game/tick
 
+function #ghostcraft:logic/tick
 function #ghostcraft:item/tick
 
 scoreboard players add world_time ghostcraft.master 1

@@ -64,6 +64,8 @@ data merge storage ghostcraft:data \
 scoreboard objectives add ghostcraft.token.expiry_time dummy
 scoreboard objectives add ghostcraft.map.task.contributed dummy
 
+scoreboard objectives add ghostcraft.chair.cooldown dummy
+
 scoreboard objectives add ghostcraft.kit.ghost.cycle_nth_trigger trigger
 scoreboard players set options ghostcraft.kit.ghost.cycle_nth_trigger 1
 
@@ -91,4 +93,5 @@ gamerule command_block_output false
 
 # Initialize config for warehouse tasks
 function ghostcraft:map/warehouse/tasks/reset_config
+function ghostcraft:logic/chair/reset_config
 

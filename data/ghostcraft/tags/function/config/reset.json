@@ -5,6 +5,7 @@
         "ghostcraft:kit/config/reset",
         "ghostcraft:game/ghosthunt/reset_config",
         "ghostcraft:vault/reset_config",
-        "ghostcraft:map/warehouse/tasks/reset_config"
+        "ghostcraft:map/warehouse/tasks/reset_config",
+        "ghostcraft:logic/chair/reset_config"
     ]
 }
