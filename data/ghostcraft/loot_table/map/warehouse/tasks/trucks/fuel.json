@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Fuel",
+                "minecraft:item_model": "ghostcraft:map/warehouse/fuel",
+                "minecraft:lore": [
+                  {
+                    "text": "Use right next to a truck to fuel",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "ghostcraft": {
+                    "type": "map.warehouse.tasks.trucks.fuel"
+                  }
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 10,
+                  "animation": "crossbow",
+                  "sound": "minecraft:block.brewing_stand.brew",
+                  "has_consume_particles": false
+                },
+                "!minecraft:food": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

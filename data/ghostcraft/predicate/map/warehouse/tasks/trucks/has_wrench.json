@@ -1,0 +1,56 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:slots": {
+                    "inventory.*": {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "ghostcraft": {
+                                    "type": "map.warehouse.tasks.trucks.wrench"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:slots": {
+                    "hotbar.*": {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "ghostcraft": {
+                                    "type": "map.warehouse.tasks.trucks.wrench"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:slots": {
+                    "weapon.offhand": {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "ghostcraft": {
+                                    "type": "map.warehouse.tasks.trucks.wrench"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

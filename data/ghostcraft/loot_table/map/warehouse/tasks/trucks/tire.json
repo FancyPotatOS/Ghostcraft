@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Tire",
+                "minecraft:item_model": "minecraft:chiseled_polished_blackstone",
+                "minecraft:lore": [
+                  {
+                    "text": "Use next to a truck",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "Requires a Wrench to use",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "ghostcraft": {
+                    "type": "map.warehouse.tasks.trucks.tire"
+                  }
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 5,
+                  "animation": "drink",
+                  "sound": "minecraft:block.iron.break",
+                  "has_consume_particles": false
+                },
+                "!minecraft:food": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

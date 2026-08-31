@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "ghostcraft.map.warehouse.tasks.trucks.wrench.on_consume": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:custom_data": {
+              "ghostcraft": {
+                "type": "map.warehouse.tasks.trucks.wrench"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:map/warehouse/tasks/trucks/wrench/advancements/on_consume"
+  }
+}

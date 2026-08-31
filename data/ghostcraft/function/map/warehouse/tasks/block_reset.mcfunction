@@ -4,3 +4,5 @@ execute unless entity @s[tag=ghostcraft.map.warehouse.specific_block] run return
 
 execute if entity @s[tag=ghostcraft.map.warehouse.specific_block.bookshelf] run setblock ~ ~ ~ bookshelf
 
+function #ghostcraft:map/block_reset
+

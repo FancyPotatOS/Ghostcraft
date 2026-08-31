@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "ghostcraft.map.warehouse.tasks.trucks.fuel.picked_up": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "components": {
+              "minecraft:custom_data": {
+                "ghostcraft": {
+                  "type": "map.warehouse.tasks.trucks.fuel",
+                  "subtype": "uninitialized"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:map/warehouse/tasks/trucks/fuel/advancements/picked_up"
+  }
+}

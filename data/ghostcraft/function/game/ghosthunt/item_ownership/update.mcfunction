@@ -1,7 +1,7 @@
 #
-#   Ghosthunt Tick
+#   Item Ownership Update
 #   
-#   Purpose: To tick the ghosthunt game state
+#   Purpose: To update this item based on compliance
 #
 #   Input: None
 #
@@ -33,11 +33,11 @@ tag @e[type=#ghostcraft:player,tag=!ghostcraft.game.ghosthunt.item_ownership.com
 #say D: @e[type=#ghostcraft:player,distance=..2,tag=ghostcraft.game.ghosthunt.item_ownership.discompliant]
 
 # Add/remove PickupDelay based on nearby discompliant entities (Negative match last to prevent item pickup when both cases are true)
-execute unless entity @e[type=#ghostcraft:player,distance=..2,tag=ghostcraft.game.ghosthunt.item_ownership.discompliant] if data entity @s {PickupDelay:32767s} run data modify entity @s PickupDelay set value 0
-execute positioned ~ ~-1 ~ unless entity @e[type=#ghostcraft:player,distance=..2,tag=ghostcraft.game.ghosthunt.item_ownership.discompliant] if data entity @s {PickupDelay:32767s} run data modify entity @s PickupDelay set value 0
+execute unless entity @e[type=#ghostcraft:player,distance=..3,tag=ghostcraft.game.ghosthunt.item_ownership.discompliant] if data entity @s {PickupDelay:32767s} run data modify entity @s PickupDelay set value 0
+execute positioned ~ ~-1 ~ unless entity @e[type=#ghostcraft:player,distance=..3,tag=ghostcraft.game.ghosthunt.item_ownership.discompliant] if data entity @s {PickupDelay:32767s} run data modify entity @s PickupDelay set value 0
 
-execute if entity @e[type=#ghostcraft:player,distance=..2,tag=ghostcraft.game.ghosthunt.item_ownership.discompliant] run data modify entity @s PickupDelay set value 32767s
-execute positioned ~ ~-1 ~ if entity @e[type=#ghostcraft:player,distance=..2,tag=ghostcraft.game.ghosthunt.item_ownership.discompliant] run data modify entity @s PickupDelay set value 32767s
+execute if entity @e[type=#ghostcraft:player,distance=..3,tag=ghostcraft.game.ghosthunt.item_ownership.discompliant] run data modify entity @s PickupDelay set value 32767s
+execute positioned ~ ~-1 ~ if entity @e[type=#ghostcraft:player,distance=..3,tag=ghostcraft.game.ghosthunt.item_ownership.discompliant] run data modify entity @s PickupDelay set value 32767s
 
 # Clean up tags
 tag @e[type=#ghostcraft:player] remove ghostcraft.game.ghosthunt.item_ownership.compliant

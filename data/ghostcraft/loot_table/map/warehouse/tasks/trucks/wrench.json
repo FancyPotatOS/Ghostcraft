@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "ghostcraft:map/warehouse/wrench",
+                "minecraft:item_name": "Wrench",
+                "minecraft:lore": [
+                  {
+                    "text": "Required to remove and attach tires",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "ghostcraft": {
+                    "type": "map.warehouse.tasks.trucks.wrench"
+                  }
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 5,
+                  "animation": "brush",
+                  "sound": "minecraft:block.copper.break",
+                  "has_consume_particles": false
+                },
+                "!minecraft:food": {},
+                "minecraft:use_remainder": {
+                  "id": "minecraft:poisonous_potato",
+                  "count": 1,
+                  "components": {
+                    "minecraft:item_model": "ghostcraft:map/warehouse/wrench",
+                    "minecraft:custom_data": {
+                      "ghostcraft": {
+                        "type": "map.warehouse.tasks.trucks.wrench",
+                        "subtype": "uninitialized"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

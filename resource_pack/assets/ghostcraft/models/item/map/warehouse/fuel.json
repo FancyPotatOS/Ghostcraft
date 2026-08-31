@@ -1,0 +1,32 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "ghostcraft:item/map/warehouse/fuel"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 3.25, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 3.25, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 1.25, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 1.25, 0]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0]
+		},
+		"head": {
+			"translation": [0, 0, -6.9]
+		}
+	}
+}

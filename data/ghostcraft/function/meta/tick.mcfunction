@@ -37,3 +37,4 @@ function ghostcraft:game/tick
 function #ghostcraft:item/tick
 
 scoreboard players add world_time ghostcraft.master 1
+

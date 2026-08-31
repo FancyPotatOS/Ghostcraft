@@ -62,7 +62,7 @@ data merge storage ghostcraft:data \
 }
 
 scoreboard objectives add ghostcraft.token.expiry_time dummy
-scoreboard objectives add ghostcraft.map.warehouse.task.brewing_stand.contributed dummy
+scoreboard objectives add ghostcraft.map.task.contributed dummy
 
 scoreboard objectives add ghostcraft.kit.ghost.cycle_nth_trigger trigger
 scoreboard players set options ghostcraft.kit.ghost.cycle_nth_trigger 1
@@ -85,4 +85,10 @@ scoreboard objectives add ghostcraft.effect.ghost.hurt_effect dummy
 scoreboard objectives add ghostcraft.effect.ghost.hurt_sound dummy
 
 scoreboard objectives remove ghostcraft.logic.login
+
+# Disable command block output!
+gamerule command_block_output false
+
+# Initialize config for warehouse tasks
+function ghostcraft:map/warehouse/tasks/reset_config
 

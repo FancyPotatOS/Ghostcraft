@@ -1,12 +1,12 @@
 {
   "criteria": {
-    "ghostcraft.map.warehouse.tasks.brewing_stand.interacted_with_supplier": {
+    "ghostcraft.map.warehouse.brewing_stand.interacted_with_supplier": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
           "minecraft:entity_tags": {
             "any_of": [
-              "ghostcraft.map.warehouse.tasks.brewing_stand.supplier"
+              "ghostcraft.map.warehouse.brewing_stand.supplier"
             ]
           }
         }

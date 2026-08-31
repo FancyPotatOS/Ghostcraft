@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "ghostcraft.map.warehouse.tasks.trucks.tire.on_using": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:reference",
+              "name": "ghostcraft:map/warehouse/tasks/trucks/has_wrench"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:custom_data": {
+              "ghostcraft": {
+                "type": "map.warehouse.tasks.trucks.tire"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:map/warehouse/tasks/trucks/tire/advancements/on_using"
+  }
+}

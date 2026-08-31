@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "ghostcraft.map.warehouse.tasks.trucks.tire.on_consume": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:custom_data": {
+              "ghostcraft": {
+                "type": "map.warehouse.tasks.trucks.tire"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:map/warehouse/tasks/trucks/tire/advancements/on_consume"
+  }
+}
