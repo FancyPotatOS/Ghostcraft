@@ -16,6 +16,9 @@ scoreboard players add @p[tag=ghostcraft.map.warehouse.trucks.tire.user] ghostcr
 # Replace with air
 setblock ~ ~ ~ minecraft:chiseled_polished_blackstone
 
+# Remove tag
+tag @p[tag=ghostcraft.map.warehouse.trucks.tire.user] remove ghostcraft.map.warehouse.trucks.tire.user
+
 # Completion check
 function ghostcraft:map/warehouse/tasks/trucks/completion_check
 
