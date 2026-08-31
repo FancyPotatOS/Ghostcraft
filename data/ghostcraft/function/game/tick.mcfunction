@@ -18,3 +18,5 @@ execute as @e[type=#ghostcraft:player] if data entity @s {HurtTime:10s} at @s ru
 
 function #ghostcraft:game/tick
 
+function ghostcraft:item/tick
+

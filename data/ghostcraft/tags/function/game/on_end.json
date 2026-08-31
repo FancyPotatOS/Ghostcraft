@@ -1,5 +1,6 @@
 {
     "values": [
-        "ghostcraft:map/warehouse/test/game_stop"
+        "ghostcraft:map/warehouse/test/game_stop",
+        "ghostcraft:item/game_stop"
     ]
 }
