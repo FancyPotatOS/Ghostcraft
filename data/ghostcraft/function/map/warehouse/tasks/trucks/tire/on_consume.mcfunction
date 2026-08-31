@@ -1,5 +1,8 @@
 
 
+# No cheesing the carry limit
+clear @s minecraft:poisonous_potato[custom_data~{ghostcraft:{type:"map.warehouse.tasks.trucks.tire"}}] 1
+
 # Early failure
 execute unless predicate ghostcraft:map/warehouse/tasks/trucks/has_wrench run return run function ghostcraft:map/warehouse/tasks/trucks/tire/consume/failure_no_wrench
 execute unless entity @n[tag=ghostcraft.map.warehouse.trucks.broken_tire.instance] run return run function ghostcraft:map/warehouse/tasks/trucks/tire/consume/failure_no_tire_needed
