@@ -25,7 +25,7 @@ execute if score game_timer ghostcraft.temp matches 60 as @a at @s run playsound
 execute if score game_timer ghostcraft.temp matches 40 as @a at @s run playsound minecraft:block.note_block.hat master @s ~ ~ ~ 100000000000 1 1 
 execute if score game_timer ghostcraft.temp matches 20 as @a at @s run playsound minecraft:block.note_block.hat master @s ~ ~ ~ 100000000000 1 1
 
-execute if score game_timer ghostcraft.temp matches 0 run return run function ghostcraft:game/ghosthunt/endings/survivors_win
+execute if score game_timer ghostcraft.temp matches ..0 run return run function ghostcraft:game/ghosthunt/endings/survivors_win
 
 execute if score game_timer ghostcraft.temp = kit.ghost.ghost_compass.time ghostcraft.config run function ghostcraft:game/ghosthunt/give_ghost_compass
 
