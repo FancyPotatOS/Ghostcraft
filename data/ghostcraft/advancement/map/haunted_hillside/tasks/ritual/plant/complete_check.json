@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "ghostcraft.map.haunted_hillside.tasks.ritual.plant.complete_check": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {
+                "ghostcraft": {
+                  "type": "map.haunted_hillside.tasks.ritual.plant"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:map/haunted_hillside/tasks/ritual/plant/advancements/complete_check"
+  }
+}

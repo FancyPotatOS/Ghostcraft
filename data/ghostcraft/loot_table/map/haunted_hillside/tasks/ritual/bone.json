@@ -1,0 +1,64 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:poisonous_potato",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "Bone",
+                                "minecraft:lore": [
+                                    {
+                                        "text": "Use near the tallest tree once",
+                                        "color": "gray",
+                                        "italic": true
+                                    },
+                                    {
+                                        "text": "  the Herbalist task has been completed",
+                                        "color": "gray",
+                                        "italic": true
+                                    }
+                                ],
+                                "!minecraft:food": {},
+                                "minecraft:consumable": {
+                                    "animation": "bow",
+                                    "consume_seconds": 5,
+                                    "sound": "minecraft:entity.evoker.cast_spell",
+                                    "has_consume_particles": true
+                                },
+                                "minecraft:item_model": "minecraft:bone",
+                                "minecraft:custom_data": {
+                                    "ghostcraft": {
+                                        "type": "map.haunted_hillside.tasks.ritual.bone"
+                                    }
+                                },
+                                "use_remainder": {
+                                    "id": "minecraft:poisonous_potato",
+                                    "components": {
+                                        "minecraft:item_name": "Bone",
+                                        "!minecraft:food": {},
+                                        "!minecraft:consumable": {},
+                                        "minecraft:item_model": "minecraft:bone",
+                                        "minecraft:custom_data": {
+                                            "ghostcraft": {
+                                                "type": "map.haunted_hillside.tasks.ritual.bone_fake"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:reference",
+                            "name": "ghostcraft:map/haunted_hillside/tasks/ritual/random_bone"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

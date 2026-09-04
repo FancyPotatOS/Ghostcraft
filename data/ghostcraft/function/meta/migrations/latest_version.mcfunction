@@ -63,7 +63,6 @@ data merge storage ghostcraft:data \
 
 scoreboard objectives add ghostcraft.token.expiry_time dummy
 scoreboard objectives add ghostcraft.map.task.contributed dummy
-
 scoreboard objectives add ghostcraft.chair.cooldown dummy
 
 scoreboard objectives add ghostcraft.kit.ghost.cycle_nth_trigger trigger
@@ -94,4 +93,8 @@ gamerule command_block_output false
 # Initialize config for warehouse tasks
 function ghostcraft:map/warehouse/tasks/reset_config
 function ghostcraft:logic/chair/reset_config
+function ghostcraft:map/haunted_hillside/tasks/ritual/reset_config
+
+scoreboard objectives add ghostcraft.map.haunted_hillside.tasks.ritual.herbalist.completed dummy
+scoreboard objectives add ghostcraft.map.haunted_hillside.tasks.ritual.parapsychology.completed dummy
 

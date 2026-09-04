@@ -122,8 +122,3 @@
 
 ### Map Goals
 
-#### Warehouse
-- ~~Supressing agents on all brewing stands~~
-- ~~Help trucks leave by fuelling, replacing tires, and lifting gates~~
-
-

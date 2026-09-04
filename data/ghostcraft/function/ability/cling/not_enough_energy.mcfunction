@@ -8,6 +8,7 @@
 
 
 title @s actionbar {"text":"You do not have enough energy to cling."}
+title @s subtitle ''
 title @s title ''
 function ghostcraft:ability/cling/disengage
 tag @s add ghostcraft.ability.cling.burnt_out

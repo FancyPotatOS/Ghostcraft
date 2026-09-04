@@ -1,5 +1,6 @@
 {
     "values": [
-        "ghostcraft:map/warehouse/tick"
+        "ghostcraft:map/warehouse/test/tick",
+        "ghostcraft:map/haunted_hillside/test/tick"
     ]
 }

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "ghostcraft.map.haunted_hillside.tasks.ritual.grave.interacted": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "minecraft:entity_type": "minecraft:interaction",
+          "minecraft:entity_tags": {
+            "any_of": [
+              "ghostcraft.map.haunted_hillside.tasks.ritual.grave.interaction"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:map/haunted_hillside/tasks/ritual/grave/advancements/interacted"
+  }
+}

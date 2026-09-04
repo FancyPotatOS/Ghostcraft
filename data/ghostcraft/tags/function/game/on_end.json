@@ -1,6 +1,7 @@
 {
     "values": [
         "ghostcraft:map/warehouse/test/game_stop",
+        "ghostcraft:map/haunted_hillside/tasks/ritual/test/on_stop",
         "ghostcraft:item/game_stop"
     ]
 }

@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "ghostcraft.map.haunted_hillside.tasks.ritual.grave.complete_check": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {
+                "ghostcraft": {
+                  "type": "map.haunted_hillside.tasks.ritual.bone"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:map/haunted_hillside/tasks/ritual/grave/advancements/complete_check"
+  }
+}

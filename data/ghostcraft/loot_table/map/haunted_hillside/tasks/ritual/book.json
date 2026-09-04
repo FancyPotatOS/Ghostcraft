@@ -1,0 +1,45 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:poisonous_potato",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "Untitled Book",
+                                "minecraft:lore": [
+                                    {
+                                        "text": "Use while sitting to read faster",
+                                        "color": "gray",
+                                        "italic": true
+                                    }
+                                ],
+                                "!minecraft:food": {},
+                                "minecraft:item_model": "ghostcraft:map/haunted_hillside/book",
+                                "minecraft:consumable": {
+                                    "consume_seconds": 1,
+                                    "animation": "crossbow",
+                                    "sound": "minecraft:item.book.page_turn",
+                                    "has_consume_particles": false
+                                },
+                                "minecraft:custom_data": {
+                                    "ghostcraft": {
+                                        "type": "map.haunted_hillside.tasks.ritual.book",
+                                        "subtype": "none"
+                                    }
+                                },
+                                "minecraft:custom_model_data": {
+                                    "strings": [ "none" ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

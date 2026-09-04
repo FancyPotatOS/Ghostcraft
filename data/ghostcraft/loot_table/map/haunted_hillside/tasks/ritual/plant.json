@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:poisonous_potato",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "Plant",
+                                "!minecraft:food": {},
+                                "!minecraft:consumable": {},
+                                "minecraft:item_model": "ghostcraft:map/haunted_hillside/flower",
+                                "minecraft:custom_data": {
+                                    "ghostcraft": {
+                                        "type": "map.haunted_hillside.tasks.ritual.plant",
+                                        "subtype": "none"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:reference",
+                            "name": "ghostcraft:map/haunted_hillside/tasks/ritual/random_color"
+                        },
+                        {
+                            "function": "minecraft:reference",
+                            "name": "ghostcraft:map/haunted_hillside/tasks/ritual/random_flower"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

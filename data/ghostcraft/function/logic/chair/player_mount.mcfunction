@@ -14,8 +14,8 @@ data remove entity @n[type=interaction] interaction
 # Occupied check
 execute if entity @s[tag=ghostcraft.chair.occupied] run return 0
 
-# Get player who interacted
-execute as @e[type=#ghostcraft:player] if score @s ghostcraft.uuid = chair.target_uuid ghostcraft.temp run tag @s add ghostcraft.chair.target
+# Get survivor who interacted
+execute as @e[type=#ghostcraft:player,tag=ghostcraft.survivor] if score @s ghostcraft.uuid = chair.target_uuid ghostcraft.temp run tag @s add ghostcraft.chair.target
 
 # Sanity check
 execute unless entity @n[tag=ghostcraft.chair.target] run return 0

@@ -8,6 +8,7 @@ tag @s remove ghostcraft.map.warehouse.trucks.broken_tire.instance
 # Tell player
 title @p[tag=ghostcraft.map.warehouse.trucks.tire.user] actionbar {text:"The tire has been replaced.",color:white}
 execute unless entity @n[tag=ghostcraft.map.warehouse.trucks.broken_tire.instance] run title @p[tag=ghostcraft.map.warehouse.trucks.tire.user] actionbar {text:"The final tire has been replaced.",color:green}
+title @p[tag=ghostcraft.map.warehouse.trucks.tire.user] subtitle ""
 title @p[tag=ghostcraft.map.warehouse.trucks.tire.user] title ""
 
 # Contributed something

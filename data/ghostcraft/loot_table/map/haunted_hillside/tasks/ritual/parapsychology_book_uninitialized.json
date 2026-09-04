@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ghostcraft:map/haunted_hillside/tasks/ritual/parapsychology_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:reference",
+                            "name": "ghostcraft:map/set_uninitialized"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

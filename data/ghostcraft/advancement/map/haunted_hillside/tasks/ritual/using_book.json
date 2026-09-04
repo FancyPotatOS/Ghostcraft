@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "ghostcraft.map.haunted_hillside.tasks.ritual.using_book": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {
+              "ghostcraft": {
+                "type": "map.haunted_hillside.tasks.ritual.book"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:map/haunted_hillside/tasks/ritual/advancements/using_book"
+  }
+}

@@ -9,7 +9,7 @@
 
 execute unless function ghostcraft:game/player_check run return run function ghostcraft:game/errors/not_enough_players
 
-function #ghostcraft:game/on_start
+function #ghostcraft:game/on_prestart
 
 execute as @e[type=#ghostcraft:player] run function ghostcraft:game/player_reset
 
@@ -35,4 +35,6 @@ scoreboard players set timer ghostcraft.temp 0
 
 execute store result bossbar ghostcraft.game.time max run scoreboard players get game.ghosthunt.game_time ghostcraft.config
 bossbar set minecraft:ghostcraft.game.time visible true
+
+function #ghostcraft:game/on_start
 
