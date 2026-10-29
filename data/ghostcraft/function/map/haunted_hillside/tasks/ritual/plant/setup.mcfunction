@@ -24,37 +24,37 @@ summon block_display ~-0.5 ~-0.5 ~-0.5 {Tags:[ghostcraft.map,ghostcraft.map.haun
         {\
             id:"minecraft:block_display",\
             Tags:[ghostcraft.map,ghostcraft.map.haunted_hillside.tasks.ritual.plant.block_display],\
-            block_state:{Name:"minecraft:rose_bush",Properties:{half:"upper"}},\
+            block_state:{id:"minecraft:rose_bush",properties:{half:"upper"}},\
             transformation:[1.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f]\
         },\
         {\
             id:"minecraft:block_display",\
             Tags:[ghostcraft.map,ghostcraft.map.haunted_hillside.tasks.ritual.plant.block_display],\
-            block_state:{Name:"minecraft:dandelion",Properties:{}},\
+            block_state:{id:"minecraft:dandelion",properties:{}},\
             transformation:[1.0000f,0.0000f,0.0000f,0.3125f,0.0000f,1.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f,-0.0625f,0.0000f,0.0000f,0.0000f,1.0000f]\
         },\
         {\
             id:"minecraft:block_display",\
             Tags:[ghostcraft.map,ghostcraft.map.haunted_hillside.tasks.ritual.plant.block_display],\
-            block_state:{Name:"minecraft:cornflower",Properties:{}},\
+            block_state:{id:"minecraft:cornflower",properties:{}},\
             transformation:[1.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f,-0.3750f,0.0000f,0.0000f,0.0000f,1.0000f]\
         },\
         {\
             id:"minecraft:block_display",\
             Tags:[ghostcraft.map,ghostcraft.map.haunted_hillside.tasks.ritual.plant.block_display],\
-            block_state:{Name:"minecraft:lilac",Properties:{half:"lower"}},\
+            block_state:{id:"minecraft:lilac",properties:{half:"lower"}},\
             transformation:[1.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f,0.0000f,-0.2500f,0.0000f,0.0000f,1.0000f,-0.0625f,0.0000f,0.0000f,0.0000f,1.0000f]\
         },\
         {\
             id:"minecraft:block_display",\
             Tags:[ghostcraft.map,ghostcraft.map.haunted_hillside.tasks.ritual.plant.block_display],\
-            block_state:{Name:"minecraft:lily_of_the_valley",Properties:{}},\
+            block_state:{id:"minecraft:lily_of_the_valley",properties:{}},\
             transformation:[0.5000f,0.0000f,0.0000f,0.2500f,0.0000f,0.5000f,0.0000f,0.0000f,0.0000f,0.0000f,0.5000f,0.6250f,0.0000f,0.0000f,0.0000f,1.0000f]\
         },\
         {\
             id:"minecraft:block_display",\
             Tags:[ghostcraft.map,ghostcraft.map.haunted_hillside.tasks.ritual.plant.block_display],\
-            block_state:{Name:"minecraft:orange_tulip",Properties:{}},\
+            block_state:{id:"minecraft:orange_tulip",properties:{}},\
             transformation:[1.0000f,0.0000f,0.0000f,-0.3125f,0.0000f,1.0000f,0.0000f,-0.2500f,0.0000f,0.0000f,1.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f]\
         }\
     ]\

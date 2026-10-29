@@ -14,7 +14,7 @@ effect give @s blindness 6 255 true
 
 particle minecraft:reverse_portal ~ ~0.2 ~ 0.5 0 0.5 1 100 force
 particle minecraft:portal ~ ~0.2 ~ 0.5 0 0.5 1 100 force
-particle minecraft:block{block_state:{Name:"minecraft:red_concrete"}} ~ ~0.2 ~ 1 0 1 1 200 force
+particle minecraft:block{block_state:{id:"minecraft:red_concrete"}} ~ ~0.2 ~ 1 0 1 1 200 force
 particle minecraft:dripping_obsidian_tear ~ ~1 ~ 1.5 0.5 1.5 1 100 force
 
 title @s actionbar [{"text":"Underworldly creatures have found you!","italic":false,"bold":true,color:"red"}]

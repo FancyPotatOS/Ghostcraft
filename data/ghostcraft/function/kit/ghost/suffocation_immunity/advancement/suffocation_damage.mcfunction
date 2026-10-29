@@ -9,4 +9,4 @@ scoreboard players operation @s ghostcraft.kit.ghost.suffocation_immunity = next
 
 schedule function ghostcraft:kit/ghost/suffocation_immunity/schedule_regen 1t
 effect give @s minecraft:regeneration 1 4 true
-execute if predicate {"condition":"minecraft:random_chance","chance":0.75} run effect give @s minecraft:regeneration 1 5 true
+execute if predicate {type:"minecraft:random_chance","chance":0.75} run effect give @s minecraft:regeneration 1 5 true

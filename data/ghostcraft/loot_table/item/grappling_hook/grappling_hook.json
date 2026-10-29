@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:fishing_rod",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "ghostcraft:kit/archer/grappling_hook",
                 "minecraft:custom_name": {"text":"Grappling Hook","italic":false,"color":"aqua"},

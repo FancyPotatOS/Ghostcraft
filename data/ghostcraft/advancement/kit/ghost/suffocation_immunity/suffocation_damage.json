@@ -7,7 +7,7 @@
           "type": {
             "tags": [
               {
-                "id": "ghostcraft:suffocation_damage",
+                "id": "#ghostcraft:suffocation_damage",
                 "expected": true
               }
             ]

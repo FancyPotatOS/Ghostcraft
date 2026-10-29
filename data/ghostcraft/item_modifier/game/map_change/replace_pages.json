@@ -1,1 +1,5 @@
-{"function": "minecraft:set_written_book_pages","pages": [],"mode": "replace_all"}
+{
+    "type": "minecraft:set_written_book_pages",
+    "pages": [],
+    "mode": "replace_all"
+}

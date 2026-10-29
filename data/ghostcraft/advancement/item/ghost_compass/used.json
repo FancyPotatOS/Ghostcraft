@@ -3,12 +3,7 @@
     "ghostcraft.item.ghost_compass.used": {
       "trigger": "minecraft:using_item",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "ghostcraft:item/ghost_compass/item"
-          }
-        ]
+        "player": "ghostcraft:item/ghost_compass/item"
       }
     }
   },

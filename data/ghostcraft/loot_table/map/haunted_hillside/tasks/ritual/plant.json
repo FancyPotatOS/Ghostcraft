@@ -6,9 +6,9 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:poisonous_potato",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "Plant",
                                 "!minecraft:food": {},
@@ -22,14 +22,8 @@
                                 }
                             }
                         },
-                        {
-                            "function": "minecraft:reference",
-                            "name": "ghostcraft:map/haunted_hillside/tasks/ritual/random_color"
-                        },
-                        {
-                            "function": "minecraft:reference",
-                            "name": "ghostcraft:map/haunted_hillside/tasks/ritual/random_flower"
-                        }
+                        "ghostcraft:map/haunted_hillside/tasks/ritual/random_color",
+                        "ghostcraft:map/haunted_hillside/tasks/ritual/random_flower"
                     ]
                 }
             ]

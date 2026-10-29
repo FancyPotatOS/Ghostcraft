@@ -13,9 +13,9 @@
           "weight": 7,
           "type": "minecraft:loot_table",
           "value": "ghostcraft:item/blink/blink",
-          "functions": [
+          "modifier": [
             {
-                "function": "minecraft:set_components",
+                "type": "minecraft:set_components",
                 "components": {
                     "minecraft:item_model": "minecraft:ender_eye"
                 }
@@ -26,13 +26,13 @@
           "weight": 7,
           "type": "minecraft:loot_table",
           "value": "ghostcraft:item/trap/item",
-          "functions": [
+          "modifier": [
             {
-                "function": "minecraft:set_damage",
+                "type": "minecraft:set_damage",
                 "damage": 0.08
             },
             {
-                "function": "minecraft:set_name",
+                "type": "minecraft:set_name",
                 "name": {"text":"Single-Use Trap","italic":false,"color":"gray"}
             }
           ]
@@ -51,13 +51,13 @@
           "weight": 1,
           "type": "minecraft:loot_table",
           "value": "ghostcraft:item/grappling_hook/grappling_hook",
-          "functions": [
+          "modifier": [
             {
-                "function": "minecraft:set_damage",
+                "type": "minecraft:set_damage",
                 "damage": 0.078125
             },
             {
-                "function": "minecraft:set_name",
+                "type": "minecraft:set_name",
                 "name": {"text":"Shoddy Grappling Hook","italic":false,"color":"gray"}
             }
           ]
@@ -66,31 +66,26 @@
           "weight": 1,
           "type": "minecraft:loot_table",
           "value": "ghostcraft:item/tracking_compass/tracking_compass",
-          "functions": [
+          "modifier": [
             {
-                "function": "minecraft:set_components",
+                "type": "minecraft:set_components",
                 "components": {
                   "minecraft:max_damage": 5,
                   "minecraft:damage": 0
                 }
             },
             {
-                "function": "minecraft:set_damage",
+                "type": "minecraft:set_damage",
                 "damage": 0.078125
             },
             {
-                "function": "minecraft:set_name",
+                "type": "minecraft:set_name",
                 "name": {"text":"Shoddy Tracking Compass","italic":false,"color":"gray"}
             }
           ]
         }
       ],
-      "conditions": [
-        {
-            "condition": "minecraft:reference",
-            "name": "ghostcraft:vault/unexpired"
-        }
-      ]
+      "condition": "ghostcraft:vault/unexpired"
     },
     {
       "rolls": 1,
@@ -100,21 +95,11 @@
           "value": "ghostcraft:vault/expired_reward"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:inverted",
-          "term": {
-            "condition": "minecraft:reference",
-            "name": "ghostcraft:vault/unexpired"
-          }
-        }
-      ]
+      "condition": {
+        "type": "minecraft:inverted",
+        "term": "ghostcraft:vault/unexpired"
+      }
     }
   ],
-  "functions": [
-    {
-      "function": "minecraft:reference",
-      "name": "ghostcraft:game/ghosthunt/item_ownership/exempt"
-    }
-  ]
+  "modifier": "ghostcraft:game/ghosthunt/item_ownership/exempt"
 }

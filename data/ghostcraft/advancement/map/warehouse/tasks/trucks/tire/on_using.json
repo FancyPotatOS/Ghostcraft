@@ -3,15 +3,10 @@
     "ghostcraft.map.warehouse.tasks.trucks.tire.on_using": {
       "trigger": "minecraft:using_item",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:reference",
-              "name": "ghostcraft:map/warehouse/tasks/trucks/has_wrench"
-            }
-          }
-        ],
+        "player": {
+          "type": "minecraft:inverted",
+          "term": "ghostcraft:map/warehouse/tasks/trucks/has_wrench"
+        },
         "item": {
           "items": "minecraft:poisonous_potato",
           "components": {

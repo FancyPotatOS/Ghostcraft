@@ -3,15 +3,13 @@
     "ghostcraft.game.ghosthunt.survivor_hurt_survivor": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ghostcraft.survivor\"]}"
-            }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"ghostcraft.survivor\"]}"
           }
-        ],
+        },
         "damage": {
           "dealt": {
             "min": 3,
@@ -23,15 +21,13 @@
             }
           }
         },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ghostcraft.survivor\"]}"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"ghostcraft.survivor\"]}"
           }
-        ]
+        }
       }
     }
   },

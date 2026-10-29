@@ -1,10 +1,11 @@
 {
-  "function": "minecraft:set_custom_model_data",
+  "type": "minecraft:set_custom_model_data",
   "colors": {
     "values": [
       {
         "min": 0,
-        "max": 16777215
+        "max": 16777215,
+        "type": "minecraft:uniform"
       }
     ],
     "mode": "replace_all"

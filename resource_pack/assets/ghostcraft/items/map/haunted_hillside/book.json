@@ -1,0 +1,56 @@
+{
+    "model": {
+        "type": "minecraft:condition",
+        "property": "minecraft:using_item",
+        "on_false": {
+            "type": "minecraft:select",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+                "type": "minecraft:model",
+                "model": "ghostcraft:item/map/haunted_hillside/book"
+            },
+            "cases": [
+                {
+                    "when": "herbalist",
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "ghostcraft:item/map/haunted_hillside/herbalist"
+                    }
+                },
+                {
+                    "when": "parapsychology",
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "ghostcraft:item/map/haunted_hillside/parapsychology"
+                    }
+                }
+            ]
+        },
+        "on_true": {
+            "type": "minecraft:select",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+                "type": "minecraft:model",
+                "model": "ghostcraft:item/map/haunted_hillside/book_using"
+            },
+            "cases": [
+                {
+                    "when": "herbalist",
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "ghostcraft:item/map/haunted_hillside/herbalist_using"
+                    }
+                },
+                {
+                    "when": "parapsychology",
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "ghostcraft:item/map/haunted_hillside/parapsychology_using"
+                    }
+                }
+            ]
+        }
+    }
+}

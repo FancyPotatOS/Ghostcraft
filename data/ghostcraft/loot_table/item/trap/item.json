@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:carrot_on_a_stick",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:lore": [[{"text":"Click a block to set a trap on top","italic":false,"color":"gray"}]],
                 "minecraft:custom_data": "{ghostcraft:{type:\"trap\"}}",

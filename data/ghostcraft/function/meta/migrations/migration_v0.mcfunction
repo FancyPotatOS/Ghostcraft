@@ -98,6 +98,9 @@ schedule function ghostcraft:meta/grace/message_5 5s
 schedule function ghostcraft:meta/grace/message_10 10s
 schedule function ghostcraft:meta/grace/message_15 15s
 
+# Ensure players are setup after timer
+schedule function ghostcraft:logic/initialize_all_players 15s
+
 
 # Create storage
 data merge storage ghostcraft:data {stab_queue:[],vampire_queue:[],dimension:"ghostcraft:empty"}

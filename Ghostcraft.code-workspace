@@ -4,14 +4,13 @@
 			"path": "."
 		},
 		{
-			"path": "../../../../resourcepacks/GhostCraft Resource Pack - 26.2"
+			"path": "../../../../resourcepacks/GhostCraftResourcePack - 26.3"
 		}
 	],
 	"settings": {
 		"logViewer.watch": [
 			"C:/Users/caleb/AppData/Roaming/.minecraft/logs/latest.log",
-			"C:/Users/pc/AppData/Roaming/ModrinthApp/profiles/Fabric 26.1.2/logs/latest.log",
-			"C:/Users/pc/AppData/Roaming/ModrinthApp/profiles/Fabric 26.1.2 1.0.0/logs/latest.log",
+			"C:/Users/pc/AppData/Roaming/ModrinthApp/profiles/Fabric 26.2/logs/latest.log",
 		],
 		"explorer.compactFolders": false
 	}

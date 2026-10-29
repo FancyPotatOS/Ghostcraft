@@ -1,6 +1,6 @@
 {
     "entity": "this",
-    "condition": "entity_properties",
+    "type": "entity_properties",
     "predicate": {
         "flags": {
             "is_sneaking": true

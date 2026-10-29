@@ -6,12 +6,7 @@
         {
           "type": "minecraft:loot_table",
           "value": "ghostcraft:vault/tokens/basic_token",
-          "functions": [
-            {
-              "function": "minecraft:reference",
-              "name": "ghostcraft:vault/uses_expiry"
-            }
-          ]
+          "modifier": "ghostcraft:vault/uses_expiry"
         }
       ]
     }

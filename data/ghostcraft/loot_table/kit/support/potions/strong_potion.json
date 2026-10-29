@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:splash_potion",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:score",
                 "target": {
@@ -19,7 +19,7 @@
               }
             },
             {
-              "function": "set_potion",
+              "type": "set_potion",
               "id": "minecraft:strong_healing"
             }
           ]

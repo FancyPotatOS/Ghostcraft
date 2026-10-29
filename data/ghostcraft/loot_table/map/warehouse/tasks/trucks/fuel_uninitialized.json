@@ -6,12 +6,7 @@
         {
           "type": "minecraft:loot_table",
           "value": "ghostcraft:map/warehouse/tasks/trucks/fuel",
-          "functions": [
-            {
-              "function": "minecraft:reference",
-              "name": "ghostcraft:map/set_uninitialized"
-            }
-          ]
+          "modifier": "ghostcraft:map/set_uninitialized"
         }
       ]
     }

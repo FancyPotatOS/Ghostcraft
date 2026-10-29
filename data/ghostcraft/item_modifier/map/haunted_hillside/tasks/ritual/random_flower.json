@@ -1,152 +1,157 @@
-[
-  {
-    "function": "minecraft:set_custom_model_data",
-    "strings": {
-      "mode": "replace_all",
-      "values": [ "wither_rose" ]
-    }
-  },
-  {
-    "function": "minecraft:set_custom_model_data",
-    "strings": {
-      "mode": "replace_all",
-      "values": [ "allium" ]
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_custom_model_data",
+      "strings": {
+        "mode": "replace_all",
+        "values": [
+          "wither_rose"
+        ]
+      }
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_custom_model_data",
+      "strings": {
+        "mode": "replace_all",
+        "values": [
+          "allium"
+        ]
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.5
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_custom_model_data",
-    "strings": {
-      "mode": "replace_all",
-      "values": [ "azure_bluet" ]
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_custom_model_data",
+      "strings": {
+        "mode": "replace_all",
+        "values": [
+          "azure_bluet"
+        ]
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.3333333
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_custom_model_data",
-    "strings": {
-      "mode": "replace_all",
-      "values": [ "blue_orchid" ]
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_custom_model_data",
+      "strings": {
+        "mode": "replace_all",
+        "values": [
+          "blue_orchid"
+        ]
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.25
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_custom_model_data",
-    "strings": {
-      "mode": "replace_all",
-      "values": [ "cornflower" ]
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_custom_model_data",
+      "strings": {
+        "mode": "replace_all",
+        "values": [
+          "cornflower"
+        ]
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.2
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_custom_model_data",
-    "strings": {
-      "mode": "replace_all",
-      "values": [ "dandelion" ]
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_custom_model_data",
+      "strings": {
+        "mode": "replace_all",
+        "values": [
+          "dandelion"
+        ]
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.166666666
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_custom_model_data",
-    "strings": {
-      "mode": "replace_all",
-      "values": [ "lilac" ]
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_custom_model_data",
+      "strings": {
+        "mode": "replace_all",
+        "values": [
+          "lilac"
+        ]
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.142857
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_custom_model_data",
-    "strings": {
-      "mode": "replace_all",
-      "values": [ "lily_of_the_valley" ]
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_custom_model_data",
+      "strings": {
+        "mode": "replace_all",
+        "values": [
+          "lily_of_the_valley"
+        ]
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.125
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_custom_model_data",
-    "strings": {
-      "mode": "replace_all",
-      "values": [ "peony" ]
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_custom_model_data",
+      "strings": {
+        "mode": "replace_all",
+        "values": [
+          "peony"
+        ]
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.11111111
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_custom_model_data",
-    "strings": {
-      "mode": "replace_all",
-      "values": [ "poppy" ]
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_custom_model_data",
+      "strings": {
+        "mode": "replace_all",
+        "values": [
+          "poppy"
+        ]
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.1
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_custom_model_data",
-    "strings": {
-      "mode": "replace_all",
-      "values": [ "rose_bush" ]
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_custom_model_data",
+      "strings": {
+        "mode": "replace_all",
+        "values": [
+          "rose_bush"
+        ]
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.0909090909
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_custom_model_data",
-    "strings": {
-      "mode": "replace_all",
-      "values": [ "tulip" ]
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_custom_model_data",
+      "strings": {
+        "mode": "replace_all",
+        "values": [
+          "tulip"
+        ]
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.08333333333
       }
-    ]
-  }
-]
+    }
+  ]
+}

@@ -6,14 +6,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:snowball",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 }
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:lore": [[{"text":"Can be thrown","italic":false,"color":"gray"}],[{"text":"Teleports you where it lands","italic":false,"color":"gray"}]],
                 "minecraft:custom_data": "{ghostcraft:{type:\"blink\"}}",

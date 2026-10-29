@@ -3,21 +3,19 @@
     "ghostcraft.game.ghosthunt.survivor_hurt_ghost.no_attacker": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ghostcraft.ghost\"]}"
-            }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"ghostcraft.ghost\"]}"
           }
-        ],
+        },
         "damage": {
           "type": {
             "tags": [
               {
                 "expected": true,
-                "id": "ghostcraft:not_player"
+                "id": "#ghostcraft:not_player"
               }
             ]
           }

@@ -6,12 +6,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "ghostcraft:map/haunted_hillside/tasks/ritual/book",
-                    "functions": [
-                        {
-                            "function": "minecraft:reference",
-                            "name": "ghostcraft:map/haunted_hillside/tasks/ritual/herbalist"
-                        }
-                    ]
+                    "modifier": "ghostcraft:map/haunted_hillside/tasks/ritual/herbalist"
                 }
             ]
         }

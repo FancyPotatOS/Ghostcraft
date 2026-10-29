@@ -23,7 +23,7 @@
           "function": "ghostcraft:ability/ghost_block/block_launch/hit_launchable"
         },
         "requirements": {
-          "condition": "minecraft:location_check",
+          "type": "minecraft:location_check",
           "predicate": {
             "block": {
               "blocks": "#ghostcraft:ability/ghost_block/block_launch/launchable"

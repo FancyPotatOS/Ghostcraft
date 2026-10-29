@@ -3,22 +3,24 @@
     "ghostcraft.ability.vampire.damage": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ghostcraft.ability.vampire\"]}"
-            }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"ghostcraft.ability.vampire\"]}"
           }
-        ],
+        },
         "damage": {
           "dealt": {
             "min": 2
           }
         },
         "entity": {
-          "entity_type": "#ghostcraft:player"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "#ghostcraft:player"
+          }
         }
       }
     }

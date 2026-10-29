@@ -1,46 +1,49 @@
-[
-  {
-    "function": "minecraft:set_custom_data",
-    "tag": {
-      "ghostcraft": {
-        "subtype": "parapsychology"
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": {
+        "ghostcraft": {
+          "subtype": "parapsychology"
+        }
       }
-    }
-  },
-  {
-    "function": "minecraft:set_components",
-    "components": {
-      "minecraft:item_name": {
-        "text": "Parapsychology Book",
-        "color": "aqua"
-      },
-      "minecraft:custom_model_data": {
-        "strings": [
-          "parapsychology"
-        ]
-      },
-      "minecraft:use_remainder": {
-        "id": "minecraft:poisonous_potato",
-        "components": {
-          "minecraft:item_name": {
-            "text": "Parapsychology Book",
-            "color": "aqua"
-          },
-          "!minecraft:food": {},
-          "!minecraft:consumable": {},
-          "minecraft:item_model": "ghostcraft:map/haunted_hillside/book",
-          "minecraft:custom_model_data": {
-            "strings": [
-              "parapsychology"
-            ]
-          },
-          "minecraft:custom_data": {
-            "ghostcraft": {
-              "subtype": "parapsychology_fake"
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:item_name": {
+          "text": "Parapsychology Book",
+          "color": "aqua"
+        },
+        "minecraft:custom_model_data": {
+          "strings": [
+            "parapsychology"
+          ]
+        },
+        "minecraft:use_remainder": {
+          "id": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:item_name": {
+              "text": "Parapsychology Book",
+              "color": "aqua"
+            },
+            "!minecraft:food": {},
+            "!minecraft:consumable": {},
+            "minecraft:item_model": "ghostcraft:map/haunted_hillside/book",
+            "minecraft:custom_model_data": {
+              "strings": [
+                "parapsychology"
+              ]
+            },
+            "minecraft:custom_data": {
+              "ghostcraft": {
+                "subtype": "parapsychology_fake"
+              }
             }
           }
         }
       }
     }
-  }
-]
+  ]
+}

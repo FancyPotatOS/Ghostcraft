@@ -17,11 +17,11 @@
     "minecraft:damage_protection": [
       {
         "requirements": {
-          "condition": "minecraft:damage_source_properties",
+          "type": "minecraft:damage_source_properties",
           "predicate": {
             "tags": [
               {
-                "id": "ghostcraft:suffocation_damage",
+                "id": "#ghostcraft:suffocation_damage",
                 "expected": true
               }
             ]

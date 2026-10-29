@@ -1,0 +1,289 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "ghostcraft:item/map/haunted_hillside/flower/base"
+        },
+        "cases": [
+            {
+                "when": "wither_rose",
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/wither_rose/base"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/wither_rose/color",
+                            "tints": [
+                                {
+                                    "type": "minecraft:custom_model_data",
+                                    "index": 0,
+                                    "default": 16729408
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "allium",
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/allium/base"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/allium/color",
+                            "tints": [
+                                {
+                                    "type": "minecraft:custom_model_data",
+                                    "index": 0,
+                                    "default": 16729408
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "azure_bluet",
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/azure_bluet/base"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/azure_bluet/color",
+                            "tints": [
+                                {
+                                    "type": "minecraft:custom_model_data",
+                                    "index": 0,
+                                    "default": 16729408
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "blue_orchid",
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/blue_orchid/base"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/blue_orchid/color",
+                            "tints": [
+                                {
+                                    "type": "minecraft:custom_model_data",
+                                    "index": 0,
+                                    "default": 16729408
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "cornflower",
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/cornflower/base"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/cornflower/color",
+                            "tints": [
+                                {
+                                    "type": "minecraft:custom_model_data",
+                                    "index": 0,
+                                    "default": 16729408
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "dandelion",
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/dandelion/base"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/dandelion/color",
+                            "tints": [
+                                {
+                                    "type": "minecraft:custom_model_data",
+                                    "index": 0,
+                                    "default": 16729408
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "lilac",
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/lilac/base"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/lilac/color",
+                            "tints": [
+                                {
+                                    "type": "minecraft:custom_model_data",
+                                    "index": 0,
+                                    "default": 16729408
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "lily_of_the_valley",
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/lily_of_the_valley/base"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/lily_of_the_valley/color",
+                            "tints": [
+                                {
+                                    "type": "minecraft:custom_model_data",
+                                    "index": 0,
+                                    "default": 16729408
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "peony",
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/peony/base"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/peony/color",
+                            "tints": [
+                                {
+                                    "type": "minecraft:custom_model_data",
+                                    "index": 0,
+                                    "default": 16729408
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "poppy",
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/poppy/base"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/poppy/color",
+                            "tints": [
+                                {
+                                    "type": "minecraft:custom_model_data",
+                                    "index": 0,
+                                    "default": 16729408
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "rose_bush",
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/rose_bush/base"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/rose_bush/color",
+                            "tints": [
+                                {
+                                    "type": "minecraft:custom_model_data",
+                                    "index": 0,
+                                    "default": 16729408
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "tulip",
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/tulip/base"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "ghostcraft:item/map/haunted_hillside/flower/tulip/color",
+                            "tints": [
+                                {
+                                    "type": "minecraft:custom_model_data",
+                                    "index": 0,
+                                    "default": 16729408
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

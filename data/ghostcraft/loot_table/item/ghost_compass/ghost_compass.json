@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:compass",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "ghostcraft:kit/ghost/compass",
                 "minecraft:custom_data": "{ghostcraft:{type:\"ghost_compass\"}}",

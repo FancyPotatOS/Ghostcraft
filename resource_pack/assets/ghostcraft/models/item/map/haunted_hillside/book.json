@@ -1,0 +1,16 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "ghostcraft:item/map/haunted_hillside/book"
+	},
+	"display": {
+		"ground": {
+			"translation": [0, 3.25, 0]
+		},
+		"head": {
+			"translation": [0, 0, -6.9]
+		}
+	}
+}

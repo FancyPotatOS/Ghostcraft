@@ -6,13 +6,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:splash_potion",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_potion",
+              "type": "set_potion",
               "id": "minecraft:healing"
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "tooltip_display":{
                   "hidden_components": [

@@ -1,164 +1,145 @@
-[
-  {
-    "function": "minecraft:set_name",
-    "name": {
-      "italic": false,
-      "color": "red",
-      "text": "Radius"
-    }
-  },
-  {
-    "function": "minecraft:set_name",
-    "name": {
-      "italic": false,
-      "color": "red",
-      "text": "Ulna"
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_name",
+      "name": {
+        "italic": false,
+        "color": "red",
+        "text": "Radius"
+      }
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_name",
+      "name": {
+        "italic": false,
+        "color": "red",
+        "text": "Ulna"
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.5
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_name",
-    "name": {
-      "italic": false,
-      "color": "red",
-      "text": "Humerus"
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_name",
+      "name": {
+        "italic": false,
+        "color": "red",
+        "text": "Humerus"
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.3333333
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_name",
-    "name": {
-      "italic": false,
-      "color": "red",
-      "text": "Fibula"
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_name",
+      "name": {
+        "italic": false,
+        "color": "red",
+        "text": "Fibula"
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.25
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_name",
-    "name": {
-      "italic": false,
-      "color": "red",
-      "text": "Tibula"
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_name",
+      "name": {
+        "italic": false,
+        "color": "red",
+        "text": "Tibula"
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.2
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_name",
-    "name": {
-      "italic": false,
-      "color": "red",
-      "text": "Femur"
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_name",
+      "name": {
+        "italic": false,
+        "color": "red",
+        "text": "Femur"
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.166666666
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_name",
-    "name": {
-      "italic": false,
-      "color": "red",
-      "text": "Scaphoid"
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_name",
+      "name": {
+        "italic": false,
+        "color": "red",
+        "text": "Scaphoid"
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.142857
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_name",
-    "name": {
-      "italic": false,
-      "color": "red",
-      "text": "Lunate"
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_name",
+      "name": {
+        "italic": false,
+        "color": "red",
+        "text": "Lunate"
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.125
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_name",
-    "name": {
-      "italic": false,
-      "color": "red",
-      "text": "Triquetrum"
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_name",
+      "name": {
+        "italic": false,
+        "color": "red",
+        "text": "Triquetrum"
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.11111111
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_name",
-    "name": {
-      "italic": false,
-      "color": "red",
-      "text": "Pisiform"
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_name",
+      "name": {
+        "italic": false,
+        "color": "red",
+        "text": "Pisiform"
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.1
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_name",
-    "name": {
-      "italic": false,
-      "color": "red",
-      "text": "Trapezium"
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_name",
+      "name": {
+        "italic": false,
+        "color": "red",
+        "text": "Trapezium"
+      },
+      "condition":  {
+        "type": "minecraft:random_chance",
         "chance": 0.0909090909
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_name",
-    "name": {
-      "italic": false,
-      "color": "red",
-      "text": "Capitate"
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
+    {
+      "type": "minecraft:set_name",
+      "name": {
+        "italic": false,
+        "color": "red",
+        "text": "Capitate"
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
         "chance": 0.08333333333
       }
-    ]
-  }
-]
+    }
+  ]
+}

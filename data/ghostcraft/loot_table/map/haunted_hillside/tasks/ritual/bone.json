@@ -6,9 +6,9 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:poisonous_potato",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "Bone",
                                 "minecraft:lore": [
@@ -52,10 +52,7 @@
                                 }
                             }
                         },
-                        {
-                            "function": "minecraft:reference",
-                            "name": "ghostcraft:map/haunted_hillside/tasks/ritual/random_bone"
-                        }
+                        "ghostcraft:map/haunted_hillside/tasks/ritual/random_bone"
                     ]
                 }
             ]

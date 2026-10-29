@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:compass",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": "{ghostcraft:{type:\"tracking_compass\"}}",
                 "minecraft:custom_name": {"text":"Tracking Compass","italic":false,"color":"white"},

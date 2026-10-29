@@ -6,9 +6,9 @@
         {
           "type": "minecraft:loot_table",
           "value": "ghostcraft:item/crate/arrow",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:score",
                 "target": {
@@ -28,9 +28,9 @@
         {
           "type": "minecraft:loot_table",
           "value": "ghostcraft:item/crate/machine_bow_arrow",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:score",
                 "target": {
@@ -50,9 +50,9 @@
         {
           "type": "minecraft:loot_table",
           "value": "ghostcraft:item/crate/flare",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:score",
                 "target": {
@@ -72,9 +72,9 @@
         {
           "type": "minecraft:loot_table",
           "value": "ghostcraft:item/crate/grenade",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:score",
                 "target": {
@@ -94,9 +94,9 @@
         {
           "type": "minecraft:loot_table",
           "value": "ghostcraft:item/crate/speed_sugar",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:score",
                 "target": {
@@ -116,9 +116,9 @@
         {
           "type": "minecraft:loot_table",
           "value": "ghostcraft:item/crate/invisibility_dust",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:score",
                 "target": {
