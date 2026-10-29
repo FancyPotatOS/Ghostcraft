@@ -20,7 +20,7 @@ Ghostcraft is a Minecraft minigame based on [The Hidden: Source](https://www.hid
 
 The ghost has numerous abilities such as being able to leap around and stab, as well as a handful of different grenades.
 
-There is currently 7 kits the survivors can use, all with their own tools to help everybody survive the ghost.
+There is currently 8 kits the survivors can use, all with their own tools to help everybody survive the ghost.
 
 There is also 10 maps available. By default, a vote can be cast to switch maps every 2 turns.
 
@@ -77,8 +77,8 @@ There is also 10 maps available. By default, a vote can be cast to switch maps e
 
 
 ### Requirements
-- The [player_motion](https://modrinth.com/datapack/player_motion/versions) datapack (v1.4.4)
-- The [BlockState](https://github.com/Triton365/BlockState/releases/tag/v1.1.0) datapack (v1.1.0)
+- The [player_motion](https://modrinth.com/datapack/player_motion/versions) datapack (1.4.5)
+- The [Blockstates](https://github.com/Triton365/BlockState/releases/tag/v1.1.2) datapack (1.1.2)
 
 
 ### Credits
