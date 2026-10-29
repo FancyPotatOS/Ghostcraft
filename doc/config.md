@@ -30,6 +30,18 @@ For example, to change the amount of arrows an archer starts with to 15, run `/s
         - Whether the game auto-start is enabled
         - This is toggleable from the options
 
+- Map
+    - `vault.basic_token.expiry_time`
+        - The amount of time (in ticks) you have to redeem a Vault Token
+
+- Warehouse
+    - `map.warehouse.brewing_stand.count`
+        - How many brewing stands are bubbling for this task
+
+- Warehouse
+    - `map.warehouse.trucks.broken_tire.count`
+        - How many brewing stands are bubbling for this task
+
 - Ghost Hunt
     - `game.ghosthunt.ghosts`
         - The number of ghosts chosen to play
@@ -53,6 +65,8 @@ For example, to change the amount of arrows an archer starts with to 15, run `/s
         - How many player's tails need to be in a 10-block radius to warn them
     - `game.ghosthunt.anti_camp.density.alone.fault`
         - How many player's tails need to be in a 10-block radius to trigger the anti-camp function
+    - `game.ghosthunt.anti_camp.density.alone.multiple_offset`
+        - How many of each player's markers are offset from the Multiple count
     - `game.ghosthunt.anti_camp.density.multiple.warning`
         - How many group of player's tails need to be in a 10-block radius to warn them
     - `game.ghosthunt.anti_camp.density.multiple.fault`
@@ -80,6 +94,11 @@ For example, to change the amount of arrows an archer starts with to 15, run `/s
             - The amount of arrows you start with
         - `kit.archer.speed_sugar`
             - The amount of Speed Sugar you start with
+    - Hunter
+        - `kit.hunter.flare_count`
+            - The amount of Flares you start with
+        - `kit.hunter.trap.count`
+            - The amount of Traps you start with
     - Shotbow
         - `kit.shotbow.arrow_count`
             - The amount of arrows you start with
@@ -96,6 +115,8 @@ For example, to change the amount of arrows an archer starts with to 15, run `/s
             - The amount of Machine Bow Arrow Crates you start with
         - `kit.support.crate.flare.count`
             - The amount of Flare Crates you start with
+        - `kit.support.crate.invisibility_dust.count`
+            - The amount of Invisiblity Dust Crates you start with
     - Soldier
         - `kit.soldier.grenade_count`
             - The amount of grenades you start with
@@ -106,6 +127,11 @@ For example, to change the amount of arrows an archer starts with to 15, run `/s
     - Machine Bow
         - `kit.machine_bow.arrow_count`
             - The amount of arrows you start with
+    - Mauler
+        - `kit.mauler.speed_sugar`
+            - The amount of Speed Sugar you start with
+        - `kit.mauler.invisibility_dust`
+            - The amount of Speed Sugar you start with
     - Ghost
         - `kit.ghost.particle.cycle`
             - How often the ghost produces particles (in ticks)
@@ -125,6 +151,8 @@ For example, to change the amount of arrows an archer starts with to 15, run `/s
             - The duration (in ticks) before the Poison Grenade explodes
         - `kit.ghost.poison_grenade.cycle`
             - How much time (in ticks) between the Poison Grenade's beeping when thrown
+        - `kit.ghost.scare.count`
+            - The amount of Scare items you start with
         - `kit.ghost.frag_grenade.count`
             - The amount of Frag Grenades you start with
         - `kit.ghost.frag_grenade.timer`
@@ -145,6 +173,9 @@ For example, to change the amount of arrows an archer starts with to 15, run `/s
     - `map ghostcraft.config`
         - The current map ID
         - Should only be set during proper map changing protocol
+    - `chair.cooldown ghostcraft.config`
+        - How long before you can sit down onto another chair
+            - This prevents chair-surfing
 
 
 
